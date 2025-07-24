@@ -8,4 +8,4 @@ echo "🚀 Starting Career Platform API Server on port $PORT"
 echo "🌐 Server will be available at http://0.0.0.0:$PORT"
 
 # Start the FastAPI server
-exec uvicorn api_server:app --host 0.0.0.0 --port $PORT
+exec uvicorn api.api_server:app --host 0.0.0.0 --port $PORT

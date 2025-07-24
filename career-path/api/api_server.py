@@ -1,15 +1,34 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional, Union, Any
 import pandas as pd
 import json
+import numpy as np
 from datetime import datetime
 
 from career_processor import CareerProcessor
 from roadmap_generator import RoadmapGenerator
 from assessment_questions import AssessmentGenerator
 from course_recommender import CourseRecommender, UserProfile
+
+def convert_numpy_types(obj: Any) -> Any:
+    """Convert numpy types to native Python types for JSON serialization"""
+    if isinstance(obj, np.bool_):
+        return bool(obj)
+    elif isinstance(obj, np.integer):
+        return int(obj)
+    elif isinstance(obj, np.floating):
+        return float(obj)
+    elif isinstance(obj, np.ndarray):
+        return obj.tolist()
+    elif isinstance(obj, dict):
+        return {key: convert_numpy_types(value) for key, value in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_numpy_types(item) for item in obj]
+    elif pd.isna(obj):
+        return None
+    return obj
 
 class AssessmentAnswer(BaseModel):
    question_id: int
@@ -201,6 +220,9 @@ async def assess_career(request: AssessmentRequest):
        if result['status'] == 'error':
            raise HTTPException(status_code=400, detail=result)
        
+       # Convert numpy types to native Python types for JSON serialization
+       result = convert_numpy_types(result)
+       
        return result
        
    except HTTPException:
@@ -353,7 +375,7 @@ async def get_courses_by_career(
                skills_text = str(course['skills'])
                skills_list = [skill.strip() for skill in skills_text.split() if len(skill.strip()) > 2]
            
-           courses_list.append({
+           course_data = {
                'course_id': course['course_id'],
                'title': course['title'],
                'organization': course['organization'],
@@ -366,7 +388,8 @@ async def get_courses_by_career(
                'url': course['url'],
                'is_free': course['is_free'],
                'relevance_score': round(course['similarity_score'], 3) if 'similarity_score' in course else 0.5
-           })
+           }
+           courses_list.append(convert_numpy_types(course_data))
        
        # Pagination info
        current_page = (offset // limit) + 1
@@ -464,7 +487,7 @@ async def filter_courses(
                skills_text = str(course['skills'])
                skills_list = [skill.strip() for skill in skills_text.split() if len(skill.strip()) > 2]
            
-           courses_list.append({
+           course_data = {
                'course_id': course['course_id'],
                'title': course['title'],
                'organization': course['organization'],
@@ -477,7 +500,8 @@ async def filter_courses(
                'url': course['url'],
                'is_free': course['is_free'],
                'relevance_score': round(course['rating'] / 5, 3) if pd.notna(course['rating']) else 0.5
-           })
+           }
+           courses_list.append(convert_numpy_types(course_data))
        
        # Pagination info
        current_page = (offset // limit) + 1

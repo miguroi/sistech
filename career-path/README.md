@@ -1,6 +1,6 @@
-# MLOps Final Project: Course & Certification Recommendation System
+# Career Path: Career-Based Course & Certification Recommendation System
 
-This repository contains the final project for the Machine Learning Operations (MLOps) module of the Sisters in Tech (SISTECH) 2025 program by RISTEK Fasilkom UI. This project involves building an end-to-end machine learning-based recommendation system for 'Course & Certification'. The system encompasses data scraping, text cleaning, data transformation, similarity calculation, and exposes recommendations through a local REST API.
+This repository contains the final project for the Machine Learning Operations (MLOps) module of the Sisters in Tech (SISTECH) 2025 program by RISTEK Fasilkom UI. This project involves building an end-to-end machine learning-based recommendation system for courses and certifications based on career interests.
 
 ## Table of Contents
 1.  [Project Overview](#project-overview)
@@ -15,7 +15,7 @@ This repository contains the final project for the Machine Learning Operations (
 
 ## 1. Project Overview
 
-This final project is the culmination of the Machine Learning Ops module that participants have undergone. Our team developed an end-to-end machine learning-based recommendation system specifically for courses and certifications. The core functionality includes processing raw data to derive meaningful insights and providing relevant recommendations via a local API. The project is designed to represent a real-world workflow in developing text-based machine learning solutions.
+This final project is the culmination of the Machine Learning Ops module that we have undergone. Our team developed an end-to-end machine learning-based recommendation system specifically for courses and certifications. The core functionality includes processing raw data to derive meaningful insights and providing relevant recommendations through both local and deployed REST API. This project combines data scraping, text cleaning, data transformation, similarity calculation, and intelligent career guidance through assessment and personalized learning path.
 
 ## 2. Features
 
@@ -23,17 +23,17 @@ Our recommendation system offers the following functionalities through its API e
 
 * **Health Check:** Verifies the API's operational status.
 * **Career Management & Assessment:**
-    * Retrieve all available careers with categories for dropdown selection.
-    * Process user assessment answers to provide personalized career recommendations and relevant course suggestions.
+    * Retrieve all available careers with categories
+    * Process user assessment answers for personalized career recommendations and relevant course suggestions
 * **Learning Roadmap & Paths:**
-    * Generate a structured learning roadmap for a specific career, including checkpoints, estimated durations, and derived skills.
-    * Generate a structured learning path for a specific career and skill level (beginner, intermediate, advanced).
+    * Generate structured learning roadmaps for specific career, including checkpoints, estimated durations, and derived skills
+    * Generate structured learning paths for specific career and skill level (beginner, intermediate, advanced).
 * **Course Recommendations:**
-    * Get courses filtered by career and optional difficulty.
-    * Filter and sort courses based on various criteria such as difficulty, course type, organization, free status, minimum rating, and sorting preferences.
-    * Get personalized course recommendations based on user profile, including preferred skills, difficulty preference, time availability, budget preference, learning style, and career goals.
-    * Get trending courses based on ratings and popularity.
-* **Skill-based Course Recommendation:** Get course recommendations based on specific skills input by the user.
+    * Get courses filtered by career and optional difficulty
+    * Filter and sort courses based on various criteria such as difficulty, course type, organization, free status, minimum rating, and sorting preferences
+    * Get personalized course recommendations based on user profile, including preferred skills, difficulty preference, time availability, budget preference, learning style, and career goals
+    * Get trending courses based on ratings and popularity
+    * Get course recommendations based on specific skills input by the user.
 
 ## 3. Data Sources and Structure
 
@@ -51,18 +51,74 @@ Our system utilizes two main datasets:
 
 The development of this recommendation system followed these stages:
 
-1.  **Data Scraping:** Data was retrieved from public sources using web scraping techniques. The collected data was adjusted to fit the needs of the developed recommendation system.
+1.  **Data Scraping:** Data was retrieved from public sources using web scraping techniques.
 2.  **Data Processing:** Data cleaning and standardization were performed to prepare data for further processes, including text normalization and removal of irrelevant elements.
-3.  **Text Vectorization:** Text-based data was converted into numerical representations (vectors) for computational processing, using adaptable techniques like TF-IDF or Word2Vec.
+3.  **Text Vectorization:** Text-based data was converted into numerical representations (vectors) for computational processing, using adaptable techniques like TF-IDF.
 4.  **Similarity Mapping:** Similarity between data points was measured based on the generated vectors to determine relationships or relevance among analyzed items.
-5.  **Recommendation Modelling:** The recommendation system's logic was developed based on the calculated similarity results, for example, by displaying the most relevant items or creating specific recommendation rules.
-6.  **REST API Development (Local - Mandatory):** A simple REST API was created using tools like Flask or FastAPI to serve the recommendation results locally, capable of receiving input and returning functional recommendation output. Deployment to external environments is optional and does not add to the assessment score , but is encouraged for additional valuable experience.
-7.  **Documentation & Presentation:** A final presentation in slide format (.pdf) was created as a comprehensive project report, summarizing the process from beginning to end.
+5.  **Recommendation Modelling:** The recommendation system's logic was developed based on the calculated similarity result between courses, career, and user preferences.
+6.  **REST API Development (Local - Mandatory):** A REST API using FastAPI is implemented for local and deployed access.
+7.  **Documentation & Presentation:** A final presentation was created as a comprehensive project report and documentations, summarizing the process from beginning to end.
 
-## 5. API Endpoints
+## 5. Quick Setup
 
-The API is built using FastAPI and can be accessed locally.
+Follow these steps to set up and run the project locally:
 
+### Prerequisites
+- Python 3.8+ 
+- pip (Python package installer)
+- virtualenv (recommended)
+
+### 1. Clone and Navigate
+```bash
+git clone https://github.com/miguroi/sistech.git
+cd sistech/career-path
+```
+
+### 2. Environment Setup
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+.\venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+### 4. Data Preprocessing (Required First Step)
+```bash
+python preprocessing.py
+```
+*This processes `data/coursera_courses.csv` and generates cleaned data files in the `data/` folder.*
+
+### 5. Start the System
+
+#### Option A: Run API Server
+```bash
+# Local development
+uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+# OR run directly
+cd api && python api_server.py
+```
+Access at: `http://localhost:8000`
+
+#### Option B: Generate Sample Output
+```bash
+python generate_recommendation_output.py
+```
+
+## 6. API Documentation
+The API is built using FastAPI and can be accessed both local and online.
+
+* **API Base URL (Local):** `http://localhost:8000`
 * **API Base URL (Deployed):** `https://career-path-api.onrender.com/` 
 * **API Swagger Documentation:** `https://career-path-api.onrender.com/docs` 
 * **API Redocs Documentation:** `https://career-path-api.onrender.com/redocs`
@@ -127,69 +183,3 @@ Here are the main API endpoints:
 * `GET /api/courses/trending`
     * **Purpose:** Get trending courses based on ratings and popularity.
     * **Parameters:** `min_rating` (0-5, default: 4.0) , `limit` (1-100, default: 20).
-
-## 6. Deliverables
-
-As part of the final project, the following deliverables are included in the `.zip` submission:
-
-* **Source Code:** Python scripts or notebooks for all stages of work (scraping, preprocessing, vectorization, similarity, recommendation), and the REST API that can be run locally.
-* **Final Report (PDF):** The final report in slide presentation format (.pdf). It contains a summary of the work process, final reflection, and a link to this GitHub repository. (Filename: `PP_MLOps_[FullName1]_[FullName2]_Report.pdf`) 
-* **GitHub Repository:** A neat repository containing all project code and files. It includes a `README.md` that explains the folder structure and how to run the project.
-* **Model Output File (JSON):** The output file of the model used in the recommendation system in `.json` format. This file contains ready-to-use recommendation results and will be provided to the Front-End Engineering team. (Filename: `PP_MLOps_[FullName1]_[FullName2]_Output.json`) 
-
-## 7. How to Run the Project
-
-Follow these steps to set up and run the project locally:
-
-### Prerequisites
-
-* Python 3.x (Ensure you have a recent version, e.g., 3.8+)
-* `pip` (Python package installer)
-* `virtualenv` (recommended for environment isolation)
-
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/miguroi/sistech.git](https://github.com/miguroi/sistech.git)
-    cd sistech/career-path # Navigate into your project directory
-    ```
-2.  **Create and activate a virtual environment:**
-    ```bash
-    python -m venv venv
-    # On Windows:
-    .\venv\Scripts\activate
-    # On macOS/Linux:
-    source venv/bin/activate
-    ```
-3.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-### Running the API
-
-1.  **Prepare the data:**
-    * "Ensure all necessary data files (e.g., `coursera_courses.json`, `career_guidance.json`) are present in the `data/` directory located within `sistech/career-path/data`."
-
-2.  **Start the FastAPI application:**
-    ```bash
-    uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
-    ```
-
-    The API will then be accessible at `http://127.0.0.1:8000` or `http://localhost:8000`. You can access the **Swagger UI documentation** for testing the endpoints at `http://localhost:8000/docs`.
-
-### Running Individual Scripts (Optional - for data processing/model generation)
-
-* **Example for Data Scraping:**
-    ```bash
-    python scripts/scrape_data.py
-    ```
-* **Example for Data Preprocessing:**
-    ```bash
-    python scripts/preprocess_data.py
-    ```
-* **Example for Model/Similarity Generation:**
-    ```bash
-    python scripts/generate_model.py
-    ```
----

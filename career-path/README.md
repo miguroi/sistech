@@ -7,9 +7,8 @@ This repository contains the final project for the Machine Learning Operations (
 2.  [Features](#features)
 3.  [Data Sources and Structure](#data-sources-and-structure)
 4.  [Project Workflow](#project-workflow)
-5.  [API Endpoints](#api-endpoints)
-6.  [Deliverables](#deliverables)
-7.  [How to Run the Project](#how-to-run-the-project)
+5.  [Quick Setup](#quick-setup)
+6.  [API Documentation](#api-documentation)
 
 ---
 

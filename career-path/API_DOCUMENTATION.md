@@ -14,8 +14,8 @@ Currently, no authentication is required for API access.
 
 ## Interactive Documentation
 
-- **Swagger UI:** `/docs`
-- **ReDoc:** `/redoc`
+- **Swagger UI:** `https://career-path-api.onrender.com/docs`
+- **ReDoc:** `https://career-path-api.onrender.com/redoc`
 
 ---
 

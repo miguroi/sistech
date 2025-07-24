@@ -83,6 +83,19 @@ async def startup_event():
    global career_processor, roadmap_generator, assessment_generator, course_recommender
    
    try:
+       # Download required NLTK data
+       import nltk
+       import ssl
+       try:
+           _create_unverified_https_context = ssl._create_unverified_context
+       except AttributeError:
+           pass
+       else:
+           ssl._create_default_https_context = _create_unverified_https_context
+           
+       nltk.download('punkt', quiet=True)
+       nltk.download('stopwords', quiet=True)
+       print("✅ NLTK data downloaded successfully")
        import os
        
        # Get the base directory (career-path folder)

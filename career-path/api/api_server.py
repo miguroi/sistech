@@ -64,10 +64,30 @@ async def startup_event():
    global career_processor, roadmap_generator, assessment_generator, course_recommender
    
    try:
+       import os
+       
+       # Get the base directory (career-path folder)
+       base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+       
+       # Define file paths relative to base directory
+       career_data_path = os.path.join(base_dir, 'data', 'career_dataset.csv')
+       courses_data_path = os.path.join(os.path.dirname(base_dir), 'data', 'csv', 'coursera_courses_cleaned.csv')
+       
+       # Fallback paths if the above don't work
+       if not os.path.exists(courses_data_path):
+           courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_cleaned.csv')
+       if not os.path.exists(courses_data_path):
+           courses_data_path = '../data/csv/coursera_courses_cleaned.csv'
+       
+       print(f"📂 Career data path: {career_data_path}")
+       print(f"📂 Courses data path: {courses_data_path}")
+       print(f"📂 Career data exists: {os.path.exists(career_data_path)}")
+       print(f"📂 Courses data exists: {os.path.exists(courses_data_path)}")
+       
        # Initialize processors with data files
        career_processor = CareerProcessor(
-           'data/career_dataset.csv',
-           '../data/csv/coursera_courses_cleaned.csv'  # Use the actual course data
+           career_data_path,
+           courses_data_path
        )
        roadmap_generator = RoadmapGenerator(career_processor)
        assessment_generator = AssessmentGenerator(career_processor)
@@ -75,7 +95,7 @@ async def startup_event():
        # Try to initialize course recommender if course data is available
        try:
            course_recommender = CourseRecommender(
-               courses_data_path='../data/csv/coursera_courses_cleaned.csv',
+               courses_data_path=courses_data_path,
                career_processor=career_processor
            )
            career_processor.course_recommender = course_recommender
@@ -88,6 +108,12 @@ async def startup_event():
        
    except Exception as e:
        print(f"❌ Failed to initialize API server: {e}")
+       import traceback
+       traceback.print_exc()
+       print(f"📂 Current working directory: {os.getcwd()}")
+       print(f"📂 Files in current directory: {os.listdir('.')}")
+       if os.path.exists('data'):
+           print(f"📂 Files in data directory: {os.listdir('data')}")
        raise
 
 @app.get("/")

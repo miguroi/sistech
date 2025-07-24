@@ -55,9 +55,8 @@ class SkillBasedRequest(BaseModel):
    skills: List[str]
    limit: Optional[int] = 20
 
-# Initialize FastAPI app
 app = FastAPI(
-   title="Career Platform API",
+   title="Career Path API",
    description="API for career assessment and course recommendations",
    version="1.0.0"
 )
@@ -103,13 +102,13 @@ async def startup_event():
        
        # Define file paths relative to base directory
        career_data_path = os.path.join(base_dir, 'data', 'career_dataset.csv')
-       courses_data_path = os.path.join(os.path.dirname(base_dir), 'data', 'csv', 'coursera_courses_cleaned.csv')
+       courses_data_path = os.path.join(base_dir, 'data', 'coursera_courses_cleaned.csv')
        
        # Fallback paths if the above don't work
        if not os.path.exists(courses_data_path):
            courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_cleaned.csv')
        if not os.path.exists(courses_data_path):
-           courses_data_path = '../data/csv/coursera_courses_cleaned.csv'
+           courses_data_path = '../data/coursera_courses_cleaned.csv'
        
        print(f"📂 Career data path: {career_data_path}")
        print(f"📂 Courses data path: {courses_data_path}")
@@ -152,7 +151,7 @@ async def startup_event():
 async def root():
    """Health check endpoint"""
    return {
-       "message": "Career Platform API is running",
+       "message": "Career Path API is running",
        "status": "healthy",
        "timestamp": datetime.now().isoformat()
    }

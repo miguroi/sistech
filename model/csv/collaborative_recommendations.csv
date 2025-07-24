@@ -1,0 +1,1596 @@
+course_id,title,similarity
+s12n~iA5wD-V1EeWrIg44CVcT0Q,Bioinformatics,0.6324555320336758
+s12n~Q0Fc_Yl0EeqdTApgQ4tM7Q,IBM Machine Learning,0.5773502691896258
+s12n~gw6NIUimEeiedgp7b7p1Ig,Applied Data Science,0.565685424949238
+s12n~mF13zqpxEeqDdgqb325wdw,Key Technologies for Business,0.47673129462279606
+course~TjnGPr-8Ee6Newq-PzDcDw,Practice Exam for AIPMM Certified Product Manager (CPM),0.4602873089491617
+s12n~TMXiq9ysShaPTP7W1kavkA,Microsoft Excel,0.44376015698018334
+s12n~68fXxAJgEeqJHxKP6A-i8w,AI in Healthcare,0.408248290463863
+course~6MedjtZOEemDkAqyZy15Hg,"AI Workflow: Machine Learning, Visual Recognition and NLP",0.408248290463863
+course~H87d0W9nEe-aHBJ1q-AXBQ,Advanced Usability and Accessibility Practices,0.39999999999999997
+course~a3f86i8hEeWv_w7cMMH1Uw,Foundations of Business Strategy,0.3682298471593294
+course~SG_K6nEmEeWxvQr3acyajw,Google SEO Fundamentals,0.3151354388633341
+s12n~sOm12fSLEeusDQ6MlgBl-w,Abnormal Psychology,0.31378581622109447
+course~tAfppJ3KEeWoKRLkmmHLTQ,Introduction to Spreadsheets and Models,0.280056016805602
+course~gZ6cbKKkEeW1Bw7HN8tFsw,Ancient Philosophy: Aristotle and His Successors,0.22941573387056174
+course~WQoDghH8EemwPw5jJssdpA,Building Scalable Java Microservices with Spring Boot and Spring Cloud,0.19069251784911845
+course~8BJHzZD_EeiKohJBs5wRGA,Introduction to Machine Learning,0.18353258709644943
+s12n~smahjSR1R5OIjbArjOMnbw,Infrastructure for Transportation Systems,0.18257418583505533
+s12n~ewToKdYpSF2VaCE8y26bUQ,Spacecraft Formation Relative Orbits,0.1745743121887939
+course~W-hoIJw3EeWJORITtzkPnQ,Entrepreneurship 2: Launching your Start-Up,0.15756771943166706
+s12n~inm9VWBZEeigDQ6PCFb-lg,Clinical Data Science,0.14855627054164147
+s12n~I7xTyNLAEeqdUQo9B2YGiw,Generative Adversarial Networks (GANs),0.14485719366802965
+course~Wa96oVImEey1wAq1DMRz-Q,Intro to Operating Systems 3: Concurrency,0.1386750490563073
+course~V9_aHBU7EeWfzgpfp_iBVw,Internet Giants: The Law and Economics of Media Platforms,0.13333333333333336
+s12n~zb8J0mWKEeaomwoYfGdF7Q,"Parallel, Concurrent, and Distributed Programming in Java",0.12649110640673517
+course~XnYYsmbgEe-WbhKfqhh3sw,"Advanced Networking, Security, and IT Operations",0.10783277320343841
+course~yO1M0Hj6EeWX2xK7ROQidQ,Digital Systems: From Logic Gates to Processors,0.09561828874675149
+course~Hdkvqa-VEeemsBI74hnnzA,Reliable Google Cloud Infrastructure: Design and Process,0.07427813527082074
+s12n~oyGHLnb0EeaoxxIn6_zz2w,Algorithms,0.06910947404650881
+s12n~7wspOVNvEeaeIhL-Ft0S9w,Construction Management,0.0
+s12n~BDbRtACCEei2Rw7d_b6q_A,Machine Learning on Google Cloud,0.0
+s12n~Am7GPB1SEeuKGg4E-brRrw,Renewable Energy,0.0
+s12n~84QbLYtsEeicuBLWaYsl_g,Developing Industrial Internet of Things,0.0
+s12n~7qRy6fOWEeqIvgrCa-MVgQ,IBM Data Analyst,0.0
+s12n~7pwWaEixSxWKl5VzWNE6Iw,.NET FullStack Developer,0.0
+s12n~87ESinHoQRWhM0F8mKwKBA,Strategies for Heavy Lifting,0.0
+s12n~7lHCSlFIEeeffRIHljDI_g,Google IT Support,0.0
+s12n~8C-cKObkSfijgsKLERcVYQ,ASQ-Certified Six Sigma Black Belt (CSSBB) Exam Prep,0.0
+s12n~8QNWmM3FR7qXPfevSKdAoQ,Developing Mobile Apps with React Native,0.0
+s12n~8W2nYNA_SuCMYK82xV9qEQ,ChatGPT + Excel: AI-Enhanced Data Analysis & Insight,0.0
+s12n~7yb-5IuxRsewkoQLuFpH6A,Generative AI Data Analyst,0.0
+s12n~AQ719YHLEeWWVhJkLv2LYQ,Business Foundations,0.0
+s12n~AJRj1U-eEeWe3AppgusjuQ,Software Product Management,0.0
+s12n~AAuWb_m7Eei2pgqAGVMxlA,Security in Google Cloud,0.0
+s12n~A-lvmJpUTTqMac4g_GcN_Q,Microsoft Project Management,0.0
+s12n~9kmimrDIEeqxzQqieMm42w,Meta Social Media Marketing,0.0
+s12n~AZal18caQfOPCtxczxMkgg,AI Agent Developer,0.0
+s12n~9gaPvqSpRneGVu4pg_048w,IBM Relational Database Administrator,0.0
+s12n~9dmX615UEeWXkAoEvGE-aw,Organizational Leadership,0.0
+s12n~9bsEEPDiEem4_wq1v2orig,Healthcare Law,0.0
+s12n~9WgDw6gfSVSXUSkAMw5udw,"C, Go, and C++: A Comprehensive Introduction to Programming",0.0
+s12n~7_nEU3iaEeiVXgoT1iWlYg,Google IT Automation with Python,0.0
+s12n~9GJm7lUPEeisFQ4yhHotIA,Statistical Analysis with R for Public Health,0.0
+s12n~9FcEl2x7EeeiKQ48uoMEhg,Patient Safety,0.0
+s12n~9FGXduzMEeaPUAr6dzYJCA,Software Development Lifecycle,0.0
+s12n~9Aa4yMbvR_iqDekIH5TcyQ,CompTIA Security+ Certification (SY0-701): The Total Course,0.0
+s12n~AaeVgvNYSKu0Hs-fYzI4vg,Generative AI for Executives and Business Leaders,0.0
+s12n~AlCR4UQ1EeirswoTGEtOQg,Health Informatics,0.0
+s12n~927m4J5OEeue7A7k0jX4BQ,GPU Programming,0.0
+s12n~8xjb0SjZT32EQ_gU2mscFw,IBM Java Developer,0.0
+s12n~8uiR8h97RyyLAy8bFgsQlA,Science of Diet and Exercise,0.0
+s12n~8iarSWtaRJqsbiiwk8MptQ,Pharmacy Technician Fundamentals,0.0
+s12n~9VjUIgbCSWOL52G3BNAg5Q,Petroleum Engineering with AI Applications,0.0
+s12n~4ZGJDStjEeupVg7HH9ybXQ,IBM Data Engineering,0.0
+s12n~4QgKHM-REeupRA6ghdIhRw,Market Research,0.0
+s12n~4Nm6G3qgEeaz6w5WDnMvFQ,Foundations of Positive Psychology,0.0
+s12n~4N96O5I-QE-q_DFAuEhpZg,Microsoft UX Design,0.0
+s12n~41SdNshVEeqBKQ6dN5ZVkw,IBM Introduction to Machine Learning,0.0
+s12n~3chNALu-EeWxahI1i_zTqQ,Investment and Portfolio Management,0.0
+s12n~3X44B3eyEeeSLBIUSGvCBg,Financial Reporting,0.0
+s12n~3UmU4tWFQDqIMF5yY5PuYg,Evaluating Large-Scale Health Programs,0.0
+s12n~3RDP-YtuEeixCgp16I3FUg,Real-Time Embedded Systems,0.0
+s12n~37kABjX-TuKEey-l3YuM0w,Responsible Generative AI,0.0
+s12n~30zATD4lEea40Aqx_taOBw,"Energy Production, Distribution & Safety",0.0
+s12n~6zcxNxfcEe2oyA6gSU45xQ,Object Oriented Programming,0.0
+s12n~2odDE2H5QaivloWLUBduFA,Project Management in Construction,0.0
+s12n~2n4hFAnMEeyonwp6saxccQ,Decentralized Finance (DeFi): The Future of Finance,0.0
+s12n~2ezlp23lQbi3yFF5Ch7x4A,"Enterprise Data Integration, Governance and Architecture",0.0
+s12n~2dgcgEtKEeWSww77HCUkbQ,An Introduction to Programming the Internet of Things (IOT),0.0
+s12n~2ZzzfdtnRBWP6WlVMOIpFA,Fractal Data Science,0.0
+s12n~2ZKjctMzRfmHA2E46k20VQ,Introduction to Generative AI Learning Path,0.0
+s12n~2YJ166NoEeWTPhJ0ghgVJw,Improve Your English Communication Skills,0.0
+s12n~2WZBsk2oEeWnsxIyrc6Ecw,Executive Data Science,0.0
+s12n~2O6nTqofQHKNAMTSVtg6kQ,The Integration of Art and Science in Modern Dental Medicine,0.0
+s12n~2KkR_3WQEemPfw4P9nDoLg,Electronic Music Production,0.0
+s12n~2Jg6e40YEe2rnw4-ASaXyw,Professional Selling: 3 Steps to High-Performance,0.0
+s12n~2F1xX5-pEeW9BQrf4BmarQ,Photography Basics and Beyond: From Smartphone to DSLR,0.0
+s12n~3-NBikXzEeWwQw6izX918Q,Java Programming and Software Engineering Fundamentals,0.0
+s12n~7XpgKtbJEeeqmw6nM3tfUg,Become an EMT,0.0
+s12n~7RwvO2YJTzilhV7hP-JL2A,Complete Executive Leadership,0.0
+s12n~7ERwSQnXEe23EhLnQryuGw,Applied Software Engineering Fundamentals,0.0
+s12n~76YqZipqQ6m6Ow4o-pt8mg,NASM Personal Fitness Trainer,0.0
+s12n~73SfxEbZTkqRkJsZSElEww,Microsoft Python Development,0.0
+s12n~BHih_wg6EeiZxAoTqus05g,Managing Major Engineering Projects,0.0
+s12n~6iedSZaPSGyHPOYyzaU-2g,PMI-PMP® Certification Training Course,0.0
+s12n~6bVyQk3FEeqX-xL9iGobaw,Security Analyst Fundamentals,0.0
+s12n~6V8OBfxnEeWncRKlgdP3Kw,"TESOL Certificate, Part 2: Teach English Now!",0.0
+s12n~67q2yx9MRGqXhFMJaNWYzQ,Building Smarter: BIM in Practice,0.0
+s12n~6-lMGOtqRNmWqvl7I8A8-Q,Data-Oriented Python Programming and Debugging,0.0
+s12n~5xcDP2tDRXylIi_FVNo7jw,Microsoft Azure Security Engineer Associate (AZ-500),0.0
+s12n~4wcxMIWSEeqbnQqkTNWwfw,Django for Everybody,0.0
+s12n~5vvJ8YXOEeuCmw6rrH7X1w,Bayesian Statistics,0.0
+s12n~5lIK24Q4EeabVAqe0PMedw,Learn Spanish: Basic Spanish Vocabulary,0.0
+s12n~5gipjD2bTreS6KmHgXsDjA,Precast Structural System,0.0
+s12n~5ghJ5U8zEemp3woY6REV3A,DeepLearning.AI TensorFlow Developer,0.0
+s12n~5bGnNd9oEeurEBJpe_RDSQ,Machine Learning: Theory and Hands-on Practice with Python,0.0
+s12n~5QIXWq1JT7GvWhyg_KQdRg,Meta iOS UI Development,0.0
+s12n~5JLF9IdHEeWmZwryyDkIxQ,Functional Programming in Scala,0.0
+s12n~5ITYuLSKEeu5VQ7j0l6laQ,Immunology: The Immune System and its Failures,0.0
+s12n~5AkCbn3PSXGPJ6aoloYNbA,AI for Cybersecurity,0.0
+s12n~591JBYv4EempSRIy9Skt6A,Google Professional Workspace Administrator,0.0
+s12n~5-5dFIPqRHWvPJuzTB56cA,IBM Generative AI for Cybersecurity Professionals,0.0
+s12n~4xxf-6RPRZq9y00cmmPO_g,Generative AI in Marketing,0.0
+s12n~5w9v9Jd_EemkYApdOSqZTg,AI Foundations for Everyone,0.0
+s12n~JjwjXcwISfWWEp208-8XUw,Meta Marketing Science Certification Prep,0.0
+s12n~JLR4RpDVSa2MQ87dYBb62Q,IBM Data Architecture,0.0
+s12n~JIDtDNziEeq5dgp4eocg-Q,Entrepreneurship: Growing Your Business,0.0
+s12n~JDJBYk7PEeit6RJNTUu9KA,"Globalization, Economic Growth and Stability",0.0
+s12n~JCAQQoDREeaTMBL33MpMiw,Pricing Strategy Optimization,0.0
+s12n~IzHbvT-xEea3lBIuTszunQ,Trading Strategies in Emerging Markets,0.0
+s12n~IQjNqQIVSH6tZDdDflTtWg,Generative AI for Mobile App Developers,0.0
+s12n~ID0mJzNxTPe8MVqxEtW5RA,Nursing Assistant Fundamentals,0.0
+s12n~HvMbhJqsEeaJ-BKAQ63ggg,Six Sigma Green Belt,0.0
+s12n~Hpeb5O2dQ7G-Ly5XVxwCcA,Generative AI and ChatGPT for K-12 Educators,0.0
+s12n~HlSHrDpATjOdpi9cuxD9dQ,IBM Ethical Hacking with Open Source Tools,0.0
+s12n~C0OqBQWyEeawug5VyR7naQ,Data Analysis and Presentation Skills: the PwC Approach,0.0
+s12n~Hf8aqBCkEeqKjQ5sBBAe7Q,Excel Skills for Data Analytics and Visualization,0.0
+s12n~HYLqTC6JT_WgECVgS5exNw,Microsoft AI & ML Engineering,0.0
+s12n~HXnoFrwGSlmwkIf4eYFBCQ,ASQ-Certified Six Sigma Green Belt (CSSGB) Exam Prep,0.0
+s12n~HWJl7wNjTJSwp2n7CetKWQ,Microsoft IT Support Specialist,0.0
+s12n~HT4T71eFSpyZj6gZNsoaHQ,Generative AI for Customer Support,0.0
+s12n~HIn2o-RMQnC791z_YC-7IA,IBM Business Analyst,0.0
+s12n~H2wc2HWQEemlgBJYdOOXmg,The DIY Musician,0.0
+s12n~H25LhqQHQP-Z70hF8kmsCQ,Formwork for concreting,0.0
+s12n~GmfvuV8wEeukdxJ7PfVsmQ,Hands-on Internet of Things,0.0
+s12n~GWIdT4bQEeiFWQrjbTVkyg,Advanced Machine Learning on Google Cloud,0.0
+s12n~GS8LvZDYRMiCtefJMi8YZw,SAP Business Analyst,0.0
+s12n~HgQMd5lwTyqovdDdIW7lnA,ISTQB Technical Test Analyst Certification Preparation,0.0
+s12n~MJoI3sfTEeu2uRI_-EI0xQ,Palo Alto Networks Cybersecurity,0.0
+s12n~MG7ApqcfEemb8g61m8Jjxg,IBM z/OS Mainframe Practitioner,0.0
+s12n~MCZuv0U7EeWLHQ6Y22SN8Q,Excel to MySQL: Analytic Techniques for Business,0.0
+s12n~MA2cOQjlEeazygrbcvZenQ,Supply Chain Management,0.0
+s12n~M4k2FiN0EeqnFRLwbdubGw,AI for Medicine,0.0
+s12n~M4XsinhgR_OhcrW7qWAIVw,Heavy Manufacturing,0.0
+s12n~M1YxhuZqEeq5FBJd7dZoHQ,Preparing for Google Cloud Certification: Cloud DevOps Engineer,0.0
+s12n~Lo83mZYpQSSAeqARK-fzKA,CompTIA A+ Certification Core 1 (220-1101),0.0
+s12n~LW33ur6XEeeEUBLRzofOfg,Developing Applications with Google Cloud,0.0
+s12n~LQDzVHtvRAyk1ari7Wy_Ew,Drug Hunting: The Science of Making New Medicines,0.0
+s12n~LODdXambEem2zg65nJJ_6A,Accelerated Computer Science Fundamentals,0.0
+s12n~JlR4RwHiEe2wYRKpXqH0rQ,Tally Bookkeeper,0.0
+s12n~Kr5PUMsfEei0gQ5LxBrBWA,SAS Programmer,0.0
+s12n~KmN5meEQEeqsKg60m_UZEQ,Neuroscience and Neuroimaging,0.0
+s12n~KjpgiuevEeWw1xL7MfyyPw,Data Analysis with R,0.0
+s12n~KgxTlghQEe2XixLSc1sKOQ,Finance for Technical Managers,0.0
+s12n~KfKc2WJzSuW7tLT4T_RhAQ,Agroforestry,0.0
+s12n~KeAVq1krEeyZuhJYLGV9vw,"DevOps, Cloud, and Agile Foundations",0.0
+s12n~KUeTF8VkEeumMBLHmUEnqw,Omnichannel Retail Strategy,0.0
+s12n~KPSzVL9AEeyfhAreTccY9Q,Meta Front-End Developer,0.0
+s12n~KLYQ_8-REeuEhhLKgO18hw,Leadership Out of the Box,0.0
+s12n~JwiIrAXZQLKzqQ4_yVwD5g,Generative AI for Software Developers,0.0
+s12n~JnwOifc9Eeilig44CSYEuA,Anatomy,0.0
+s12n~JlxJAk26SC-XRTs8e7k0eQ,Meta Full-Stack Developer,0.0
+s12n~LHmNiySEEe2VlA7tTmoIIQ,Sustainable Cities,0.0
+s12n~Dy6K-2UKEe2PIRJn6nL9pQ,Google Cybersecurity,0.0
+s12n~Dxf4mLPAEeWv5A7DLfWrAQ,Power Electronics,0.0
+s12n~DwDux8AASFW7gmcmra7jUQ,IBM Back-end JavaScript Developer,0.0
+s12n~DvbXHm4mEeepbxK7DGskzg,Semiconductor Devices,0.0
+s12n~DuqgtHmMEeiZeRIWxxl5mg,Learn SQL Basics for Data Science,0.0
+s12n~DmdTb5-EEeWKfBLwgrbazQ,Graphic Design,0.0
+s12n~DhiZkjN0TIiyaf7skG_ULA,Business Analyst (ECBA) Certificate Preparation ,0.0
+s12n~DU_1eN4EEemHcw4xLj54bg,Good with Words: Writing and Editing,0.0
+s12n~DLtRkfVeSGyUoWM4pFWfoA,Advanced Kubernetes,0.0
+s12n~D8F-StJ_Eeq_0QrPeKSQWQ,Introduction to Mechanics,0.0
+s12n~D6Ap6_7hEeaRogry0hUlXg,"Data Engineering, Big Data, and Machine Learning on GCP",0.0
+s12n~GN2DTIXyEei05g4bSWLJ_g,"GIS, Mapping, and Spatial Analysis",0.0
+s12n~CfdKff91EeuZUwo0DiKPEw,Microsoft Azure Developer Associate (AZ-204) Exam Prep,0.0
+s12n~CRdvSkeYEeWK-RJJsrCNzw,Leading People and Teams,0.0
+s12n~CKx0ktl5QxWftlvXm0nutQ,IBM Program Manager,0.0
+s12n~CDhJMlPTTNmEm8qjvIe2Yw,CISA: Certified Information Systems Auditor,0.0
+s12n~CD090o2qEeuLhxLgyXhFTw,Preparing for Google Cloud Certification: Machine Learning Engineer,0.0
+s12n~29k1aIYTSWmkUDj8eHaA2A,AI Engineering,0.0
+s12n~BmvywlfcEemhORKUyd0AzA,IT Fundamentals for Cybersecurity,0.0
+s12n~BhzPar3xEempVA7LRrHgCA,Preparing for Google Cloud Certification: Cloud Data Engineer,0.0
+s12n~Bg9CLdOzEeiaVA54gOVKZA,Entrepreneurial Finance: Strategy and Innovation,0.0
+s12n~BU0VS2WgEeeLNBKpXBwThg,"Modern Robotics:  Mechanics, Planning, and Control",0.0
+s12n~BTjfIi_BEe2kcQqdZg17Fw,AWS Cloud Solutions Architect,0.0
+s12n~D5-G_39lEeye0BJDMcVCxw,Artificial Intelligence: an Overview,0.0
+s12n~GM-5z8kaEembiRJiedmGqA,Finance & Quantitative Modeling for Analysts,0.0
+s12n~GE62Qjo4Eea9vQqeg-LyDQ,Advanced Business Analytics,0.0
+s12n~GAa2DkahEeWGYgrxbG8BSw,Object Oriented Java Programming: Data Structures and Beyond,0.0
+s12n~G-pSdxy1R1mdmsflwyohVg,Design of Industrial Piping Systems,0.0
+s12n~FyzV0-ieSEGpTehC0QQA4Q,Professional Scrum Master,0.0
+s12n~Fy4nD4KkEeuMpQp-EX0CJQ,Leading a Family Business,0.0
+s12n~FxNjYF2rEeytrA6P1gaieQ,Fundamentals of Flight mechanics,0.0
+s12n~FoGfNV5WEeWh-woqJ8MDKQ,"TESOL Certificate, Part 1: Teach English Now!",0.0
+s12n~Fn7wvEqyEeW6Cwpf06DSIQ,Methods and Statistics in Social Sciences,0.0
+s12n~FjlmSqaHTrCkMByaOgkKEg,Practical Data Science for Data Analysts,0.0
+s12n~Fg0fxpjJEeyQPhIW7skcew,Healthy and Sustainable Foods and Products,0.0
+s12n~DzS8V_hOEeWFBRLo60V7Aw,Data Mining,0.0
+s12n~FbXzupWpTNS3J3lHWw7_yQ,Cybersecurity Fundamentals,0.0
+s12n~FLy-fOLlQ2auYW-Tay7VEA,Advanced Tableau,0.0
+s12n~FLG-SnYMEeuJvRIq2L0SHw,Salesforce Sales Operations,0.0
+s12n~FKdStbCPR16Ga6G64hBdFg,IBM Generative AI Engineering,0.0
+s12n~F3oSAgteEeyjTg5h4p4QTQ,"NoSQL, Big Data, and Spark Foundations",0.0
+s12n~F-h1g0w7EeWeOApO_l5R1w,Python for Everybody,0.0
+s12n~Eow9PqLhEeW9iQoTlIxPIw,Business English Communication Skills,0.0
+s12n~Elh2luF4EeS_FiIAC22KTw,Digital Marketing,0.0
+s12n~ETT-SfOeS0u4duHSxRMgkw,Generative AI for Educators,0.0
+s12n~ELZ4zPnXEeq4IA6XC2JLDQ,Drug Development Product Management,0.0
+s12n~E9pKjKCeEeixlg5fiZTWeA,Infectious Disease Modelling,0.0
+s12n~E7ZGCiu8ShavMN8aSg9Dzg,Generative AI for Software Developers,0.0
+s12n~Fc5d3MmBQ8S3GMU3tU2tKA,Adobe Content Creator,0.0
+course~sx-y31PyEeiuag4cjofrng,Motion Planning for Self-Driving Cars,0.0
+course~swIVLUuLEe-mvw5B1R6xfQ,Agentic AI and AI Agents: A Primer for Leaders,0.0
+course~ssehpGi7EeeKagq8d9KYcg,Requirements Writing,0.0
+course~slGWLCoeEe2RlwpDo6cljw,SAP Professional Fundamentals,0.0
+course~shPviriqEeWVcRIZgPr_Xw,"Natural Attenuation of Groundwater Contaminants: New Paradigms, Technologies, and Applications",0.0
+course~scIuHulNEe2idwokHO9n2w,Advanced Kubernetes Deployment Strategies and Networking,0.0
+course~saohu-R4Ee-ccQr_xjRSew,Practice Exam for Scrum.org PSM I Certification,0.0
+course~sRAtPGhtEeab8hJTez1v6w,Relationship Management ,0.0
+course~sQEO1tohEeSQryIAC46GNw,Introduction to International Criminal Law,0.0
+course~sQB40x47EeWS6wrbVw_uEw,Understanding Clinical Research: Behind the Statistics,0.0
+course~sPepfpkeEemvnQ4fUTFrrA,Introduction to Neural Networks and PyTorch,0.0
+s12n~1a_Qa92eQkOSjt6VLZ6lsg,Google Prompting Essentials,0.0
+course~sK74dCWgEeW8-A6tkjXxWQ,Leadership in 21st Century Organizations,0.0
+course~sK6edjzPEees8grTZvuQjA,Essential Google Cloud Infrastructure: Foundation,0.0
+course~rxFYXB6iEfC5wQ7Ux-t3bw,Start Writing Prompts like a Pro,0.0
+course~ru_BPAp9EeuMRxJm6C8Z2w,Project Execution: Running the Project,0.0
+course~rrZX06kxEeyjPxJkzIUqCw,Migrating to Cloud SQL from Amazon RDS for MySQL Using Database Migration Service,0.0
+course~rpgDo3bvEemI3hKEZBIFgg,"Information Systems Auditing, Controls and Assurance",0.0
+course~ro5EhBHrEe6PDxK2xq6QbQ,Practice Exam for Certified Scrum Master (CSM) Certification,0.0
+course~rksrsbD2Ee-NGg6igj04HQ,Introduction to Artificial Intelligence,0.0
+course~rc5KG0aUEeWG1w6arGoEIQ,Accounting Analytics,0.0
+course~rYjjjZCKEe63Ww6tPe9iow,Generative AI: Enhance your Data Analytics Career ,0.0
+course~rUHfSakHEeeQ3gpuC4Fs_g,The Science of Well-Being,0.0
+course~sMFd0muvEea_2g4jvCTCSQ,Introduction to Embedded Systems Software and Development Environments,0.0
+course~uuVy6-J8EeaKBwrG-FP2zg,Kinematics: Describing the Motions of Spacecraft,0.0
+course~usW85r6KEe-ADgr_3OZlyQ,Concreting Practices,0.0
+course~usIwBhODEeWfzgpfp_iBVw,Astronomy: Exploring Time and Space,0.0
+course~upp7TBxnEe-Ojg4Sufxjbw,Regression Analysis - Fundamentals & Practical Applications,0.0
+course~uc_kUVCAEe-cPg5R3VX7kw,Mobile App Development Capstone Project ,0.0
+course~uZZCOk-0Eei5shJ0GHcv-g,Applied Data Science Capstone,0.0
+course~uYrvSj_rEfCW3wr_yqui8Q,CISSP Domain 2: Asset Security,0.0
+course~uYPONw9REeeYSwoRrxflRA,"Life, Health and Radiation",0.0
+course~uYMSLJ2FEe6OUwokHQTVtw,Data Science in Health Technology Assessment,0.0
+course~uHBshxGJEeyInw5_rPIDZw,Introduction to Data Analysis using Microsoft Excel,0.0
+course~uFdYfrMiEeWoKQ4rUD57pQ,Wharton Business and Financial Modeling Capstone,0.0
+course~tC04nXtyEee9Jg72MTK0sg,Budgeting essentials and development,0.0
+course~uAUQW4alEe--oAr_y6Q6Xw,Image Editing,0.0
+course~trgWdYiKEeWfngrMqWa91Q,Global Diplomacy – Diplomacy in the Modern World,0.0
+course~trTBMWBkEe-CzxKb2UkMMw,Content Creation With Generative AI,0.0
+course~towthzydEeW0tw4knrMo3Q,Bacteria and Chronic Infections,0.0
+course~tjqUXz-5EeWpogr5ZO8qxQ,The Global Financial Crisis,0.0
+course~t_wxQwp9EeutYApDK7IjMQ,Agile Project Management,0.0
+course~t_pDPS78EeuFYg7AZmoFgw,"Hydro, Wind & Solar power: Resources, Variability & Forecast",0.0
+course~tY8lFA40Ee-0zw71G9qqWw,Data Mining in Python,0.0
+course~tKpNgsa4EeWg0QoHq3JjoQ,Introduction to Forensic Science,0.0
+course~tJApe-HgEeeSKxKWkG_JMg,Causal Inference,0.0
+course~tIGmgW6WEe-6xRKldbKQ1w,"CCNA Expert – Network Automation, Cloud, and Emerging Technologies",0.0
+course~tFFHl6kxEeyjPxJkzIUqCw,Migrating On-premises MySQL Using a Continuous Database Migration Service Job,0.0
+course~uCrSqjAVEeeZnwpGNf0eQA,"Federal Taxation I: Individuals, Employees, and Sole Proprietors",0.0
+course~qD3a1ulDEe2idwokHO9n2w,System Dynamics,0.0
+course~qAyAY_jYEe685RKHZHPURQ,Introduction to Generative AI for Software Development,0.0
+course~q5fOUZwHEe2L_wpgKckryw,Spacecraft Relative Motion Kinematics and Kinetics,0.0
+course~q2v1cAdNEe-knBIDDnXmpw,Advanced Tableau - Table Calculations,0.0
+course~ps26lhXhEe-d6hIj26omoQ,Diplomatic Practice,0.0
+course~prHAajqwEeWXuQopUhAqaw,International Law in Action: A Guide to the International Courts and Tribunals in The Hague,0.0
+course~pjyrh4miEeaMiAqVzgob_Q,"Engineering Life: Synbio, Bioethics & Public Policy",0.0
+course~phVtCmx1Ee-Quwr_1ABTmQ,Psychedelic Science and Medicine,0.0
+course~phQRBrQjEeuTjg6-_zYGCQ,Fundamentals of Software Architecture for Big Data,0.0
+course~pcgwbrdBEeyCwA6g8YpErQ,Investment Banking: Financial Analysis and Valuation,0.0
+course~pXNIGMgtEemKrA4zJxEYYA,Visualizing the Living Body: Diagnostic Imaging,0.0
+course~rTbWzyI0Ee6wQA4DcxzwjQ,Relationship Management and Business Development ,0.0
+course~p79Awdv8EeeCEw5jIEhNXg,3D CAD Application,0.0
+course~p3q3xwMCEe-SXg6EFTZuww,Tableau Capstone Project ,0.0
+course~p2jYHVPxEein9xItvIlMSA,Introduction to Self-Driving Cars,0.0
+course~p1aUxtT0Eeu0JA70HcoQjw,Principles of Management,0.0
+course~ooswimowEe--dw7PPVphLw,Project Finance & Excel: Build Financial Models from Scratch,0.0
+course~onanI5PsEeic_hJxqQLlmg,Kotlin for Java Developers,0.0
+course~ofu7SKAEEeSrqiIAC46RtQ,Engineering Systems in Motion: Dynamics of Particles and Bodies in 2D Motion,0.0
+course~ockwjyGkEeiAdw4vw_tgPg,Python and Statistics for Financial Analysis,0.0
+course~oXNJFDcqEeaZvBKk_jPuSQ,MRI Fundamentals,0.0
+course~oSDxwswyEeWXgg4wnpJx-w,Social and Economic Networks:  Models and Analysis,0.0
+course~oOeV8oRwEe-L8RKezlgehQ,Design Fundamentals with AI,0.0
+course~oNZYsuTwEe6PQQ5ZiTVI-w,Payroll & HR Management ,0.0
+course~pIODBrinEea7HhLAXRS5cg,Everyday Parenting: The ABCs of Child Rearing,0.0
+course~rTTFFgb8EeWJMSIAC7Jl0w,Quantitative Methods,0.0
+course~rNpCSyQbEeWXzxJxfIL00w,Positive Psychology ,0.0
+course~rFJEh7nyEe2oxw5qVgw_VQ,Professionalism in Allied Health,0.0
+course~rEOx3EDDEeusyQ4n_00ahw,Fundamentals of entrepreneurship in the family business,0.0
+course~rAlpSmWgEeenbhIEmtW1dA,"Modern Robotics, Course 1:  Foundations of Robot Motion",0.0
+course~r938sa1xEeeTdQ7VF-D76g,Design-Led Strategy: Design thinking for business strategy and entrepreneurship,0.0
+course~r0GnHOZaEees-Q6jQMxlrg,What is Data Science? ,0.0
+course~qzpyzMIIEeaqug5_d2-DwA,Logic for Economists,0.0
+course~qwwhTCF_EeWXzxJxfIL00w,Simulation and modeling of natural processes,0.0
+course~quF5rVdrEeesGQokJ1NePA, IT Security: Defense against the digital dark arts ,0.0
+course~qsbQYHD2EeWIfhKr_WcYsQ,Introduction to Molecular Spectroscopy,0.0
+course~qGETKL__Eei46w6hZ9g0Sg,Global Financing Solutions  (by EDHEC and Société Générale),0.0
+course~qlAYiungEeW83RLVcuc3IQ,International Law In Action: Investigating and Prosecuting International Crimes,0.0
+course~qi33z3fWEe6Wuw45tzt-Ew,Design Thinking and Innovation,0.0
+course~qgQtFHQ_EeWKsgrp3VnvAw,Equine Welfare and Management,0.0
+course~qeyXSV_uEeiNIQqyU-T6bA,Introduction to Portfolio Construction and Analysis with Python,0.0
+course~qbM9LpvmEemA0hKe-F0jpg,3D Graphics in Android: Sensors and VR,0.0
+course~qYE1_lWtEee9zA480n2xtg,Large Marine Ecosystems: Assessment and Management,0.0
+course~qTCeNxYVEeiu5xKRVYA-JA,"Advanced Valuation and Strategy - M&A, Private Equity, and Venture Capital",0.0
+course~qNfMOifFEe-qLxJFbw2Hbw,Real Estate Property Management,0.0
+course~qLwmkiOZEeadsBKew8xmjQ,Social Psychology,0.0
+course~qLtWVV2nEea6OBIvyzcuGw,Introduction to Public Speaking,0.0
+course~qJmIyPn2Ee-glg6vww23RQ,C++ 20 Mastery - Pure and Unfiltered,0.0
+course~qJFAYk2DEe6lIQ6Z5EVHQQ,Sourcing Excellence,0.0
+course~qnjhdI7-Ee6xzArT8MnIvQ,JavaScript Full Stack Capstone Project,0.0
+course~zvdI8hE3Ee6sSQryLoHv8w,Hands On Clinical Reporting Using R,0.0
+course~zuy6ufr7Ee6muw6kPmMYSw,Effective Leadership: Master Management Styles,0.0
+course~zn0YnhqsEeW9dA4X94-nLQ,Classical Sociological Theory ,0.0
+course~zjABf_mkEe-WoRL0uMzXDQ,Construction Equipment Maintenance & Safety,0.0
+course~zily1gP8EfCSEQ5mmEHERQ,Refugee & Asylum Advocacy: Legal Frameworks for Protection,0.0
+course~zeI6XJgzEemFZQpjgGktLA,AI Workflow: Data Analysis and Hypothesis Testing,0.0
+course~zdTC7PjCEe2OqwqhrYNGhQ,Reign of Pain,0.0
+course~zdKmx_LtEe--nhIUP1DqPQ,Java Development Capstone Project,0.0
+course~zcWCXlqYEeWp_Q4LJzeiiQ,Introduction to Cataract Surgery,0.0
+course~zbogmlE_Ee2CDBJPeFTGvQ,Data Science with Real World Data in Pharma,0.0
+course~zb2S9CI8Ee-I1wr_7a5dgw,Classification - Fundamentals & Practical Applications,0.0
+course~v0W2MBRlEemy7g7qbc8Igg,Sample-based Learning Methods,0.0
+course~zZiXF_4KEey67Q5PadiO8Q,Introduction to Healthcare Management,0.0
+course~zYo_poalEe-Prw4pgRltBQ,Graphic Design,0.0
+course~zTzjmvssEeSDoyIAC1CH0g,The Ancient Greeks,0.0
+course~zMg9YpBtEeiWbhI9enrBdA,Site Reliability Engineering: Measuring and Managing Reliability,0.0
+course~zH7F1akvEeywagovoAKHOQ,Exploring the Lineage of Data with Cloud Data Fusion,0.0
+course~zFT002OEEeS5wCIAC4UKdg,Introduction to Thermodynamics: Transferring Energy from Here to There,0.0
+course~zC6cIt_XEemGIwpf4KPJ_A,"Introduction to Trading, Machine Learning & GCP",0.0
+course~z7bOth-eEeuQ9xLSu4r6yQ,Operations and Patient Safety for Healthcare IT Staff,0.0
+course~z5Fx9mUJEe2piwrmyBNtEQ,"Assets, Threats, and Vulnerabilities",0.0
+course~z4SIi9BrEey8_hLA_31upQ,"Spark, Hadoop, and Snowflake for Data Engineering",0.0
+course~z1PUAaxfEeuLCQ6P36XDuw,Robot Localization with Python and Particle Filters,0.0
+course~zarv50qwEeaovA5yk1oeyQ,Linear Circuits 2: AC Analysis ,0.0
+s12n~27i2bdr8Eem5-QobgdfVqg,Financial Technology (Fintech) Innovations,0.0
+s12n~27Z-0AEqQqGLMkEhsppobA,Exam Prep (SAP-C02): AWS Solutions Architect - Professional,0.0
+s12n~1vz7HcRFRD6Z3n1eCgmMKw,DeepLearning.AI Data Engineering,0.0
+s12n~1nIc-B0tRXOPmEyee-pS0w,Microsoft Business Analyst,0.0
+s12n~1lMXZlOIEey4Ig5-2rgXxw,Management Consulting,0.0
+s12n~MZerALwOEeymBRLup0TH0Q,IBM IT Support,0.0
+s12n~1MuES54oEeu1tw5qFTvFhw,Learn English: Beginning Grammar,0.0
+s12n~1Ijl2E--QSKSHR8rnMVJJg,Geotechnical Foundation Design,0.0
+s12n~1GYzsXIST7GRr3n8I1izlw,Microsoft Program Management,0.0
+s12n~12XQMWf-EeuhpwoVqlfcqQ,Getting started with Google Workspace,0.0
+s12n~0ze2VRAEQL-hrMmGeKPGsw,Generative AI for Data Scientists,0.0
+course~zwqURwiiEeahpQ5cgS1w4w,Supply Chain Logistics,0.0
+s12n~0lTDLi0bEey5VQ4AdJWHJQ,Meta Marketing Analytics,0.0
+s12n~0kc_rOadEeqw8Q4kKGlY4Q,Digital Signal Processing,0.0
+s12n~0geXG4SmQ4-5VCUTURSQrQ,Java FullStack Developer,0.0
+s12n~0ZCTQrR7Eei2ng71IHxUVA,Networking in Google Cloud,0.0
+s12n~0ImdBwolEeyCoBKtfSoizQ,Software Engineering,0.0
+s12n~-wRN5Od6SduyASmOwkxaUQ,IBM iOS and Android Mobile App Developer,0.0
+s12n~-wDBzJNFQnOdce1HqXCRXA,Generative AI for Growth Marketing,0.0
+s12n~-s180RslQ8SG59v5P2kV2g,IBM and ISC2 Cybersecurity Specialist,0.0
+s12n~-oCUcZlPS2Ks_wktRLIkrA,Generative AI in Business,0.0
+s12n~-KS2fmBZEeisuQ4PU38rnA,School Health for Children and Adolescents,0.0
+s12n~-2TofyLDQaqp804mElZgOw,Generative AI Strategic Leader,0.0
+s12n~--I-GVG8TjSxWxqmqcbomg,Microsoft Back-End Developer,0.0
+s12n~0vX4o79AEey5fg5A0od4Mw,Meta iOS Developer,0.0
+course~xE335f6JEeq0xxLJwtWsdQ,How Software Ate Finance,0.0
+course~x-Om8bZ8Ee-dwg4HQ74J2Q,The Complete LangChain & LLMs Guide,0.0
+course~wyqudWu8EeufExI7Hdi1lQ,SQL CASE Statements,0.0
+course~wsC6Z0BQEeWC4g7VhG4bTQ,Personal & Family Financial Planning,0.0
+course~wob-HxmcEem3qg7Op2Gqng,What is Corruption: Anti-Corruption and Compliance,0.0
+course~wmoTBzyAEeWFSA6UPWxRyQ,Global Warming I: The Science and Modeling of Climate Change,0.0
+course~wflrMr-dEemabw7esOtn5g,Quantum Mechanics,0.0
+course~wYVJDzkUEe2Oyw6DorRJ9w,Migrating to the AWS Cloud,0.0
+course~wWmv2BEhEeWvmQrN_lODCw,Arts and Culture Strategy,0.0
+course~wWKidiPbEe2Psg5YTxx2NQ,Developing Back-End Apps with Node.js and Express,0.0
+course~wUGYBoaiEe--oAr_y6Q6Xw, Generative AI Content Creation,0.0
+course~yveXeG9KEe2FvRLslR-h4Q,Learn Interpersonal Psychotherapy,0.0
+course~wHbDKS72EeamIRKe7Ylq9w,Corporate Strategy ,0.0
+course~wFyIpfSJEe2fnxIInyWU6Q,Attention Mechanism,0.0
+course~wDCKe4VMEe-HnxIaoRsVow,GenAI for Fraud Detection and Compliance,0.0
+course~w9KKaoIAEe6L0QpSVaIh4Q,Climate Change: Carbon Capture and Storage,0.0
+course~w7FFV3l0EeW53BJEfL52qQ,Advanced Algorithms and Complexity,0.0
+course~w5Chgi8hEeWv_w7cMMH1Uw,Business Growth Strategy,0.0
+course~vuYiE2YpEe-WbhKfqhh3sw,Foundations in Human-Centered AI,0.0
+course~vsoQU7Y1Ee-dwg4HQ74J2Q,Security Operations,0.0
+course~vZuvw0C_EeuofRLHWX896w,Leadership in the Family Business,0.0
+course~vIC_m1i_EeWzUQ41NnCQkQ,Teach English Now! Lesson Design and Assessment,0.0
+course~v8M9KJcWEeuychIu0-l95w,Serverless Data Processing with Dataflow: Develop Pipelines,0.0
+course~v7WEuSfIEe2-5Aqhzcov3w,The Power of Statistics,0.0
+course~wQ9FD3b0EeaahA7WQe-h_w,"Graph Search, Shortest Paths, and Data Structures",0.0
+course~ytflLgVrEe636QqHDflziQ,Approximation Algorithms and Linear Programming ,0.0
+course~yqF2L50oEeWJORITtzkPnQ,Greek and Roman Mythology,0.0
+course~yj814XQ_EeWIfhKr_WcYsQ,Paleontology: Theropod Dinosaurs and the Origin of Birds,0.0
+course~yeLaJMQnEe62DQ4e1CW1Vw,Introduction to Retrieval Augmented Generation (RAG),0.0
+course~yXMpEJw3EeW6bw4ogk2HGQ,Entrepreneurship 4: Financing and Profitability,0.0
+course~yOZEQ3lwEeWb-BLhFdaGww,Data Structures,0.0
+course~yJFvuj06EeWBrBIWi3mmCw,Oil & Gas Industry Operations and Markets ,0.0
+course~yHvWBaIAEeqd3gpsLk9kKQ,COVID-19 Training for Healthcare Workers,0.0
+course~yGK8KNPSEe2HUgoXSm74nw,Front-End Development Capstone Project,0.0
+course~yFlo3xpQEeqQQxIxeQaLNQ,Modernizing Data Lakes and Data Warehouses with Google Cloud,0.0
+course~yFgPijrAEe6U4g7a-RyA1w,Product Management: An Introduction,0.0
+course~xMqZG1wyEeWd6BJKWlaBIw,Stanford Introduction to Food and Health,0.0
+course~yFZxWd8aEeWDLBKS83bB7Q,English for Journalism,0.0
+course~yC0iaOrHEeSb-yIACwuKNg,Introduction to Electronics,0.0
+course~y5G1vZheEeWF6gpQJiw6hQ,Dino 101: Dinosaur Paleobiology,0.0
+course~y20FTlDPEeWMlwoziUhyxQ,Marketing Analytics,0.0
+course~xpe1YMjNEeWQSAqHNmfP4Q,"Managing Responsibly: Practicing Sustainability, Responsibility and Ethics",0.0
+course~xiisAbiqEe-Edgr_0TyPhw,Playwright Python and Pytest for Web Automation Testing,0.0
+course~xfSxZG3ZEeqZGA6nG5ejfQ,English for Common Interactions in the Workplace: Basic Level,0.0
+course~x_7YCR_1Ee6lxgqp2XjTZQ,Responsible Medication Prescribing for Older Adults,0.0
+course~xW6tfUoYEe-LJA6-o-C_Pw,Advanced Linux Troubleshooting and System Recovery,0.0
+course~xS0pKcAFEeeMdgrf69Tp8A,Version Control with Git,0.0
+course~xQnLBwQfEee5kw7fsxuOhg,"Computers, Waves, Simulations: A Practical Introduction to Numerical Methods using Python",0.0
+course~xPcHhsEbEeaXORK1gIKLbg,Circular Economy - Sustainable Materials Management,0.0
+course~yFcnRbQgEeuVARITHCE31Q,Software Architecture Patterns for Big Data,0.0
+s12n~mdlUSgjiEeuSxQ5EfP2d0Q,Preparing for Google Cloud Certification: Cloud Security Engineer,0.0
+s12n~mZJh7rLcEe2DNQpOhYGSRQ,Human Anatomy & Physiology I,0.0
+s12n~mVzZ6i3xEeyXxhK-OyL_XQ,Clinical Trials Operations,0.0
+s12n~mQxlt291QlW6_WiEutRVDg,AI for Web Developers,0.0
+s12n~mOZudyouEee85w4c92ytig,C# Programming for Unity Game Development,0.0
+s12n~mMyPYePRSW6zl_JfQ6Iq6g,"ChatGPT: Excel at Personal Automation with GPTs, AI & Zapier",0.0
+s12n~mMVai3AYQJ6HgSjJlbPJ7A,Mechanization in Construction,0.0
+s12n~mHbMHgzARVmL0SNdtwFKJg,Microsoft Power BI and Power Platform for Productivity,0.0
+s12n~mGsSCjiyEeuwLRJPicaX3Q,Scalable Microservices for Developers,0.0
+s12n~mCOtupnoS_e70IKXMu-nGQ,Preparatory Certificate in Finance and Financial Markets,0.0
+s12n~m5Vok4d3EeuFWg5UspyOyw,"Product Ideation, Design, and Management",0.0
+s12n~NKbVCBIHTt6pG487-l_hdw,Microsoft AI Product Manager,0.0
+s12n~lyBX1nxxEeuMpQp-EX0CJQ,IELTS Preparation,0.0
+s12n~lqPWPDWZEeuiZgo2K4rorQ,"Songwriting: Writing, Arranging, and Producing Music",0.0
+s12n~lT6IENDoQyyW-4eG60t8kA,Advanced Digital Transformation,0.0
+s12n~lI_AonWQEemHcw4o4c-y2g,The Business of Music Production,0.0
+s12n~lGQB3TIwReu8lHe8DeFrUQ,Adobe Graphic Designer,0.0
+s12n~l09HJJOVQ_eKTnvpNefVBA,Certified Associate in Project Management (CAPM),0.0
+s12n~l-LwwzNdEeyJAQoAQNSzoQ,"BI Foundations with SQL, ETL and Data Warehousing",0.0
+s12n~kxXLY1kfEey5Tg6Gr7s2bQ,IBM DevOps and Software Engineering,0.0
+s12n~kx6DXkl-EeyQ6Qp2PlG9FQ,Google Advanced Data Analytics,0.0
+s12n~kuGzQBrlEeuKTA7v2iL8uQ,Data Science Fundamentals with Python and SQL,0.0
+s12n~kr43OcbTEeqeNBKhfgCLyw,Google Data Analytics,0.0
+s12n~m55Ol2pRRCSCIHdXN3uvKQ,AI Agents and Agentic AI in Python: Powered by Generative AI,0.0
+s12n~oro2HY5DRfGO_t1HZ2Olsw,Business Communication,0.0
+s12n~ojCmGDZ2Eeut8hLuCGE6aQ,Organizational Change and Culture for Adopting Google Cloud,0.0
+s12n~oZnIo5n3EeWr3RIZBKdvgw,Geographic Information Systems  (GIS),0.0
+s12n~oVLaXTZ_Eeu7AA6Z4AQSNw,Digital Transformation Using AI/ML with Google Cloud,0.0
+s12n~oRyN5IglEeePyRLleDGmxg,ISC2 Systems Security Certified Practitioner (SSCP),0.0
+s12n~oHAAm9czEeq2pQ75DN-BkQ,Core Java,0.0
+s12n~oFD8C0eREeWilAqJEgBo2w,Game Design: Art and Concepts,0.0
+s12n~oEiB92pjRHOlsATyw2FzuQ,Google Cloud Cybersecurity,0.0
+s12n~o9QFWQ27Ee2hkQ5FWfPElQ,Goodwill® Career Coach and Navigator,0.0
+s12n~o9Cq6kaZEeWoXBLqNT8fXw,Strategic Management and Innovation,0.0
+s12n~o8YYmL3wEemxpBIV-vOZcA,Preparing for Google Cloud Certification: Cloud Engineer,0.0
+s12n~mp2p7lfUTd-L_rPtNElc1w,Generative AI for Product Owners,0.0
+s12n~nqqtewAuEeayYxIJgvUCVw,Learn English: Intermediate Grammar,0.0
+s12n~npjdd85-EemphArdzWLJyg,IBM AI Engineering,0.0
+s12n~njhg98RhRE2tnIOa12-DkQ,HRCI Human Resource Associate,0.0
+s12n~nhadx655EeuswBKV2nzukQ,Computer Forensics,0.0
+s12n~ngnV57djEeiKOw5SJXYV1A,Branding: The Creative Journey,0.0
+s12n~ngGrbCfFEeiBCA4w6CjTYA,The Business of Health Care,0.0
+s12n~nflwewmVEeymVhJCFT3Bww,Data Science for Health Research,0.0
+s12n~nOOfCDWeEeuiZgo2K4rorQ,Machine Learning,0.0
+s12n~nF9rQ0oBQhy5Bfv-kRFZjg,Microsoft Power BI Data Analyst,0.0
+s12n~n1sKGdzgEeqyGhKVRIto1w,Leading the Modern Day Business,0.0
+s12n~n1ImdvjtEeqxGxK-m7YzLQ,Music Education for Teachers,0.0
+s12n~mv3ry5gGSjK1Lc4K0uGU9Q,Artificial Intelligence in Finance and Wealth Management,0.0
+s12n~nsalqHt6QVuT_5R7ZcLaJQ,Master Microsoft Office 365 and Power Platform,0.0
+s12n~iBfBJ35uQY6wEhYdtJxZ9A,Microsoft Power Platform Fundamentals PL-900 Exam Prep,0.0
+s12n~i6-XVFNJEeqWDQpB97fabw,Introduction to Programming with Python and Java,0.0
+s12n~i2ONOVXeEeuKfwqR7UVd4w,Foundations of Data Structures and Algorithms,0.0
+s12n~i06fSUGJEeee1wo4ipJ_FA,Algorithms for Battery Management Systems,0.0
+s12n~hdt6rMl0TJC-7KKuEFUTcg,Prompt Engineering,0.0
+s12n~hW77mZ5MQpW3ABP6jX3Xag,Applied Kalman Filtering,0.0
+s12n~hJPmbxyxR9KQFwxY9PcAIw,Writing and Producing Music in Your Home Studio,0.0
+s12n~hH2Oq8hfEemlrQoY9feCDg,"Influencing: Storytelling, Change Management and Governance",0.0
+s12n~hEeuK2BnEeupNxIXG6dO5w,Risk Management,0.0
+s12n~hCHKKxRlEem7XwoldGTLKg,Reinforcement Learning,0.0
+s12n~h935WVhyEeyJexIV98Jjpw,People and Soft Skills for Professional and Personal Success,0.0
+s12n~kp_FWsq_EeqCbA5r8FtmZQ,Salesforce Sales Development Representative,0.0
+s12n~goA1EgIaTiyTbXZmpo_Adw,"Data Analysts' Toolbox - Excel, Power BI, Python, & Tableau",0.0
+s12n~gaiPbW9_EeyYUA4D61ikrQ,Mathematics for Engineers,0.0
+s12n~gZBrs7vSEeWQ9xLvZ6r9Zw,Business Statistics and Analysis,0.0
+s12n~gT9jkZzHEeiUDgozxArl9A,Investment Management with Python and Machine Learning,0.0
+s12n~gRvUBJWvEeinPg75IMuZ2A,Supply Chain Analytics,0.0
+s12n~gQ2MXPR0Sre6gnsDtiLikg,IBM RAG and Agentic AI,0.0
+s12n~gONexdDqEemCcAqaM0I-aA,Data Science: Statistics and Machine Learning,0.0
+s12n~gFlwf79AEey5fg5A0od4Mw,Meta Database Engineer,0.0
+s12n~fwiX71ycToGvHvSczQmgig,ADP Entry-Level Payroll Specialist,0.0
+s12n~fq9UWMbTEeqpthJ2RmWGow,Google Project Management:,0.0
+s12n~fpgfB6rEEeehUAoZLUjGpg,Programming with Google Go,0.0
+s12n~gyAe3rqxEeuZnhIPVarOzw,Algebra: Elementary to Advanced,0.0
+s12n~kiCXgpRzEemmZw4Fe4iRaA,IBM AI Enterprise Workflow,0.0
+s12n~kgb7HYe7QYuFYDfOYudhwQ,Generative AI for Software Development,0.0
+s12n~kdCN_QdOTNeKUzkJRc9sKw,Generative AI for Web Development,0.0
+s12n~kb7LeVEXEeuiXA7mHjd41w,Practical Guide to Trading,0.0
+s12n~k_2xbI6CQaaciBJgyy-_UA,Geospatial Techniques for Engineers,0.0
+s12n~kYZZrTZhEeq9gArb8nxFYQ,The Pronunciation of American English,0.0
+s12n~kUKYSp3YEey_5BJbeK-dkw,"Organizational Leadership in Diversity, Equity & Inclusion",0.0
+s12n~kDLJemd3Ee2wGAptWWuwJw,CVS Health Retail Customer Service,0.0
+s12n~kAtEJ53KEeW9ng5xPiEOCQ,Business and Financial Modeling,0.0
+s12n~k3eANt_ZQV2CicTk1XYDCA,Generative AI HR Professional,0.0
+s12n~jvtbhT9NQhWa5LSvOoLrVg,CRISC: Certified in Risk and Information Systems Control,0.0
+s12n~iFaGmaofEeiMdw78GmphOA,Regulatory Compliance,0.0
+s12n~jQeO60dHQ-WRMkqPVAhi6g,Embedded Software Development with C,0.0
+s12n~jOsQN9XgRF-KuQ1XGbUYPw,Microeconomics Principles,0.0
+s12n~jLhau4hdEeuI0BJy6dqCoQ,The Fundamentals of Personal Finance,0.0
+s12n~jJS1rQQnSCOiASaLKwi5EQ,Natural Disaster and Climate Change Risk Assessment,0.0
+s12n~jHspMxHDEe2sEg6b-dPJLw,Certified in Cybersecurity,0.0
+s12n~jBu0BfRiEeua7RJfZAJB_w,Expressway to Data Science: Essential Math,0.0
+s12n~isyGb0B8EeWlKQqppTJUFQ,Conflict Management,0.0
+s12n~idSRXdI9RYirh2Tl7i8WuA,BI Essentials for Finance Analysts (Power BI Edition),0.0
+s12n~idRxikeyEeW57gqKtBwG2w,Strategic Business Analytics,0.0
+s12n~iQ74s3ezTiaqBIxAvADy5g,Oracle Database Administration from Zero to Hero,0.0
+s12n~iPBXp_z5Eeqz3w61PTGlHw,Introduction to Logic and Critical Thinking,0.0
+s12n~iLetxa93EeuYLhIp_-IPGw,Advanced Embedded Linux Development,0.0
+s12n~jt_z-slqEeuLfg5DgpVRTQ,Google Cloud Digital Leader Training,0.0
+course~-Y69EP9dEeSa0SIACyGBQw,Introduction to Systems Engineering,0.0
+course~-XDgQSfIEe2GwRLfSI7mvQ,The Nuts and Bolts of Machine Learning,0.0
+course~-TDPq2UJEe2piwrmyBNtEQ,Put It to Work: Prepare for Cybersecurity Jobs,0.0
+course~-OqlvFXeEeuhCA5K4_4e8w,Trees and Graphs: Basics,0.0
+course~-OhCD5y-EeizghIFbOmg-g,Spacecraft Dynamics Capstone: Mars Mission,0.0
+course~-Eu38u08EeSKeyIACwQXPg,Dog Emotion and Cognition,0.0
+s12n~xOcgpV6jRFOauFhbnmDpvw,PMP Exam Prep Certification Training,0.0
+s12n~xKZ-Rh0LEeaVXQ4hxYGBZw,Applied Data Science with Python,0.0
+s12n~x2eo8mjdEeeVKQr4G1qt1g,Embedding Sensors and Motors,0.0
+s12n~wpv0v6AuR1GOWiDmKrSrKA,Microsoft Full-Stack Developer,0.0
+s12n~wkzxpdx-QQeXGPU5lzijNA,Microsoft Data Visualization,0.0
+s12n~p4P9v79AEey5fg5A0od4Mw,Meta Android Developer,0.0
+s12n~wegQfR-DEeu8_RLvNqbnww,Healthcare IT Support,0.0
+s12n~w_SbA_4CEeyYOg4H04Qs9w,Uncommon Sense Teaching,0.0
+s12n~wP_KofPdSkKMbNYC2p0KRw,SHRM Certified Professional (SHRM-CP) Exam Prep,0.0
+s12n~wMOijEe0EeWhdBId_NBf7Q,Data Warehousing for Business Intelligence,0.0
+s12n~wGEeSVoDT12YqWS8dgPZXg,RAG for Generative AI Applications,0.0
+s12n~wEhZyP2tSFO1UXPjpyLBsA,MathWorks Computer Vision Engineer,0.0
+s12n~wChV67bLSUugSqxZN30HTQ,IBM UI/UX Designer,0.0
+s12n~vyryYB9ZQp-5QZZEJn8t_w,IBM Systems Analyst,0.0
+s12n~v_llMSbIEeyO7w711D87uw,Medical Terminology,0.0
+s12n~vOC_jof9S2iFZfabFDKXQQ,Meta Web Development Fundamentals,0.0
+s12n~vM7re1nLTlS0VXimnRV-yg,Snowflake Generative AI,0.0
+s12n~whxef_uzQr6PZvwIBqcj8g,Generative AI Leader,0.0
+s12n~yOtFq2VbEeaGEg4AOwReJQ,Learn Chinese: HSK Test Preparation,0.0
+s12n~yLWri3gYQT2PG5269iZ82w,Generative AI for Product Managers,0.0
+s12n~yKr0f8fOEey9JAr0bM0Dvw,OWASP Top 10 - 2021,0.0
+s12n~yGgseVH_Eee3DRI5jdjJcA,Modeling and Control of Power Electronics,0.0
+s12n~yEVwdp0mEeW7xQ6l-xJMQQ,Strategic Leadership and Management,0.0
+s12n~y8Xuwd_XEemocxJGJR9AKg,Machine Learning for Trading,0.0
+s12n~y115AxFeQG27plEdIAZzPQ,Human Anatomy and Medical Terminology Fundamentals,0.0
+s12n~y-IghDp5Eeus1Q4-7xV-Ww,Data Mining Foundations and Practice,0.0
+s12n~xzghDvN9QVq1ZHnyaHzckQ,CISSP Certified Information Systems Security Professional,0.0
+s12n~xs73ggJdEe2Vpg6WrzZuCQ,"Power System: Generation, Transmission and Protection",0.0
+s12n~xrRvgRMqEeuaDgq2QnVodw,TensorFlow: Advanced Techniques,0.0
+course~-nRRAPmuEeSndSIAC7LTLQ,Introduction to Ableton Live,0.0
+s12n~xdZ8n71kS6axn24_Luvp0g,Medical Office Procedures and Administration Fundamentals,0.0
+s12n~xZFEqLvoEeqYnRKi2Skbcw,MATLAB Programming for Engineers and Scientists,0.0
+course~-FpKiRmcEem6cA6kboa4Lg,Copyright Law,0.0
+s12n~xQJP6VYNEe28fA5pAf6yjQ,SAP Technology Consultant,0.0
+course~0MCXHBeLEe-dkgr_5HC_tw,Advanced Tableau - Data Model,0.0
+course~0HaFhwp9Eeun9Q5tylnU9Q,Capstone: Applying Project Management in the Real World,0.0
+course~0B_AVEqwEeaw2hIsmg4YHQ,Linear Circuits 1: DC Analysis,0.0
+course~0A7WBYfuEemoiA62n0CmxA,"Sequences, Time Series and Prediction",0.0
+course~01MWvUeMEeaeRgqQhMBV5Q,Finance for Non-Financial Managers,0.0
+course~-zhQFJezEeWjfxIrc5BW9Q,Introduction to Genomic Technologies,0.0
+course~-zH9iof2EeWGBwqGAoUFww,Epigenetic Control of Gene Expression,0.0
+course~-nkoihN6EeWCWhKuhISYpw,Data Management for Clinical Research,0.0
+s12n~xqSTqaQeEeqK2Q6xUWz2Fw,Digital Health,0.0
+s12n~s-9jsN74QTylrBFE7FCJoQ,Microsoft Cybersecurity Analyst,0.0
+s12n~rp2AfxUtEemIIApG5z08IA,Foundational Finance for Strategic Decision Making,0.0
+s12n~raxdLIl_Q7qjf_cgvoc-Eg,Generative AI for Data Engineers,0.0
+s12n~rYoVrnzGRZezozc8dfda3Q,Generative AI for Program Managers,0.0
+s12n~rVYT5_ycEeyNxw76_Wg-Yw,Healthcare Management and Finance,0.0
+s12n~rPK-ePwtEey9XgppRLkznw,PwC GST Taxation Executive,0.0
+s12n~rHB3CJbpEeuYEBKGpndRbw,Applied Data Science with R,0.0
+s12n~r4SWcmg7QCiIO_ebBFJUHA,Microsoft 365 with Generative AI,0.0
+s12n~qzhn9PT2EeSKSCIAC7TI2A,Project Management Principles and Practices,0.0
+s12n~qzcEMwAFSG2qCrnebaIaLg,Steel Multi Storey Building - System Design,0.0
+s12n~qwJ828A1SqKUsjDKu83tfw,DeepLearning.AI Data Analytics,0.0
+s12n~vHSjChiaEee7TQ7l_NHX0g,Software Testing and Automation,0.0
+s12n~qnwz5be5RUq5LANC_wTeew,Pharmacy Technician Intermediate,0.0
+s12n~qUb622STEeadZgrEl6bjgQ,Competitive Strategy and Organization Design,0.0
+s12n~qUURXcQTRxiX5_rSF99JtA,Strategy and Innovation for Agile Organizations,0.0
+s12n~pyKnn1PxEeiUIwqcCqhukg,Self-Driving Cars,0.0
+s12n~poo8tArSEeyOcRI3eVVltQ,Robotic Process Automation (RPA),0.0
+s12n~pofy9I8EEeqAihIVddil_w,IBM Cybersecurity Analyst,0.0
+s12n~pgmbxMvzRmKOJZd7qh5hEA,"Psychology of Anxiety, Mood, Substance Use, and Addictive Behaviors",0.0
+s12n~peHrosLQQY6iMw-W3HCQzg,Data Science Foundations,0.0
+s12n~p_qFGiDwSnCcNu7dokKQMQ,IBM IT Project Manager,0.0
+s12n~pZY2cJzHEei-Ig6fwTAslg,Fundamentals of Immunology,0.0
+s12n~pMOxgWigQVqnuXty7DPEBQ,Certified Project Manager,0.0
+s12n~pKEfefZ0EeW1lgrte4REzw,Marketing Strategy,0.0
+s12n~qq9MIGMFEeayMBJXAbQCnw,Dynamic Public Speaking,0.0
+s12n~ux0MaVNwTzWn8jlntVix4A,Generative AI Assistants,0.0
+s12n~utjeMEgmEeWJSQ6Y2aPmQQ,Business Analytics,0.0
+s12n~utc0z0dbEeW_3BIrOrB9iQ,Social Media Marketing,0.0
+s12n~umJkWbWbEeqjZBKfC4arvw,Palliative Care Always,0.0
+s12n~udYNBKoJEeehKwqLCT_WXA,UI / UX Design,0.0
+s12n~uO82MRqQSNCnneVgSvZhcA,Mastering Concrete Techniques,0.0
+s12n~uIFDnGJWEeqyaA4BuXgjIw,AWS Fundamentals,0.0
+s12n~uC4qJnunEeuNzg4JnkHQ6Q,Scrum Master Certification,0.0
+s12n~u9C1lke4EeWxUw5Tkcywww,Business Strategy,0.0
+s12n~u5CfkkisQxuNJ9aizD7xIA,Certified Business Analysis Professional™ (CBAP®),0.0
+s12n~tz8bL_mVR-KMJeNqKkmcog,Amazon Junior Software Developer,0.0
+s12n~s79dbwp_EeyflRJvOlqpKQ,AI Product Management,0.0
+s12n~tnAsTVN7Eeyw9wpa5mWM_w,IBM Data Warehouse Engineer,0.0
+s12n~tiHYJkhHRw-S9wOJKL6CVw,"JavaScript Programming with React, Node & MongoDB",0.0
+s12n~th2vYplFEeWIgw6ardKJWw,Data Visualization with Tableau,0.0
+s12n~taHI-CgeEeq1GQ7nUSIP0Q,Managing Cybersecurity,0.0
+s12n~tVsMU46oRwei4prKrrqaAQ,IBM Product Manager,0.0
+s12n~tOSiFHwTTP6CzMnPXSTBIw,Generative AI Engineering with LLMs,0.0
+s12n~tJnBT0QpSXmb17h_OReMAg,Certified Information Systems Security Professional (CISSP),0.0
+s12n~t6l3z6DNEe22FA6n5qTJ4w,Semiconductor Packaging,0.0
+s12n~t4ZywozQEeu0MwrdR3SSUQ,"Food Sustainability, Mindful Eating, and Healthy Cooking",0.0
+s12n~sopD5xNeEem34g6h18aPeA,Privacy and Standardisation,0.0
+s12n~sbPjQ7drEeiKOw5SJXYV1A,User Experience Research and Design,0.0
+s12n~sRHt55esEeaW-hLq8EgvDg,Fundraising and Development,0.0
+s12n~tsjfjljzTMapT5CirlZjmg,ChatGPT for Project Management - Leveraging AI for Success,0.0
+s12n~VDkfhhdTTFOfqXDJDRe70A,Advanced Leadership Skills for the 21st Century,0.0
+s12n~V8ODvrL5EeW3mhLW1_Ertw,Become a Journalist: Report the News!,0.0
+s12n~UsgD8wqFEeu28RK1gAaLUQ,Introduction to Business,0.0
+s12n~Uq4X90iCQ_WRQzF1X5Bl8Q,AI and Machine Learning Essentials with Python,0.0
+s12n~UimQ2YbKSeWCuMARGuQN0g,IBM Business Intelligence (BI) Analyst,0.0
+s12n~UZvJGpM0Sg-7Wn0x5mh82A,Generative AI for Educators & Teachers,0.0
+s12n~UT8uhrliEeqguArhbNj7XQ,Six Sigma Black Belt,0.0
+s12n~USSMgq0lRQeAK81HL5OGLg,Snowflake Data Engineering,0.0
+s12n~URf1Ec-lEeupRA6ghdIhRw,IBM Mainframe Developer,0.0
+s12n~UIEF9fgAQn-w0vtnJcYF7Q,Mental Health Care Fundamentals,0.0
+s12n~UCOl25lDEeWuQhIPCjYhEw,Search Engine Optimization (SEO),0.0
+s12n~fjGDnMZlEeeXjg6AlMYAgA,Foundations of Global Health,0.0
+s12n~Tw7BjehDEeirrRITnOc3tA,Python 3 Programming,0.0
+s12n~Tpnq4Qv-RdO7rVtMrX2_DA,Gemini for Google Workspace,0.0
+s12n~Tpbzoz7kEeaRIRKIzCf3cw,Digital Manufacturing & Design Technology,0.0
+s12n~TmDSAeSqEeaEBgpxI6VqBA,Spacecraft Dynamics and Control,0.0
+s12n~TY7hnH-gSiiv-eYhW65VZA,C and Go: Classical and Modern Programming,0.0
+s12n~TT-cWNY6QgmyvCvpUC_WPw,Collaborative Robotics in Industry,0.0
+s12n~TMvNXtk5EeutAA4l1urvnQ,Image Processing for Engineering and Science,0.0
+s12n~TLdRZuEQEeqkDRL_pYf3Gw,Advanced Statistics for Data Science,0.0
+s12n~TKHDQVp8SeC9MvH7Ure8-w,Generative AI for Business Intelligence (BI) Analysts,0.0
+s12n~T7mVnVD2RyWSJa2ZFcOJfw,Piling Construction and practices,0.0
+s12n~SXmwej9iEe24Zg7v3JIprQ,Computer Vision for Engineering and Science,0.0
+s12n~TyJtMpDVQUOuKd220GNZRw,"IBM Deep Learning with PyTorch, Keras and Tensorflow",0.0
+s12n~XTZ9ijPWRW65T4LrV2aFfw,Certified Ethical Hacking (v12),0.0
+s12n~XOVbfsFfTTSX2ie2StU9cQ,Design of Ventilation& Air conditioning System for Buildings,0.0
+s12n~WvWoOoMoEembCA7TjU2XTA,IBM AI Developer,0.0
+s12n~Wh6nmdkOEeuYJQ5ZkEJmKQ,AI For Business,0.0
+s12n~WdOb7OMUEeakrQ7tUiiIWg,Achieving Personal and Professional Success,0.0
+s12n~WdFFUVUeEe2JqRLHEWfRxQ,Business and Marketing Strategies,0.0
+s12n~WcLCtpMeEeuROg5gvar_qw,Intuit Academy Bookkeeping,0.0
+s12n~WPPnMAv6SCiT0zfVSkIATA,Essentials of Hospitality Management,0.0
+s12n~WOLCwOi2EeuXFgoks4AMow,Cancer Biology,0.0
+s12n~WM-wjDK4EeyT8xKdcQQUGQ,AI for Good,0.0
+s12n~WCbyUH8rEeqYMgrG9uCSPQ,The Singer Songwriter,0.0
+s12n~VI9ai0eYEeWY6Q6BpfOlUQ,"Hotel Management: Distribution, Revenue and Demand Management",0.0
+s12n~W62RsyrdEeeFQQqyuQaohA,Deep Learning,0.0
+s12n~W4Eg6e6LSB-X2Y9MvdsxSg,Agentic AI and AI Agents for Leaders,0.0
+s12n~VzjHg9NfEeS7_CIAC3kWGA,Career Success,0.0
+s12n~VySIY6ofEeiGvwpvb2VtxA,Intellectual Property Law,0.0
+s12n~Vt9WcfSISGCG7Q2kolRJAQ,Mastering Angular Development,0.0
+s12n~Vsgr9J9aEeWj3Q6iLfN-8Q,Marketing Mix Implementation,0.0
+s12n~VhBX5alEEeW3mhLW1_Ertw,Investment Management,0.0
+s12n~Ve2IXg1LEeqsqw5FzfwCIQ,Blockchain Revolution in Financial Services,0.0
+s12n~VVO-fDEEQQag6C4yxj0iuA,Neuromarketing,0.0
+s12n~VTWoktDlTR-wJ8MbUNLeGg,ESG for All,0.0
+s12n~VT2NdgkzEemuOQoCwPrglg,Supply Chain Finance and Blockchain Technology,0.0
+s12n~VMfTqnCSEeuk4gqTzPG2cQ,Python for Cybersecurity,0.0
+s12n~WAWz4plFEeWuQhIPCjYhEw,Coaching Skills for Managers,0.0
+s12n~PAPSW6NREeWQ8xJEkcqusQ,Agile Development,0.0
+s12n~P9vATaxqQpKfPM3vYkCYjw,CompTIA Security+ SY0-701 Full Training Guide,0.0
+s12n~P9ChEotMRLO280OmpUbLEw,IBM Project Manager,0.0
+s12n~OrcfS-FfR6-zKBM_ibeWrQ,Epic Games Game Design,0.0
+s12n~Opxox4xaSq2kDzEyXExssg,"Teaching with Art: Using Inquiry, Activities, and Themes",0.0
+s12n~OmBpzgpfEeu9DBL5dNDr_w,Professional Skills for the Workplace,0.0
+s12n~OXWI6rsDEeiQxw4I5DASgA,Leading: Human Resource Management and Leadership,0.0
+s12n~OV-TcFUCEee1tQ51EWO5_g,FPGA Design for Embedded Systems,0.0
+s12n~O7fHcpWzQfCaGN87rGkbAg,Microsoft Generative AI for Data Analysis,0.0
+s12n~NyO9ZB6HTj-aXdzqLg_Wfg,Building AI Cloud Apps with Microsoft Azure,0.0
+s12n~NvN7YG-tEeWaLg565CxmSw,Systems Biology and Biotechnology,0.0
+s12n~SWVZkSzwSTG-MZ4ZMgfbBQ,Flutter & Dart - Complete App Development Course,0.0
+s12n~Nm668VLuEeeSiQ7iX8PDyA,Architecting with Google Compute Engine,0.0
+s12n~NhuE9Kj_SE6H-F1PPAht0A,Microsoft Cloud Support Associate,0.0
+s12n~NZgm8rIyTuyAP5c5QvAX8w,Unilever Digital Marketing Analyst,0.0
+s12n~NVASWW4jEeed0wpIiBbZeg,Active Optical Devices,0.0
+course~oHj8rziZEe-hvAr_8yolJQ,Digital Marketing,0.0
+s12n~NC2yKjv4Eeus1Q4-7xV-Ww,PostgreSQL for Everybody,0.0
+s12n~NAaqmb9DQ6C6O9n26fRrqQ,Bridge Infrastructure Design,0.0
+s12n~MwK7kV9zTXG0TkL8M33B3g,Go and C++:  Programming in Two Successor Languages of C,0.0
+s12n~MmUQ4UMzEeym4xK1ReRVfQ,Creating Business Value with Data and Looker,0.0
+s12n~Mg7xaXoNQvy2wSK78GysRw,Generative AI SQL Database Specialist with ChatGPT,0.0
+s12n~McdJ7ck9R3CSixIHZWKERg,Tableau Business Intelligence Analyst,0.0
+s12n~MagDtAA1Eea_KA4_9OTNYQ,Learn English: Advanced Academic Speaking and Listening,0.0
+s12n~Nv1--xw0SDqc8MCXhwNrtw,Foundations in Virology and Vaccinology,0.0
+s12n~SLEwGYqDEeeeAw4DFG6oEg,U.S. Federal Taxation,0.0
+s12n~S78b9n86Soahj5JwJ7Pl9w,Generative AI for Data Analysts,0.0
+s12n~S3AHOjkWEe2paRKCrXXxKQ,The Art of Visual Storytelling,0.0
+s12n~RjGZT9rFEeuf5xLDMIVlVQ,Learn English: Writing Effectively with Complex Sentences,0.0
+s12n~Rj6bsW3zEeqg1hJMpsVhyw,Global Procurement and Sourcing,0.0
+s12n~R_qPtn3yEee77xLkt23avA,Object Oriented Programming in Java,0.0
+s12n~RXmxbqnWEeqiXA7IcNvdCw,Data Science Foundations: Statistical Inference,0.0
+s12n~RMZRBbh2EemxRhLL4PfM3A,Arizona State University TESOL,0.0
+s12n~RM8asLB_Eeq8swrFx8pPPQ,Digitalisation in Aeronautics and Space,0.0
+s12n~RBLtOqjrEeWKzg6na9raqQ,Genomic Data Science,0.0
+s12n~R6iYD9cYTxOQjndt23v4Ew,Medical Billing and Coding Fundamentals,0.0
+s12n~PU9Pcj0UEeu_Yg6ZI0UHjQ,Innovation and entrepreneurship,0.0
+s12n~QxM7x--JEeWqDBLlLo2tOQ,Fundamentals of Accounting,0.0
+s12n~Ql2UlKBzRaeF5PNMZ2a_Yw,Generative AI for Project Managers,0.0
+s12n~QVY46CdtRzGOge38WVDDAg,Risk Management Professional (PMI-RMP®) Certification Course,0.0
+s12n~QQGg65luEeugtw5wj3v7iQ,IBM Data Analytics with Excel and R,0.0
+s12n~QQ5c1Vt_TuSo7yidEbTkPw,IBM Data Management,0.0
+s12n~Q860YGPDRX6wSs9lc02eTg,Construction Practices in Deep excavations and Tunnels,0.0
+s12n~Q7ft0KTtEeWVehLHxyUMyQ,Data Science,0.0
+s12n~Q02UEGd3Ee2CNhLmHVBplw,CVS Health Call Center Customer Service,0.0
+s12n~PfbRUmwSEe25uA4dnx38NQ,IBM Back-End Development,0.0
+s12n~PcLcxy4QSEyvznUR586XHA,IBM IT Scrum Master,0.0
+s12n~PaymLStoEeuBuBIWkmAWww,IBM Full Stack Software Developer,0.0
+s12n~PawZoXxSEea8bBKfiJt1FQ,Probabilistic Graphical Models,0.0
+s12n~R6BbtVRuEeyuwBK7I5Qtyw,The Materiality of ESG Factors,0.0
+s12n~ct8BPzmzEe2Wjg4RlAfj9w,Financial Analysis - Skills for Success,0.0
+s12n~cprrzDotSSqcmHahio4ApQ,Agile Approaches for Modern Leadership,0.0
+s12n~cR_MndEVQwqrXxahGetzSg,Generative AI Automation,0.0
+s12n~cQOIYjvBT46HlGkcOW4YjA,Meta React,0.0
+s12n~byRPym0IEe2YMAqfZ7sqDw,IBM Applied DevOps Engineering,0.0
+s12n~braWpVNFEeqwHhLUcpYjUw,Digital Product Management,0.0
+s12n~boESh-VdEeWINQopNpb8SQ,Cloud Computing,0.0
+s12n~bk4QvR_5TD-gB9IwJgv6oQ,Financial Management,0.0
+s12n~bf56AUzfEeWRyA5YS9oHkQ,Web Design for Everybody: Basics of Web Development & Coding,0.0
+s12n~b_vpfZKmEe2Jkg5K4kWy3Q,An Introduction to Learning Experience Design (LXD),0.0
+s12n~b_D1FFq9TXimEWeOnj3ljA,Generative AI Leadership & Strategy,0.0
+s12n~XUSdMa2kSYOQhvrGbJ9yOg,Meta Android UI Development,0.0
+s12n~bS6KvjKVSz-dNHb8MRzXOA,AWS Cloud Technology Consultant,0.0
+s12n~bNw_OXWIQ-iB1WklCwtJ0w,Strategic Leadership in Hospitality,0.0
+s12n~b8Wpk9uuEeyP-hIH2Qe80Q,Leverage Data Science for a More Agile Supply Chain,0.0
+s12n~b5ZhttC7S3Gby0HOT1xddw,Generative AI for Business Analysts,0.0
+s12n~b4BrUoyoEea0qwrbCYNHtQ,Business English,0.0
+s12n~ap9qxDQ1Q1W88vxfUmf0fw,Sustainable Design Practices in Building Design,0.0
+s12n~aj5BypboQzWiMjPVmX0bUw,C++: Data Structures and Algorithms,0.0
+s12n~agEcxHgeRASq8yHxWPRSWA,Google Cloud Data Analytics,0.0
+s12n~afIdOIqTTXG1hBnSenyrQA,Generative AI for Digital Marketing,0.0
+s12n~a_rML4v7EeeJEQ6TH2unjA,Strategic Sales Management,0.0
+s12n~aYYrIEl-EeyCjQ5Y8Mzdsw,Google Digital Marketing & E-commerce,0.0
+s12n~bSfQnt4RSKymiVCB0NlSyw,Preparation for CompTIA A+ Certification,0.0
+s12n~fgru9YzjEeeQDBJk5_hT6g,Blockchain,0.0
+s12n~fZQJkImJEeqajAo9_a2lBw,Linux and Private Cloud Administration on IBM Power Systems,0.0
+s12n~fGi-kdunEeeBjQ4Ukw9GDg,Machine Learning and Reinforcement Learning in Finance,0.0
+s12n~fDtb0AoTRgOatVpaHil5Dw,Microsoft 365 Copilot for Leaders,0.0
+s12n~f7u1rFo5RCSIJSgtMmQHnA,Network Systems: Principles in Practice,0.0
+s12n~erPikCsKEe2dNA6QP3lwyQ,Preparing for Google Cloud Certification: Cloud Developer,0.0
+s12n~elzGL0l-EeyHXRKqb0U9Hw,Google Business Intelligence,0.0
+s12n~ee-zqjm3EeeBJQ4op_FfDg,Developing APIs with Google Cloud's Apigee API Platform,0.0
+s12n~ebC6ALa6Eey9MxK0y2Cstw,Project Management,0.0
+s12n~eYqXuO_qTqegYWvF84wE0g,Explainable AI (XAI),0.0
+s12n~eXW-IYQyEeeKTg5aqvRgsg,Business Strategies for A Better World,0.0
+s12n~ctxTcw3KEe2OFApVUJT_1w,Google Cloud Database Engineer,0.0
+s12n~e9vOiXkrEeyu8xKDDI3NXQ,Home-Based Child Care,0.0
+s12n~e9RQMyXNThGJtEWBZjyi2A,AI Agents in Java with Generative AI,0.0
+s12n~e3wiTwXMEeim8hI7AVpI6A,Mathematics for Machine Learning,0.0
+s12n~dwzq23ZLEei12goo904QNg,IBM Data Science,0.0
+s12n~dp-5Mt6QQSCV-OgSs7HT5g,Tableau Data Analyst Certification Preparation,0.0
+s12n~dnnnqT95TsaRiYc_doQE3w,C Programming for Everybody,0.0
+s12n~dYn5MV0sEeeLTw6GxKRVqg,Development of Secure Embedded Systems,0.0
+s12n~dVxvpVBzSI2qpyGsH77oMQ,IBM AI Product Manager,0.0
+s12n~dT7z_DwLTeaRcJ638U4wkg,Unilever Supply Chain Data Analyst,0.0
+s12n~dSxE02kGQsOqXAMX5fKCVQ,Generative AI Fundamentals,0.0
+s12n~dJkrnxaoSB-1TTCBJJO7Rw,Concrete Multi Storey Building - System Design,0.0
+s12n~d3pm-0jJEe2CkwqHwCBTMQ,Beer Quality,0.0
+s12n~eBVhoHScEeyYUhI6nlNsuQ,"Introduction to Biology: Ecology, Evolution, & Biodiversity",0.0
+s12n~ZbQjH_j9EeqO8Q7gUvI7Qw,Modern and Contemporary Art and Design,0.0
+s12n~Z_bikIcqEemeXQrk27GqYA,Sports Performance Analytics,0.0
+s12n~ZIBOPMDUEei-xRJApul-jA,Statistics with Python,0.0
+s12n~ZCDbjsf1Eeia5RLjKoQB2g,Health Information Literacy for Data Analytics,0.0
+s12n~Z6lBAk_lEee97AqCypYrLA,Excel Skills for Business,0.0
+s12n~Z3IV2rMAEeW3mhLW1_Ertw,Creative Writing,0.0
+s12n~Z0jA_e3uReW3VXAQEAr5pg,Generative AI for Java and Spring Developers,0.0
+s12n~Z-5wCcbTEeqeNBKhfgCLyw,Google UX Design,0.0
+s12n~YzsDaKYTTbOtZbe9XFsBRQ,CompTIA Network+ Certification (N10-008): The Total Course,0.0
+s12n~Yz1bhic5RgOCVeRK1uxdXQ,Microsoft Front-End Developer,0.0
+s12n~YySuXgZPEeaaFQ7972wJ4Q,Recommender Systems,0.0
+s12n~aWgD0ohgSjCnQWZ-iPv6xw,IBM Product Owner,0.0
+s12n~YvWZIUQ4EeiXyA7dYFHEvA,Biostatistics in Public Health,0.0
+s12n~YhL7FHJKEeyKEA6Za5DszQ,Information Technology (IT) and Cloud Fundamentals,0.0
+s12n~YPsPEGJKEeuUGg5k5i4hqQ,Integral Calculus through Data and Modeling,0.0
+s12n~YOnc2XWmEei40g7T-x9kFA,Healthcare Organization Operations,0.0
+s12n~YL9kJR_pEe2R_wo2RF6FuQ,MLOps | Machine Learning Operations,0.0
+s12n~Y5iZ7pB6QLKvuyUILJvcCw,Keller Williams Real Estate Agent,0.0
+s12n~XoE14Pj3QN-Bwaxe1flfmQ,ASP.NET for Experienced Developers,0.0
+s12n~Xk5jdSFeTAOktBHrjY0Kdw,IBM Front-End Developer,0.0
+s12n~XbrUuL9AEeyRUA73PlX3yQ,Meta Back-End Developer,0.0
+s12n~XZyNPfvcS0KnHrJbtV9f7A,IBM Digital Marketing and Growth Hacking,0.0
+s12n~XZeuiy7pR5qeZeOfWIzqXg,IBM Full-Stack JavaScript Developer,0.0
+s12n~XYs2MQbBSGigTn1qOXGh4Q,Drug Development and Pharmacoepidemiology,0.0
+s12n~Yx1iObpqRB-SuP1ppNI6UQ,Chip based VLSI design for Industrial Applications,0.0
+s12n~aRmKioC7Eea2Vw7UtLDhdQ,Six Sigma Yellow Belt,0.0
+s12n~aEPB1K-GTKm1Yl7dX_sD5w,AWS Cloud Support Associate,0.0
+s12n~aDZV7StjEeu8FgroulzDIw,Data Engineering Foundations,0.0
+s12n~a9PgA8dlQdq2X05pcRS0Kw,ChatGPT: Master Free AI Tools to Supercharge Productivity,0.0
+s12n~_wpAMSCMRXucEaKrY-RISA,SOLIDWORKS xDesign for Education,0.0
+s12n~_u-5WC22EeandQ6BurPvEQ,Learn English: Advanced Grammar and Punctuation,0.0
+s12n~_quj9TK6EeyT8xKdcQQUGQ,Mathematics for Machine Learning and Data Science,0.0
+s12n~_U5cASTxEemuhAoKFebZeA,Natural Language Processing,0.0
+s12n~_TxcTz0HEe2-uhLr72aZ_Q,Mergers and Acquisitions,0.0
+s12n~_Psa5V0DEeiCpAqWIh3KHA,Music Business,0.0
+s12n~_LT0uqkwEeW2oAoezfJUNw,Foundations of Management,0.0
+s12n~ZiHm5v97EeuB3hKty_AkbQ,Microsoft Azure Data Scientist Associate (DP-100) Exam Prep,0.0
+s12n~_Fk2Gi3cEeiHghIydZ_0lA,Introduction to Data Science,0.0
+s12n~_DKB-EeMEeWpwg5iaKtymQ,Academic English: Writing,0.0
+s12n~_A186LQQTba9kEbzCKE47g,Microsoft Public Relations and Communications Associate,0.0
+s12n~_9ttRdUhEeyYJRJMjHWvow,Meta React Native,0.0
+s12n~_6_rUTLnQ62ZhBmjOxTlGA,Future Ready Company,0.0
+s12n~_4M35p3hEeW71hJz8qxoWw,Inspired Leadership,0.0
+s12n~_32zWIhbEemOWgrfcpVN7g,Epidemiology in Public Health Practice,0.0
+s12n~ZxUbYRX3EeWXAyIAC0mP-A,Interaction Design,0.0
+s12n~ZwOPfLMgEeW1-RKql4-XpQ,Human Resource Management: HR for People Managers,0.0
+s12n~ZtbS2tDqEemmzBL13JFZTg,Data Science: Foundations using R,0.0
+s12n~Zrasx6gnSCKt3RTf45mz9Q,Prompt Engineering for Law,0.0
+s12n~Zr7lPblmEemQRhI-rkeuOA,Preparing for Google Cloud Certification: Cloud Architect,0.0
+s12n~_JNR7JitEey4Fw6cQWvEVw,Business Value and Project Management,0.0
+course~HloCiCTlEe6pnhJXpYDbPw,Advanced Threat Hunting and Incident Response,0.0
+course~HjlVBHJLEeys9RJMWW48Yw,From Likes to Leads: Interact with Customers Online,0.0
+course~HdsKSav3Ee6oQA6J-7B2nw,The AI Awakening: Implications for the Economy and Society,0.0
+course~Hb0M4lPyEeiNrg7HoBf7gA,State Estimation and Localization for Self-Driving Cars,0.0
+course~HYRp27nLEe2p8w7w8oWO7Q,Leadership Skills,0.0
+course~HPabOEObEe-xLxIpRr2Opw,Applied Statistics for Data Analytics,0.0
+course~HJ-ixLNjEeuulAq3NfAu8w,AI Fundamentals for Non-Data Scientists,0.0
+course~HIZsNkg2Ee--LxKeIkG8pQ,Advanced Exploitation and Scripting Techniques,0.0
+course~Gyll8Zh9EeWZyg6bf_Oxkw,Algorithms for DNA Sequencing,0.0
+course~Gjz1aNrOEeew_BLWWJGXIA,"Corporate & Commercial Law II: Business Forms, Financing & Governmental Regulation",0.0
+course~GixeETxVEeW0tw4knrMo3Q,The Horse Course: Introduction to Basic Care and Management,0.0
+course~o0WuM5Q9EeqcUw5ApMKwQQ,Build a Full Website using WordPress,0.0
+course~GdeNrll1EeSROyIACtiVvg,Learning How to Learn: Powerful mental tools to help you master tough subjects,0.0
+course~G_x-3vtNEe6RWQr_yLqxhQ,Data Storage and Queries,0.0
+course~GY2Yx6DxEeSt6SIACzgCKw,"Nanotechnology and Nanosensors, Part1",0.0
+course~GVM_iUAKEe2G8Are2MuL1Q,Connected Leadership,0.0
+course~GSl1EaxJEeytqw64hz8ZCw,Probability & Statistics for Machine Learning & Data Science,0.0
+course~GPCKNtGGEeiXJAqhyc52XA,"Managing ADHD, Autism, Learning Disabilities, and Concussion in School",0.0
+course~GGlYeNHJEeq7SQ7kpEztwQ,"Introduction to Containers w/ Docker, Kubernetes & OpenShift",0.0
+course~GDQMSxDWEeitFhJL4G-A_g,Databases and SQL for Data Science with Python,0.0
+course~GCbhVSsqEeWNaBKfE9kXTQ,Sports and Society,0.0
+course~G7SDef75Ee2ggA7J4inhdw,From Excel to Power BI,0.0
+course~G6SPg3t8EeeAExLLhasP5A,The Oral Cavity: Portal to Health and Disease,0.0
+course~Gie_imFdEe-IJwr_9LLznw,Introduction to Using Generative AI in Public Health,0.0
+course~JLygJMCgEeWP5g5dlaZx4w,Introduction to Logic,0.0
+course~JKq-M955EeqPZRKxGtAxBQ,Human Resources Analytics,0.0
+course~JKAOcLlzEe2p8w7w8oWO7Q,Applied Computational Fluid Dynamics,0.0
+course~JJ-30GFmEe-e0g4kKcdYJQ,Advanced Resource and Enterprise Management in Primavera P6,0.0
+course~J6z6RQ2iEeeY9w43qQI3Ag,Stories of Infection,0.0
+course~J4Qy7XVyEe2NfQrJY4RGtQ,Animal Welfare in the Clinic,0.0
+course~J3nj1lK9Ee6vcBLofv-8JQ,Introduction to Technical Writing,0.0
+course~J2Pao0_lEeeF5RIYZYolcA,Excel Skills for Business: Advanced,0.0
+course~Is9jHhyKEeaHoAovRHhd_Q,Understanding Einstein: The Special Theory of Relativity,0.0
+course~ImvKytoSEe6PnQom9vUvGw,Precast & Advanced Pile Foundation,0.0
+course~IWNI-HUhEe-CnQ7q4pwsMw,Advanced Frontend Development and Deployment,0.0
+course~HsC39rOVEe-sywr_75D7Fw,Advanced Security and Troubleshooting,0.0
+course~IKyL5K93Eeusrg6wKBIcAw,Linux System Programming and Introduction to Buildroot,0.0
+course~IHj30jVIEe6U4g7a-RyA1w,The Nurse's Toolkit,0.0
+course~IH7VjpoSEeWxTA6NLywNHw,Microeconomics: The Power of Markets,0.0
+course~IGWP1eGHEeaOxRITIX-jtA,"Teacher SEL: Programs, Possibilities, and Contexts",0.0
+course~I8mIMYbZEe--oAr_y6Q6Xw,Excel and Copilot Fundamentals,0.0
+course~I6GhBnW1Ee-Quwr_1ABTmQ,Sustainability for Business: ESG Fundamentals,0.0
+course~I3nP7kL8EeypEA5T4OEwIQ,Water Cooperation and Diplomacy,0.0
+course~I3YEDMSkEeyZlw5yhMZTYQ,Introduction to Comparative Indo-European Linguistics,0.0
+course~I3MKFTq0Ee6PABLgKXk5yQ,Generative AI: Introduction and Applications,0.0
+course~I1IGpxxZEe-Ojg4Sufxjbw, Introduction to Tech Sales,0.0
+course~HxW1_n3iEeyRTg6FtAvfBw,Nuts and Bolts of U.S. Immigration Law,0.0
+course~HuyizibGEfChkRLiydouaQ,Accelerate Your Job Search with AI,0.0
+course~IMUdhjZyEeei6hJT8psMrA,Managerial Accounting Fundamentals,0.0
+course~E4qx-uGHEea3eBJNnUT9aA,Expanding SEL,0.0
+course~E2noIXnEEeqAgA5qAtp8VQ,Fundamentals of Finance,0.0
+course~E1sS47gdEeuhvApQ-8cGMw,Pricing Options with Mathematical Models,0.0
+course~DzPiWTeDEeWCYBKNeFwojw,The fundamentals of hotel distribution,0.0
+course~DzG2FQIKEfCehwr_ziEUiw,"Security Governance, Compliance & Risk Management",0.0
+course~Dx4kMgeyEe2xiRKaoDccyw,The Path to Insights: Data Models and Pipelines,0.0
+course~DwsRPN8cEeW_vBIaUVB1Gw,English for Media Literacy,0.0
+course~DmetrPp5EeScaiIAC9WIJw,Foundations of Teaching for Learning: Introduction,0.0
+course~Dk1CwPx5Ee2ggA7J4inhdw,Microservices and Deployment by using ASP.NET,0.0
+course~DiDeOUQdEe-YIQr_7tz45w,Vertex AI Search for Commerce,0.0
+course~DbsMzp0yEeuqXwpHmVKljw,Assets in Accounting,0.0
+course~G-GCrOG4Ee6kgA4xMDRraQ,Advanced Microsoft Power BI,0.0
+course~DMj3I-RZEemNmw4gGersHg,Developing AI Applications on Azure,0.0
+course~DLOMj4cTEeWgrxLS5SGTUQ,Circadian clocks: how rhythms structure life,0.0
+course~D7V2hOcDEeqWPAocwN4sNQ,How to Manage a Remote Team,0.0
+course~D6wKTFSTEeqIdQr9mYZ_6w,Microwave engineering and antennas,0.0
+course~D5GKj_UHEeSBSSIAC7JSBQ,Animal Behaviour and Welfare,0.0
+course~CvxnisdEEeyduw6ktL3Xvw,Advanced React,0.0
+course~CrTQ-HcpEe24qw7yCbSVjw,The Science of Well-Being for Teens,0.0
+course~ClCx1sbdEeShXyIAC5MC2w,EDIVET: Do you have what it takes to be a veterinarian?,0.0
+course~Ckas6KfpEeS3eyIACw6YLg,Computer Architecture,0.0
+course~Cil8XPTgEeSlpiIAC7NwBA,Scaling Operations: Linking Strategy and Execution,0.0
+course~CaoVzSbOEeiBDw6x0cqOxA,The Economics of Health Care Delivery,0.0
+course~DaK_AW1DEe6ZoQ5WeLvw3w,Product Management: Capstone Project,0.0
+course~FwLlxFfeEeWWpxI8aBTOyQ,Research Data Management and Sharing,0.0
+course~Fw4ZgaAIEeSrPCIAC1SWlw,Applications in Engineering Mechanics,0.0
+course~FuHL-RuOEeSduyIAC0iV4g,Economics of Money and Banking,0.0
+course~FmDuCnEzEeWKsgrp3VnvAw,Introduction to Ancient Egypt and Its Civilization,0.0
+course~FkAMrrwEEey8ogoy0lwspQ,Introduction to Software Engineering,0.0
+course~Fk0RyfhqEeaQswpW71qb2A,Digital Product Management: Modern Fundamentals,0.0
+course~Fhgepv_gEe2Saw6X32yGyQ,Transformer Models and BERT Model,0.0
+course~Ffu_H13iEeWozxKwtAxdTQ,Industrial Biotechnology,0.0
+course~Fd6QnPtKEemFyg4D4d033g,Non-Equilibrium Applications of Statistical Thermodynamics,0.0
+course~FTSm_5CLEe63Ww6tPe9iow,Generative AI: Elevate your Software Development Career,0.0
+course~FOu5AXsIEeynSxJpnIcphQ,Assess for Success: Marketing Analytics and Measurement,0.0
+course~EFE0z-diEeqf6wpdchecaQ,Building Test Automation Framework using Selenium and TestNG,0.0
+course~F7TrXNgqEeqgHg6I6dtGEQ,AI in Healthcare Capstone,0.0
+course~F4iXBmFQEe-IJwr_9LLznw,Advanced Scheduling and Project Optimization in Primavera P6,0.0
+course~F3InFyfJEe2-5Aqhzcov3w,Google Advanced Data Analytics Capstone,0.0
+course~Exn6t_SUEe2OqwqhrYNGhQ,Introduction to Large Language Models,0.0
+course~EtEAgQeUEea_hRLvvwwU3Q,Nutrition and Lifestyle in Pregnancy,0.0
+course~EmkjvJ-SEeW_wArffOXkOw,Introduction to Human Behavioral Genetics,0.0
+course~Ek1UCh6lEfCpIQr_6QDb7Q,Use AI Responsibly,0.0
+course~EhrTDBShEeufuRKzxereqw,Managing Emotions in Times of Uncertainty & Stress,0.0
+course~E_qyttyREe-wCRJeqyWoKQ,"Create Embeddings, Vector Search, and RAG with BigQuery",0.0
+course~EZ8JZyXgEeyYSQpZ2Lq_Yw,Advanced Django: Introduction to Django Rest Framework,0.0
+course~EVcT76u-Ee-NGg6igj04HQ,Supply Chain Digitization: Strategy and Design,0.0
+course~ESRGuuYzEeeUDhLeFYRShg,Corporate Sustainability. Understanding and Seizing the Strategic Opportunity ,0.0
+course~FOGKYF0gEeWK1woL5P9cGQ,Management of Urban Infrastructures – part 1,0.0
+course~OmP4nwi9EeajCxI_63r-IQ,Construction Project Management,0.0
+course~Ol995_nNEeqPcRK1zDoKmw,Global Quality Maternal and Newborn Care,0.0
+course~OjaSM7OyEe-dwg4HQ74J2Q,Advanced Penetration Techniques,0.0
+course~OUTGOrvTEeWuCAqiwoZfSw,Introduction to Data Analysis Using Excel,0.0
+course~ORAIlTLtEeizIBKbQHnlqg,Data Visualization with Python,0.0
+course~ONqjrYvhEe-Prw4pgRltBQ,AI in Education: Leveraging ChatGPT for Teaching,0.0
+course~OHlOT2raEeq6owp3Zy5rmQ,Evaluations of AI Applications in Healthcare,0.0
+course~OGav0rNjEeuulAq3NfAu8w,AI Applications in Marketing and Finance,0.0
+course~OEZ3_J-PEeWaZBIXh-2nQw,Introduction to Mathematical Thinking,0.0
+course~OEDC3vkuEeiBBgreLr0GPA,The Basics of Trauma Surgery,0.0
+course~ODnbKv_6EeSa0SIACyGBQw,The Modern and the Postmodern (Part 1),0.0
+course~JVhTlTkQEe-9Ig7qA4dB5w,Blueprint to Brilliance Through Interior Design,0.0
+course~OBdSldfdEe22LAo38arT7w,Core 1: Hardware and Network Troubleshooting,0.0
+course~O6SzVx2GEeSKwCIACzUCbQ,Introduction to Communication Science,0.0
+course~O4mu-3x7EeebFhKtvlPomA,Control Systems Analysis: Modeling of Dynamic Systems,0.0
+course~O3t-aJvgEeqovwoNHSIRrQ,Advanced Relational Database and SQL,0.0
+course~NyzO9f9QEeiU2RImQolf6g,Term-Structure and Credit Derivatives ,0.0
+course~Nyq7nXzPEeWb-BLhFdaGww,Medical Neuroscience,0.0
+course~NyjWc9BHEeqnlw5xS4s2_w,Construct Stock Market Indices,0.0
+course~NuURhNBsEeyDjw4-lQuHnw,"Virtualization, Docker, and Kubernetes for Data Engineering",0.0
+course~NUv6qNeZEeixABKGvtnuRA,Trademark Law,0.0
+course~NSxhuc9cEeWczg7kSY_tVQ,Behavioral Finance,0.0
+course~NSGc8tiHEeiHIA7llb1GCg,Effective Compliance Programs,0.0
+course~OCmWe-50Ee2_1Q54ZEzvJQ,The Fundamentals of RDMA Programming,0.0
+course~Q-k30r9JEe-ADgr_3OZlyQ,Advanced Security Strategies and Incident Response,0.0
+course~PwEwVKXfEeSlhSIAC3tQMw,International Business I,0.0
+course~PsTsfU0LEeWfzRIay-bDMQ,Mountains 101,0.0
+course~Pr5NLlPyEei-RQ6pitSIHg,Visual Perception for Self-Driving Cars,0.0
+course~PqzQ083AEeuv8RLqjtEE6Q,Stepping Up: Preparing Yourself for Leadership,0.0
+course~PqlXBpLiEem75hL5jIDtuA,Natural Language Processing with Sequence Models,0.0
+course~PlpNlmwSEe2BqQ42L7X-Zw,Back-end Application Development Capstone Project,0.0
+course~PeAVvmUJEe2NnA4jep2fLw,Connect and Protect: Networks and Network Security,0.0
+course~Pe7fmStoEeuLaArN6b47Fw,Full Stack Application Development Capstone Project,0.0
+course~PdDHPHsIEeyRTg6FtAvfBw,"Make the Sale: Build, Launch, and Manage E-commerce Stores",0.0
+course~P_O_iZfiEeWZyg6bf_Oxkw,Implant Dentistry,0.0
+course~OmgIw0C2EeWZtA4u62x6lQ,Qualitative Research Methods,0.0
+course~PKJBXN8SEeWxQg6ioCYbHw,The Truth About Cats and Dogs,0.0
+course~PIjXhuA6Ee6Euw6HK-YxMQ,"Grouping, Testing & Quality Control of Pile Foundations",0.0
+course~PI-xSbH_Ee2d3wo_DItpEw,Narrative Economics,0.0
+course~PFbtELlwEe-eKxJKZPOGuw,Change Management,0.0
+course~PBmg0TKwEe-YcA77IVc2yQ,Design of Precast System,0.0
+course~PBDZjwQXEe6voRLuX7kBgQ,Introduction to Advanced Calculus,0.0
+course~P9XYJwlSEeyfCRK_crecDw,Create a Targeted Ad With Facebook Audience Insights,0.0
+course~P7_csxAJEeqm6go0EFEPzw,Excel Fundamentals for Data Analysis,0.0
+course~P7YlLsS5Ee-LvhIuPUA7nw,Advanced Blockchain Development and Solidity Projects,0.0
+course~P71s724mEeaWZAqzz79ZVw,Nanotechnology: A Maker’s Course,0.0
+course~P2YxY9LdEeyhCAqpgS-1QQ,React - Working with Higher Order Components,0.0
+course~P--h6zpNEeWYbg7p2_3OHQ,Python Data Structures,0.0
+course~PZNTj2DEEeWVEg5QpF1H_w,The Emergence of the Modern Middle East - Part I,0.0
+course~L8kGsnUDEe-CUA7-5BJkaw,Generative AI and Blockchain,0.0
+course~KyidPVnDEe2gzxKTs6WidQ,How to Create an Online Course,0.0
+course~KkFXzUXEEeWb8RJf7Z1H0w,Operations Analytics,0.0
+course~KiBHguBOEemNmw4gGersHg,Machine Translation,0.0
+course~KbAzfZkfEemG9Q7ob3lqoA,AI Capstone Project with Deep Learning ,0.0
+course~KP52Z2s_Ee2CbQqxFqCfMQ,Introduction to 3D Modeling,0.0
+course~KLaT6gDHEe61ehL_R60lVw,Practice Exam for CAPM Certification,0.0
+course~KK4EhXQMEeSc3CIACrbZqg,Financing and Investing in Infrastructure,0.0
+course~KIXN8B6lEfCgrRIWRVUcaw,Stay Ahead of the AI Curve,0.0
+course~KEFD9MgtEemfZAp9ePwIcA,Anatomy of the Upper and Lower Extremities ,0.0
+course~KC6DzQqDEeenAhJZe8ktbg,Science of Exercise,0.0
+course~NRRbf9zWEeqPZRKxGtAxBQ,Data Visualization and Dashboards with Excel and Cognos,0.0
+course~K6uJ6VNhEe-SdxJ_Axw1wQ,Foundations of AI and Machine Learning,0.0
+course~K6eKOP5VEe-ehwr_ziEUiw,Observing Earth From Space,0.0
+course~K4eYfU1aEeWigQ4Vtn6olw,Teaching EFL/ESL Reading: A Task Based Approach,0.0
+course~K17LGbYiEe60XAp4D5XYaQ,Creative Coding for Designers Using Python,0.0
+course~K0cCzBtHEeWsqgoIBu2JdQ,Mechanics of Materials I: Fundamentals of Stress & Strain and Axial Loading,0.0
+course~JwG-kuBNEemOxxIXN39M3A,Probabilistic Deep Learning with TensorFlow 2,0.0
+course~Jlb51UBBEe6G8RImwftfnQ,Build a Data Warehouse Using BigQuery,0.0
+course~JlUhtB9REe-NORInCGzBHw,Bioinformatics Methods for Transcriptomics,0.0
+course~Jk0xds3AEeu0KQ5V9fFcUQ,Getting Started with Leadership,0.0
+course~JhXojhggEeiB7BJMyhcJoA,Introduction to Statistics,0.0
+course~JgizCkpTEe-LJA6-o-C_Pw,Static & Dynamic Analysis for Technical Testing,0.0
+course~JWd4VXqhEeaDmw5QsxT7tQ,Positive Psychology: Martin E. P. Seligman’s Visionary Science,0.0
+course~K9cwvyTbEeenjw6oiOFT7g,Assessment in Higher Education: Professional Development for Teachers,0.0
+course~NQzoSrbsEe-sywr_75D7Fw,"Governance, Risk, and Compliance",0.0
+course~NK4HGIyVEe64ThKbQraZ2w,In core nuclear fuel management,0.0
+course~NDBJAUWDEeWbNhIvIryYow,Investment Management in an Evolving and Volatile World by HEC Paris and AXA Investment Managers,0.0
+course~MzfG3f9QEei65w7Gl4XZlA,Introduction to Financial Engineering and Risk Management,0.0
+course~Mxi2ziJqEe-qLxJFbw2Hbw,Tunnel Construction Practices ,0.0
+course~MceJa95cEeu-EQpycSBBow,Emotional Intelligence: Cultivating Immensely Human Interactions,0.0
+course~MWvdwMVpEeeoqQp801tMaA,Corporate & Commercial Law I: Contracts & Employment Law,0.0
+course~MUpfFczREeqgsQo8LuuopQ,Design a Client Welcome Kit using Canva,0.0
+course~MRn9RDRmEe-f9Q6oSqnk-Q,Planning & Execution plan in Heavy Lifting,0.0
+course~MQKF8pqsEea7IQ5foiOduA,Six Sigma and the Organization (Advanced),0.0
+course~MBqC4XJLEeys9RJMWW48Yw,Think Outside the Inbox: Email Marketing,0.0
+course~L9NllAEGEfCglg6vww23RQ,Enterprise Product Management Fundamentals,0.0
+course~LzAc0DSdEeWgIQ7IEhB31Q,Moralities of Everyday Life,0.0
+course~LtBbEeGHEeaJ4g5huBPuvg,SEL Capstone,0.0
+course~LsMF0rxtEei1aQ5Zl9xCuA,Recommendation Systems on Google Cloud,0.0
+course~LcLAGMEVEeWvUhLEBd1H9w,The Art of Music Production,0.0
+course~LavAmus3EemMjhKUVpGhxg,Principles of Sustainable Finance ,0.0
+course~LaPkiBkDEeW2kQ6Me2SR7Q,English for Teaching Purposes,0.0
+course~LSdHKz7rEe-9Ig7qA4dB5w,Advanced Machine Learning and Deep Learning,0.0
+course~LSKyLoqnEeiA2BLnQCAh6g,Instructional Design Foundations and Applications,0.0
+course~LNFPOBsAEfC5wQ7Ux-t3bw,Understanding Food Regulations & Food Labeling,0.0
+course~LD8hNEdxEeaDoBKORUcroQ,Essentials of Global Health,0.0
+course~LC1bjKXBEea5PBJ4o_7wGg,Particle Physics: an Introduction,0.0
+course~LBkkbZLiEemsugp4Hlq9wA,Natural Language Processing with Probabilistic Models,0.0
+course~M-45KyN0EeqCgRKukXAJ-Q,AI for Medical Diagnosis,0.0
+course~3bkTOtzVEequVRKuqBsDQw,Excel Basics for Data Analysis,0.0
+course~3YMpurRPEe2RFw58751QMQ,Foundations of Software Testing and Validation,0.0
+course~3XjyPKx5Eea6Cg7XADBQSA,Practical Time Series Analysis,0.0
+course~3XMnuVFsEemYkgoCaF1HCg,Using Python to Interact with the Operating System,0.0
+course~3UY0FCmGEeWFggqB2SRvtQ,"The Modern World, Part One: Global History from 1760 to 1910",0.0
+course~3Tb7X0KLEe-WHQr_8jC3HQ,Advanced Rust Programming,0.0
+course~3GI7XOiOEe-mrRK-FPQYAw,Practice Test for CompTIA Data+ Certification,0.0
+course~3G1aij8iEeWKOBLv1z6n9w,First Step Korean,0.0
+course~38NofaD9Ee-BtBK6nJIJew,One Health Investigations of Outbreaks and Spillover Events,0.0
+course~34FY-j5LEe-xLxIpRr2Opw,Six Sigma White Belt,0.0
+course~33tTdzylEeWpogr5ZO8qxQ,International Leadership and Organizational Behavior,0.0
+course~CRZJ8GykEeWbyw5d8C-Blw,Positive Psychiatry and Mental Health ,0.0
+course~2zoj9oPUEe6CAw5QzIAFRQ,Fundamentals of Financial Analysis ,0.0
+course~2mShqDVyEeW6RApRXdjJPw,Foundations of Teaching for Learning: Developing Relationships,0.0
+course~2m8aPCfIEe2-5Aqhzcov3w,Regression Analysis: Simplify Complex Data Relationships,0.0
+course~2iD7dxkvEeW9dA4X94-nLQ,Introduction to Financial Accounting,0.0
+course~2hftuq2dEeW8PhJ7jZ5xaQ,The Finite Element Method for Problems in Physics,0.0
+course~2epAn7lzEe-Xow4gBs9Frw,Microsoft Project 2021 From Beginners to Advanced,0.0
+course~2crM6R35EeqABw5uz2mAtw,Write A Feature Length Screenplay For Film Or Television,0.0
+course~2_Dj7A0KEearKQowajWNkQ,Writing in the Sciences,0.0
+course~2QkuOO-uEe-sAw4IUmNkyw,Data Architect Capstone Project,0.0
+course~2PuiSw41Ee-F5Ar_6pGsqw,Applied Information Extraction in Python,0.0
+course~2K-pi_e3Ee2VmA6uZNJ63w,Data Analysis and Visualization with Power BI,0.0
+course~32Zq6ia1EeyxgAr51Gjbpw,Advanced Django: Advanced Django Rest Framework,0.0
+course~5mAuak8zEemKoQ4qeYq26g,Convolutional Neural Networks in TensorFlow,0.0
+course~5fjDBd9oEeuTww4ta8ZJrw,Introduction to Machine Learning: Supervised Learning,0.0
+course~5ebdzp6HEe6OLRIoLG614w,Space Exploration,0.0
+course~5TWYj6aKEeSKZCIACymNCQ,How Things Work: An Introduction to Physics,0.0
+course~5D-g-HEiEeWKsgrp3VnvAw,Preparing to Manage Human Resources,0.0
+course~5AYG1NbQEeWEOQ7ZE5jC0Q,Advanced Neurobiology I,0.0
+course~57qeWvNFEeiLsQ7UWwj8jA,Object-Oriented Data Structures in C++,0.0
+course~56WnmkLyEeWstQoYgPEx5w,Customer Analytics,0.0
+course~50CbBIXOEeuuVxILgxt9Nw,Bayesian Statistics: Capstone Project,0.0
+course~4vLX1NAeEeWihQ6ogHC6vQ,Biology Meets Programming: Bioinformatics for Beginners,0.0
+course~4tHoAq3EEeSk9iIAC49U6w,Management of Fashion and Luxury Companies,0.0
+course~3obxa2UJEe2NnA4jep2fLw,Sound the Alarm: Detection and Response,0.0
+course~4UZkQKkqEeyxDg4ukgkVlw,Building a High-throughput VPN,0.0
+course~4Ku__6V6Ee-syBKvuiDv_w,Managing AI Projects: From Strategy to Delivery,0.0
+course~4B7lX2rZEeqUZwrkS_2HfQ,Introduction to Clinical Data,0.0
+course~4A6S429GEe-aHBJ1q-AXBQ,Foundations of Usability Testing,0.0
+course~487jV_KLEeS5LyIAC3lSsg,Copyright for Educators & Librarians,0.0
+course~487N_QqXEeeqsQo32tjRBA,Sensors and Sensor Circuit Design,0.0
+course~46b4tHEkEeWbbw5cIAKQrw,Business English: Networking,0.0
+course~469AxGCiEeWQAgqoue9YNw,Forensic Accounting and Fraud Examination,0.0
+course~40P-6j0PEeuwehK5Ir7QEw,Entrepreneurial Mindset,0.0
+course~3uRPpdGFEeiElA6q2-9yxA,Researcher Management and Leadership Training,0.0
+course~3rK9fn00EeyRTg6FtAvfBw,Finance of Mergers and Acquisitions: Valuation and Pricing,0.0
+course~3oznDIM5EeeW1A7RTAITCg,I/O-efficient algorithms,0.0
+course~4q1YCc97Eeux6ApRYvYN1w,Data Engineering Capstone Project,0.0
+s12n~zjWaXRMhEeudwgrn4wF8EQ,Data Analysis and Visualization Foundations,0.0
+s12n~zj2VppjQEeWh0Q5bBaG7rw,Data Structures and Algorithms,0.0
+s12n~zh7400XtEeWUww73KBYvPw,Machine Learning,0.0
+s12n~zgK_5Q8CEeu-sxLx_g1Pbw,Think like a CFO,0.0
+s12n~zRnwN2HTSqeM6PwLXqKLRg,Luxury Hospitality & Brand Innovation,0.0
+s12n~zQ29Z0cJEey1jhLpt2nhVQ,Databases for Data Scientists,0.0
+s12n~zNtJTbPUEeWVOwrJiBe1eQ,"Effective Communication: Writing, Design, and Presentation",0.0
+s12n~zJu-JZwwEeWUOw5EEPUY1Q,Entrepreneurship,0.0
+s12n~z7V3k2lpSYuDpotDmZC0Xg,Semiconductor Characterization,0.0
+s12n~z-nF3eTlEeuOxhKXwUP1Mw,JavaScript Security,0.0
+s12n~ynEcDwHkTVKDqjC3KNJspA,Business Finance and Data Analysis Fundamentals,0.0
+course~2CmrnoalEe-Prw4pgRltBQ,Document Design,0.0
+course~0QsUTZowEeWOGRJpcxIcbQ,"Transmedia Storytelling: Narrative worlds, emerging technologies, and global audiences",0.0
+course~-CoDwy4CEe-GuAr_9hcaqw,Mastering Geospatial Analysis with QGIS,0.0
+course~-A_ToPNPEeSAEiIAC9TCSQ,Introduction to Environmental Law and Policy,0.0
+course~-8cOpydnEeaTvRKF2VtmxQ,"Brand Management: Aligning Business, Brand and Behaviour",0.0
+course~-7ZymCvBEee6gA5XksfBbg,Structuring Machine Learning Projects,0.0
+course~-6EEg0s4Ee-4ug4_QNLLSQ,Mastering Reviews and Test Automation: Techniques & Tools,0.0
+course~-3PuGcl0Eeuiewq9VRQV-Q,Working with Subqueries in SQL,0.0
+course~-28Ns4tvEeiqpQ4udDR_iA,Real-Time Project for Embedded Systems,0.0
+course~-1YwAnTLEeSjmyIAC0aXFg,Supply Chain Management: A Learning Perspective ,0.0
+s12n~zn_b0Y_lEeqE2Q5NANyNFw,IBM AI Foundations for Business,0.0
+course~-MAs2uGGEea3uhKgRSNY-g,The Teacher's Social and Emotional Learning,0.0
+s12n~yQX-97MQEeWV-A6Oxpvjnw,Healthcare Marketplace,0.0
+s12n~yhVe4SiFTQmpIbGvlFfblQ,AI for Mechanical Engineers,0.0
+course~2ANb0L-dEemFVw7IyiC1YA,Ideal Gases,0.0
+course~26_hjkfLEeiCFArE3fR-sA,Precision Medicine,0.0
+course~25Fh8ivBEee6gA5XksfBbg,Sequence Models,0.0
+course~1yIis0hAEe-xRA6omnSgfQ,Certified Kubernetes Security Specialist (CKS) Course,0.0
+course~1vPJxy2WEe-MmBK4EgZ1qQ,Product Owner Capstone,0.0
+course~1ic9zoLdEemHmA6aH8Ctzg,Biomedical Visualisation,0.0
+course~1h1TW8f-Ee2EthIjloVnZw,Advanced Creative Thinking and AI: Tools for Success,0.0
+course~1ZacN53KEeWlGQ5Xb9b0kw,Fundamentals of Quantitative Modeling,0.0
+course~1X2jauU9Ee2dBg70uMCUbw,Spacecraft Relative Motion Control,0.0
+course~1WEwdGF8Ee-e0g4kKcdYJQ,Program Manager Capstone,0.0
+course~1VReQ9IxEe2_vw4ejszVZQ,Prompt Engineering for ChatGPT,0.0
+s12n~zkV7-RZKEea3nArFC-QKGw,Music Production,0.0
+course~1BM3lirjEeWLVg5w1LoYqQ,Econometrics: Methods and Applications,0.0
+course~169qQQGfEe-knBIDDnXmpw,Renew your CBRS Professional Installer certification,0.0
+course~15Vdj48GEe6xzArT8MnIvQ,The Business Intelligence (BI) Analyst Capstone Project,0.0
+course~11M8QVycEei2JhJcHFNI1A,Electrodynamics: Analysis of Electric Fields,0.0
+course~111igE2DEe6t5QqZGaqvvw,Operations Excellence,0.0
+course~1-6HgCIEEey-7g6YTy-Atw,Foundations of Telehealth,0.0
+course~0w0JAG9JEeSp0iIAC12Jpw,Computational Neuroscience,0.0
+course~0u17FwCkEe-V-Ar_6U5oYw,Quality Improvement and Management,0.0
+course~0sBMQx9NEee9pAq1iMODtg,Silicon Thin Film Solar Cells,0.0
+course~0h1ANx6jEfCpIQr_6QDb7Q,Use AI as a Creative or Expert Partner,0.0
+course~0ShPcru2EeWuCAqiwoZfSw,The Social Context of Mental Health and Illness,0.0
+course~-FCmAR6kEfCpIQr_6QDb7Q,Discover the Art of Prompting,0.0
+course~1BZbGR6kEfCpIQr_6QDb7Q,Maximize Productivity With AI Tools,0.0
+course~Ad7OaubIEe2nnBJXwaSqgQ,Preparing  Data for Analysis with Microsoft Excel,0.0
+course~AZZak_fXEeiy5gqB-GZ7rA,Preparing for your Professional Data Engineer Journey,0.0
+course~ARf5_jvZEeeYEBLbuVGJ2g,Mathematics for Machine Learning: Linear Algebra,0.0
+course~APP6hYtvEeizIxKXmUKATg,Real-Time Embedded Systems Theory and Analysis,0.0
+course~AMClEWuwEea2sQr3_73xCQ,Embedded Software and Hardware Architecture,0.0
+course~A0IYf6jOEeSnlCIAC1EMbw,Terrorism and Counterterrorism: Comparing Theory and Practice,0.0
+course~A-mlqGraEeqabRLxncWhlw,Fundamentals of Machine Learning for Healthcare,0.0
+course~9xG8yUo7EeeJdBL3H0RODg,Essential Google Cloud Infrastructure: Core Services,0.0
+course~9voo3M_1Ee2ungry-zmhYQ,Web3 and Blockchain Fundamentals,0.0
+course~9smi4aV5Ee-7Jwr_3K761Q,Introduction to AI: Key Concepts and Applications,0.0
+course~9paKlrDIEeqPAQ6DYjMmAw,Social Media Management ,0.0
+course~5ucusPjuEe-jCgr_wH8PfQ,Field concreting,0.0
+course~9fePAbQLEeWu-gqgbeGTiQ,Material Processing,0.0
+course~9TRjTLOtEe-JHhL4HU-TUQ,Advanced Linux Networking and Security,0.0
+course~9RgOPGtzEe-Quwr_1ABTmQ,The Merge Sort Algorithm,0.0
+course~9DkW4SOoEei1GgpVZ5bYIA,International Humanitarian Law in Theory and Practice ,0.0
+course~94jQ-3EnEeWhZxJhllGpHQ,Managing an Agile Team,0.0
+course~90jPQTcuEeyeYA42DXbPkQ,Employment Contracts,0.0
+course~8lqaWj4AEe6hFxLQCGE4Mw,"Advanced Data Structures, RSA and Quantum Algorithms",0.0
+course~8bBOr15WEeW5iQpSR8Sfhw,Foundations for Assisting in Home Care,0.0
+course~8UjeMk-mEeit4g4GsxE4dg,Machine Learning with Python,0.0
+course~8TKORJrSEeW6bw4ogk2HGQ,International Cyber Conflicts,0.0
+course~8TE-KTw4Eea67A6Z1aCfuw,Making Architecture,0.0
+course~9k_e10RdEe2WggqTpXEoiw,Architecting Solutions on AWS,0.0
+course~CQk7JA46EeWuEBJhzy2uFw,Grammar and Punctuation,0.0
+course~CPy7BAtMEeeyDAoXlzPrFg,A Crash Course in Causality:  Inferring Causal Effects from Observational Data,0.0
+course~CN4C2CQnEeW5Rwo0txKkgQ,Moral Foundations of Politics ,0.0
+course~CFRP8iiDEeih8Q5UqICKUA,Financial Acumen for Non-Financial Managers,0.0
+course~CEwR00UZEeWb8RJf7Z1H0w,Introduction to the Internet of Things and Embedded Systems,0.0
+course~C-WALZ3LEeWVBgpelZA5Jw,Decision-Making and Scenarios,0.0
+course~BwuL5JwaEeigWgp_hi6FmA,Production Machine Learning Systems,0.0
+course~Bw082iaBEfC81Ar_zAZhPw,Advanced Agile for Product Managers: Scaling Agile Teams,0.0
+course~BsDE8uGHEeaMGQ6ZODtjdg,SEL for Students: A Path to Social Emotional Well-Being,0.0
+course~BpENQRmdEemE1g7SjlWZVg,Patent Law,0.0
+course~Bob8HYsxEeuqDwqw9ez0Fw,Machine Learning Foundations for Product Managers,0.0
+course~AeZELZrJEeW6bw4ogk2HGQ,Antimicrobial resistance - theory and methods,0.0
+course~BZ5quSvBEee6gA5XksfBbg,"Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",0.0
+course~BRrPcqdAEeqnyg4TRzUbNQ,Artificial Intelligence in Marketing,0.0
+course~BK2bam0iEeW9CAqYJHF3zQ,Write Professional Emails in English,0.0
+course~BJXF0TLTEeSasiIACxClrQ,Introduction to Physical Chemistry,0.0
+course~BFhglSd5Ee2-5Aqhzcov3w,Use Google Forms with Google Sheets,0.0
+course~B8E2c3blEear9RKoJLO5Cw,"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",0.0
+course~B403PyTlEe6wQA4DcxzwjQ,Securing Cloud and Hybrid Networks,0.0
+course~B16bIEaoEee_nQq6JsYrTA,International Law in Action: the Arbitration of International Disputes,0.0
+course~Axwi2MCtEeedJRJjt8USWA,Influencer Marketing Strategy,0.0
+course~Auue1KA-EeS9VCIACyUcdg,Introduction to Philosophy,0.0
+course~AlVIMgeyEe2FUAphC_7O7w,Foundations of Business Intelligence,0.0
+course~Afw0WV4PEe6sPwqSOa_9fQ,Advanced Data Analysis and Collaboration in Qlik Sense ,0.0
+course~BlAZv5joEeyKjw6sSspoXw,Tencent Cloud Solutions Architect Professional,0.0
+course~6yVj1ucPEeWxKxKZYzDvkw,Clinical Terminology for International and U.S. Students,0.0
+course~6y0D9VXvEeeDLBIonVfq9g,International Water Law,0.0
+course~6uSYtQGGEe-sPwr_7QHe7w,"Data Modeling, Transformation, and Serving",0.0
+course~6rD1kx_pEe2Psg5YTxx2NQ,"DevOps, DataOps, MLOps",0.0
+course~6r0j3li_EeWzUQ41NnCQkQ,Teach English Now! Capstone Project 1,0.0
+course~6nq-wk_kEeepwQ7R5mPDbg,Excel Skills for Business: Intermediate II,0.0
+course~6mOCpgP8EeWmBSIAC9UI2A,Writing for Young Readers: Opening the Treasure Chest,0.0
+course~6cqdQSupEeymGhLyu6EGlQ,Financial Statement and Ratio Analysis for Accountants,0.0
+course~6c2OAqwjEe-NGg6igj04HQ,Practice Exam for Scrum.org PSPO I Certification,0.0
+course~6byT1CWWEeW5pgpJEN0S6w,Food & Beverage Management,0.0
+course~6aopkLQjEeuhvApQ-8cGMw,Applications of Software Architecture for Big Data,0.0
+course~8QSn29WMEeW_sQqlOUlMew,Healing with the Arts,0.0
+course~6YUb5lHkEeuV3xJQIImqCQ,Python Project for Data Science,0.0
+course~6WknxwkzEfCi2wr_zRMgWQ,"Happiness: Science, Practice and Ancient Indian Wisdom",0.0
+course~6VOKW4ZLEe-j8gr_0A2QFw,Advanced Business Analytics: Excel Optimization & Simulation,0.0
+course~6VIQlm6rEeSDGiIAC1sNTA,Global Health: An Interdisciplinary Overview,0.0
+course~6PZ6p9CBEe6P2wphYfoNOQ,"Foundation Systems, Monitoring and Erection Methods",0.0
+course~6AL8FY7BEeW5gxKDBxYMJw,Finance for Managers,0.0
+course~69Bku0KoEeWZtA4u62x6lQ,Gamification,0.0
+course~65KPw75dEe2f_QqiHmxYNQ,MBA Essentials,0.0
+course~650lyY4mEe6xzArT8MnIvQ,JavaScript Back-end Capstone Project,0.0
+course~64p5NhxlEe-Ojg4Sufxjbw,Python Fundamentals,0.0
+course~6-FfIC8hEeWUWxIOAnoaFQ,Strategic Planning and Execution,0.0
+course~5zjIsJq-EeW_wArffOXkOw,Vital Signs: Understanding What the Body Is Telling Us,0.0
+course~6_10JKePEeuLpxKpdBxh5w,AI Applications in People Management ,0.0
+course~8K8NHrfgEea2MQq2IjylnA,"Anatomy of the Chest, Neck, Abdomen, and Pelvis",0.0
+course~8H8wFp3KEeWoKRLkmmHLTQ,Modeling Risk and Realities,0.0
+course~8EAVEU2DEe6t5QqZGaqvvw,Supply Chain Excellence Capstone,0.0
+course~8D3R5HiaEeioIg7r4jw_PA,Crash Course on Python,0.0
+course~8Ceijel7EeqVIgpj8IJl1w,Machine Learning in Production,0.0
+course~87uy7CThEe6wQA4DcxzwjQ,Kubernetes Integration and Advanced Orchestration Techniques,0.0
+course~84pGjiPgEeWKeQ6ae81EbQ,Private Equity and Venture Capital,0.0
+course~81mGpLjnEe2MbhL2cyy77Q,Pre-MBA Statistics,0.0
+course~7wwl6pkeEem0LBK6SkJ7yA,Deep Learning with Keras and Tensorflow,0.0
+course~7wD6e-TPEeWThQoLOXqDhw,Philosophy and the Sciences: Introduction to the Philosophy of Cognitive Sciences,0.0
+course~7sNP37xrEeiL4Q6DgrZ6DA,Natural Language Processing on Google Cloud,0.0
+course~72VNMLjLEe-eKxJKZPOGuw,MS-102: Microsoft 365 Administrator,0.0
+course~7jEat7ioEeWfYA612mWHZw,Introduction to Systematic Review and Meta-Analysis,0.0
+course~7YL6sFA0Ee-mywr_6bZvLw,AI Python for Beginners,0.0
+course~7XFCjCE3EeeIYhLE7kr1cg,Fixing Healthcare Delivery 2.0: Advanced Lean,0.0
+course~7O843CBJEeWcQw5YiljpGw,Wind Energy,0.0
+course~7LHOTGUJEe21jBLFGcIQ1w,Automate Cybersecurity Tasks with Python,0.0
+course~7JCexdg9Ee-bwhITEGGo8Q,Google Agile Essentials,0.0
+course~7G9QP_fWEeiRYAoJyynoUg,Preparing for your Professional Cloud Architect Journey,0.0
+course~7DUGHubPEe2wDAr4TXBGnQ,"Extract, Transform and Load Data in Power BI",0.0
+course~7A9oIwJgEeqKaAoC_f2ifw,Introduction to Healthcare,0.0
+course~7A1yFTaREeWWBQrVFXqd1w,Programming for Everybody (Getting Started with Python),0.0
+course~75TPppoQEeaeaRLE7qfOBA,Positive Psychology Specialization Project: Design Your Life for Well-being,0.0
+course~736PrTvOEeeaawqep_smgg,Introduction to English Common Law,0.0
+course~7s7JbZ4REeWIXgpWJNgyEw,More Introduction to Financial Accounting,0.0
+course~gawUVgp9EeuyHQ758rw-Yw,Analyze Data to Answer Questions,0.0
+course~gUk1J6KaEeWzcRL32DA-SQ,Ancient Philosophy: Plato & His Predecessors,0.0
+course~gTB3hmBTEemmohK7SwfByg,Cryptocurrency and Blockchain: An Introduction to Digital Currencies,0.0
+course~gF3lVPTSEe2fnxIInyWU6Q,Encoder-Decoder Architecture,0.0
+course~g4sFEnitEeaCZBIelfdoiQ,Probabilistic Graphical Models 3: Learning,0.0
+course~g2PQH8j2Ee2r6xJoYVaBQQ,Analytics in Healthcare Management and Administration,0.0
+course~g-0dF3JpEeys9RJMWW48Yw,Foundations of Digital Marketing and E-commerce,0.0
+course~fy1SZeH-Eem86gpHdpNfLA,Algae Biotechnology,0.0
+course~fxgoIcbTEeqZOA5eKDHL-w,Foundations of Project Management,0.0
+course~fnysY_8UEeqcDgo9spofpw,Diversity and Inclusion in Education,0.0
+course~fi8dQEAhEe-xLxIpRr2Opw,Strategy and Game Theory for Management,0.0
+course~Q2VeZ0W0Ee2FzgrjYHbslQ,Qualitative and Quantitative Analysis of Disaster Risk,0.0
+course~fZN4SVfiEeWsGQ6fKrurvQ,A Law Student's Toolkit,0.0
+course~fYuElDEgEeiCvhLLCIZW_A,Data Analysis with Python,0.0
+course~fYg6EC_5EeWUWxIOAnoaFQ,Fundamentals of Engineering Exam Review,0.0
+course~fV_HBtZPEemAZRLx6FCxVg,AI Workflow: AI in Production,0.0
+course~fR_-zZvcEemLDBIhCWt8bA,Chemical Biology,0.0
+course~fNeY-S8dEeaVZA5K9cHVCQ,Global Diplomacy: the United Nations in the World,0.0
+course~fM5baJoUEeW93wo8Ha4kow,Miracles of Human Language: An Introduction to Linguistics,0.0
+course~fJkLSzo_Ee-xLxIpRr2Opw,Advanced Ruby Programming and Object-Oriented Design,0.0
+course~fJCXLJkeEeml5wpuotDEDA,Introduction to Deep Learning & Neural Networks with Keras,0.0
+course~fCKQimXqEeSuUyIAC0mIhA,Understanding Research Methods,0.0
+course~f8wh4qQ-EeWF3A6Yvo0Lpw,English Composition I,0.0
+course~fcsj0foKEeWhlwo-uJGLjw,Exploring Quantum Physics,0.0
+course~iEsb252MEe6OUwokHQTVtw,Project Planning and Execution Management,0.0
+course~i7shRkB1Eeu0vw5X4kJARQ,Python Project for Data Engineering,0.0
+course~i2Uj-RsyEe6n7gpaVjGbbw,Introduction to Nonprofit Law,0.0
+course~hyGJwB6jEfCgrRIWRVUcaw,Design Prompts for Everyday Work Tasks,0.0
+course~hnmLbD0SEeu69wp-PD8q4Q,Design and innovation of business model,0.0
+course~hnRe5PtREe6muw6kPmMYSw,Data Analytics Foundations,0.0
+course~hbvvfJLaEeWBSw79YYA_8Q,Psychological First Aid,0.0
+course~hb2kM-SqEeavJhLJu8-cXg,Kinetics: Studying Spacecraft Motion,0.0
+course~h_qSTmUJEe21jBLFGcIQ1w,Tools of the Trade: Linux and SQL,0.0
+course~hZjH8QtZEeyNuxKAzhaylw,Getting Started with Microsoft Excel,0.0
+course~hZTOmlP8Ee6IbQrAzcxKLw,Workday Basics Series,0.0
+course~gdzwYpiAEe6Yvg6sv84HSQ,Building Generative AI-Powered Applications with Python,0.0
+course~hIyjm5CKEe63Ww6tPe9iow, Generative AI: Elevate Your Data Science Career,0.0
+course~hISvYLkPEe633hLyyfBA1Q,Construction Aspects of Formwork,0.0
+course~hH8YWVIXEeyLIRLL9niz0w,Intro to Operating Systems 2: Memory Management,0.0
+course~hD8t4jWeEeu9vAr5jUgnDQ,"Unsupervised Learning, Recommenders, Reinforcement Learning",0.0
+course~hBmmv1drEeerkQ5vdwUqtA, System Administration and IT Infrastructure Services,0.0
+course~hBgW5GcVEe-EPwr_9XyAcQ,Advanced Elasticsearch Operations and Cloud Deployment,0.0
+course~gztzi6kZEeuVEg4YNPWkHQ,Learn Angular Routing by building a Cocktails Application,0.0
+course~gwI23F2CEeW7fArvq3U29Q,Introduction to Corporate Finance,0.0
+course~grRYIubyEeaVLRKoA_hS8A,Schizophrenia,0.0
+course~gjNiv8lqEeWuexJbRpuvbQ,Dairy Production and Management,0.0
+course~ggSJwHE8EeWxvQr3acyajw,Chicken Behaviour and Welfare,0.0
+course~gftBfIl0EeqZsg72h675gw,Supervised Machine Learning: Regression,0.0
+course~hJ1Jl-fcEeWwMw6osrJBVw,Game Theory,0.0
+course~dScDad8bEeWNrAqe1RXmgw,English for Career Development,0.0
+course~dQdSvWdUEeuI4Aqy1at7YQ,AWS Cloud Technical Essentials,0.0
+course~dOoEImLaEe6Dig7Xvy8K3Q,Build Reusable React Components,0.0
+course~dOT6xnEVEe-Quwr_1ABTmQ,Human-Centered Artificial Intelligence,0.0
+course~dG13cHJKEeys9RJMWW48Yw,Attract and Engage Customers with Digital Marketing,0.0
+course~d64E7li7EeWylgpjfV1KVQ,Teach English Now! Theories of Second Language Acquisition,0.0
+course~d0bq5PkAEeSBSSIAC7JSBQ,Fundamentals of Digital Image and Video Processing,0.0
+course~d0Vop3l1EeW3pg6oA-kqJQ,Genome Assembly Programming Challenge,0.0
+course~cvZHh-n6EeqTzBKilmbQoQ,Create and Design Digital Products using Canva,0.0
+course~ctCy6m4jEeez8xK4FEa7iA,Displays,0.0
+course~ct9K_oG4EeWyzwo1CAL63Q,Wharton Business Foundations Capstone,0.0
+course~f86BkPTXEe6b_Ar_9IRNEQ,OpenAI GPTs: Creating Your Own Custom AI Assistants,0.0
+course~cpyCkLQfEe-sywr_75D7Fw,"Advanced Networking, Virtualization, and Security",0.0
+course~coP2hgp-Eeuh2QpCvqFzYQ,Design a User Experience for Social Good & Prepare for Jobs,0.0
+course~cm6SuF0tEeeRBg6DrzW1mg,Capstone:  Autonomous Runway Detection for IoT,0.0
+course~cRlYWrH-Ee6ztBLM8UrOZw,Kali Linux,0.0
+course~cOR2bDOcEe-f9Q6oSqnk-Q,Machineries for Heavy Lifting,0.0
+course~cKJOkz0TEeuwehK5Ir7QEw,Corporate Entrepreneurship,0.0
+course~cHDg4Y4xEey6SRK0kB7ieQ,Preparing for Your Professional Cloud Network Engineer Journey,0.0
+course~cDXfJhBlEei39QrsjEDTBA,"Excel/VBA for Creative Problem Solving, Part 3 (Projects)",0.0
+course~c9dt2Qp9Eeuf7w5EwYPThw,Process Data from Dirty to Clean,0.0
+course~c5zwKXdiEe-cBRK_mZB3Bw,"Advanced Network Services, Security, and Programmability",0.0
+course~c48-QFO4Ee-JFA5QVkNq4w,Advanced Generative Adversarial Networks (GANs),0.0
+course~c44lS5zBEe2L_wpgKckryw,Building Strategic Foresight Capabilities,0.0
+course~ct7G8DVLEeWfzhKP8GtZlQ,Build a Modern Computer from First Principles: From Nand to Tetris (Project-Centered Course),0.0
+course~f7HCZtZOEemDkAqyZy15Hg,AI Workflow: Feature Engineering and Bias Detection,0.0
+course~f6gZrWUIEe2piwrmyBNtEQ,Foundations of Cybersecurity,0.0
+course~evGYoZ65EeW6bw4ogk2HGQ,The Bilingual Brain,0.0
+course~erHBu8GyEemItQonjViPqA,Azure Infrastructure Fundamentals,0.0
+course~ejOz7RDUEei99hK0xs-tsg,"Python for Data Science, AI & Development",0.0
+course~ebQo-U0EEeuZGAr_TcQGiQ,Introduction To Java Database Connectivity - JDBC,0.0
+course~e_mpJRHrEe60sQqY-2jk5w,Scrum Master Capstone,0.0
+course~eWdF_oGHEemfwRIsGCa-_A,Natural Language Processing in TensorFlow,0.0
+course~eV-OTCTuEeWCGRL6mLoB5w,Introduction to Classical Music,0.0
+course~eQSvxZ1iEe6OUwokHQTVtw,Project - Monitoring and Control,0.0
+course~eL9HZ2ItEeWpHwqwM9Gg0w,Finding Hidden Messages in DNA (Bioinformatics I),0.0
+course~dVt5vqEeEeiSlApOpDu8Gg,BIM Application for Engineers,0.0
+course~eJsjO9QaEea6Sg5NuXr4gg,Sustainable Fashion,0.0
+course~eHfy41TXEeqUvw5ZQPycVw,Finding Purpose and Meaning In Life: Living for What Matters Most,0.0
+course~eBEnnYkqEeWGBwqGAoUFww,Accounting: Principles of Financial Accounting,0.0
+course~e2LnBj1iEeqUeRID4YBZ4Q,"Everyday Excel, Part 3 (Projects)",0.0
+course~dwUPa14hEeWhGRIiCxDaqw,Introduction to Operations Management,0.0
+course~dtSg7RwSEe-Ojg4Sufxjbw,B2B and Territory Sales Strategies and Techniques,0.0
+course~dhE_jxhlEe-JcQr_2GDxCw,Forest Carbon Credits and Initiatives,0.0
+course~dgW3wBsGEei_MQpZDN51wg,American Contract Law I,0.0
+course~dZoAyibQEeiHXRK9Gf-Ucg,Health Care Innovation,0.0
+course~dZEaNbNjEeurEQ7HpnWdKw,AI Strategy and Governance,0.0
+course~dWHdMyGbEe-CohKB9XWupQ,What's new in React 19?,0.0
+course~dW-LBifIEe2ebw7xojjXvw,Get Started with Python,0.0
+course~eKhBtTgpEeyScxKfWjmBww,Advanced Django: External APIs and Task Queuing,0.0
+course~mYs5UAp9Eeuh2QpCvqFzYQ,Project Initiation: Starting a Successful Project,0.0
+course~mXASIIrUEeqWiw7pAgmtiw,RF and millimeter-Wave Circuit Design,0.0
+course~mTJHKj0pEeSGwyIACxCdDw,Chinese for Beginners,0.0
+course~mR7MlUaTEemuHQ4HpHozrA,Introduction to Artificial Intelligence (AI),0.0
+course~mLAmsUi7Ee-mywr_6bZvLw,Fundamentals of Risk-Based and White-Box Test Techniques,0.0
+course~mG1NQnUvEeS8UyIACzYI5Q,Astrobiology and the Search for Extraterrestrial Life,0.0
+course~mG15ZhQ9EeWCWhKuhISYpw,Fundamentals of Audio and Music Engineering: Part 1 Musical Sound & Electronics,0.0
+course~mACxWzK7Ee-YcA77IVc2yQ,Construction of Precast System,0.0
+course~m9lo_A4AEe-SXg6EFTZuww,Workday in Action Series,0.0
+course~m6duxWeEEe--dw7PPVphLw,"Advanced Modelling, Rendering, and Unreal Engine Integration",0.0
+course~m3M_QRdcEeaEIQq1FSQEZQ,Everyday Chinese Medicine,0.0
+course~iIfnzW4mEeenOwpmZ1LH1g,Transistor - Field Effect Transistor and Bipolar Junction Transistor,0.0
+course~m0pmWpn9Eeia8g4NwaTEzg,Electrodynamics: In-depth Solutions for Maxwell’s Equations,0.0
+course~m0fACXB0EeulIxJCZb_vVQ,Google Data Analytics Capstone: Complete a Case Study,0.0
+course~m0BjP-SqEeaItw4EPG4KcA,Control of Nonlinear Spacecraft Attitude Motion,0.0
+course~m-oZTNCwEeWxGA7pQdBNkw,Oceanography: a key to better understand our world,0.0
+course~lpBkv-qBEe6Q5Qr_6JE8HQ,Hydrogen: Key Concepts and Use in Green Technologies,0.0
+course~lnyeIPbxEeeHQRLf02JF5g,Ecology: Ecosystem Dynamics and Conservation,0.0
+course~lmx4OGjjEe6vIRJJdXRzxQ,BigQuery for Data Analysts,0.0
+course~lf_8aEyaEe6t5QqZGaqvvw,Active Listening: Enhancing Communication Skills,0.0
+course~lYw3nxuGEeWo5g5SXpDA8Q,Cryptography I,0.0
+course~lQu1SGX1Ee-WbhKfqhh3sw,Introduction to Merchandising,0.0
+course~lPFk5n_aEe6hyw4UDDa2MQ,Governmental Accounting and Reporting I ,0.0
+course~m1SXkx8gEe2ZvxIj6so2cw,Business Analytics with Excel: Elementary to Advanced,0.0
+course~oFRMKhbHEeWKlgqs7LdhRw,Instructional Methods in Health Professions Education,0.0
+course~oDLfuG6xEe-6xRKldbKQ1w,Generative AI and ESG,0.0
+course~oCBU5_VYEeeBQA7SG0nILA,Tools for Data Science,0.0
+course~oC5XlyT_EeWs4gorU6Q1Yw,Strategic Management,0.0
+course~o7x5NcrEEeqoMgraqyGQyQ,The Economics of AI,0.0
+course~o7P0ctXYEeWFqw71fuUDrw,The Science of the Solar System,0.0
+s12n~yZ-0iszHS06h1vwohA8Z8Q,Generative AI Cybersecurity & Privacy for Leaders,0.0
+course~nuwC1w5dEfC2IxIKAKPIqQ,The Science of Well-Being for Parents,0.0
+course~nnVxd_DjEemB_Q7YXIeE6g,Privacy Law and HIPAA,0.0
+course~nhAPFV0cEeiNthLYUFoHkg,FinTech Law and Policy,0.0
+course~ncl-_2BXEemlLwq5e4U1PA,"Application of AI, InsurTech, and Real Estate Technology",0.0
+course~mehgPKAdEeqNpQpCmwhgnQ,Introduction to Digital health,0.0
+course~naTKYx_OEe2BPRI-bktxDQ,Developing Front-End Apps with React,0.0
+course~n_EIXA7OEe-UehJ7TQ-Yxw,Introduction to Events Management ,0.0
+course~nUm5Ry-iEeWUWxIOAnoaFQ,"Clinical Kidney, Pancreas and Islet Transplantation",0.0
+course~nI__WUzdEe64qQ7qqom4Rw,Generative AI: Prompt Engineering Basics,0.0
+course~nGc_fhaLEey6MRIUKQOB1w,OKR Certification: Leadership and Goal Setting,0.0
+course~nEZQiqBbEeWw6Q7sxrDlWQ,Microeconomics: When Markets Fail,0.0
+course~nChMeRmcEemnLQ5UIVOOug,Privacy Law and Data Protection,0.0
+course~nA4RUW01EeW8nRIpKnwp7Q,Algorithmic Toolbox,0.0
+course~n7Pp5hJfEea7Vw5aJ3DY6w,Game Theory II: Advanced Applications,0.0
+course~n518dwp9EeuiRg5-nJvwRw,Project Planning: Putting It All Together,0.0
+course~mqlYA8RuEe6kghKtIX5xRw,"Source Systems, Data Ingestion, and Pipelines",0.0
+course~mhytiyTnEe6D3gppn8i3rw,Blockchain Security - Intermediate Practices ,0.0
+course~nax4Y2oHEeak0hLPfPzoPw,The Strategy of Content Marketing,0.0
+course~jnQnC3Q6EeWLqw7zlLhRzQ,Paleontology: Ancient Marine Reptiles,0.0
+course~jm9bG02LEe-mywr_6bZvLw,Advanced Framework Development and Integration,0.0
+course~jl8oMAncEe6qxxJMO02QfQ,Data Structures & Backend with Java,0.0
+course~jkQcra6zEeytqw64hz8ZCw,U.S. Taxation of International Transactions,0.0
+course~jjFwDfBcEeWLaBLI8fdMlw,Analysis of Algorithms,0.0
+course~jigZGJrqEey10AoWlnmjtw,Introduction to Front-End Development,0.0
+course~jh4YTdysEeSnbSIACyCHUg,An Introduction to American Law,0.0
+course~jYd91UquEeWpQA4vMed_oQ,Indigenous Canada,0.0
+course~jL8lDjdqEeu73BJTeWj1SQ,Marine Biology,0.0
+course~jKPQqR3tEeeiqhJIrotY7g,Accounting for Decision Making,0.0
+course~jJ6ZxPrdEee5DBIdFhoH_A,Introduction to Psychology ,0.0
+course~lEJhkLrCEeiBDxIhuJBKEA,Teach English Now! Teaching Language Online,0.0
+course~j445zkC7EfC6-g6hfV5HWQ,CISSP Domain 3: Security Architecture and Engineering,0.0
+course~j-C46TLFEe-Shgr_0aahTQ,Generative AI for Healthcare,0.0
+course~iyDiqrR3Ee6oQA6J-7B2nw,Project Management Essentials,0.0
+course~ix84hqAPEeS1LCIACxcNEQ,An Introduction to Consumer Neuroscience & Neuromarketing ,0.0
+course~ik8m6awxEeuLCQ6P36XDuw,Serverless Data Processing with Dataflow: Operations,0.0
+course~i_7JYlNJEeq6NwpG-k58_Q,Introduction to Python Programming,0.0
+course~iXdYzvOYEeqt_RIaY9taQQ,IBM Data Analyst Capstone Project,0.0
+course~iSxVEG07EeW3YxLB1q9I2w,The Data Scientist’s Toolbox,0.0
+course~iRjgnK93Eeusrg6wKBIcAw,Linux Embedded System Topics and Projects,0.0
+course~iRBJm_LREeSplSIACzYDNg,Initiating and Planning Projects,0.0
+course~iLNlSQp9Eeun_RJEc0KNDw,Share Data Through the Art of Visualization,0.0
+course~iL7Ll24lEeeWCg71xNIlJg,Design of High-Performance Optical Systems,0.0
+course~j6GLzTc0Ee6BFRLuxx0ctw,Introduction to Data Engineering,0.0
+course~lBMOV6EmEe6oQA6J-7B2nw,Navigating Generative AI: A CEO Playbook,0.0
+course~l5N5aCThEe6pnhJXpYDbPw,"Securing, Monitoring, and Scaling Kubernetes Clusters ",0.0
+course~kzmY_qA-EeWHXAr1OpR7HQ,Hypothesis-Driven Development,0.0
+course~kw2eEcR8EeWUVgrPm5MRqw,International Organizations Management ,0.0
+course~kvb6uMbTEeqZOA5eKDHL-w,"Foundations: Data, Data, Everywhere",0.0
+course~ksw42TxYEe6M6ArdAkKxFQ,Responsible AI: Applying AI Principles with Google Cloud,0.0
+course~knivtHEHEeSfpCIACzWBZw,The Addicted Brain,0.0
+course~kj0t_A9REeeY9w43qQI3Ag,Introduction to Calculus,0.0
+course~kbmiwPT-EeSW1SIAC3oCCQ,Model Thinking,0.0
+course~kX2OfavCEeitCBJhye2WVA,Sports Marketing,0.0
+course~kWGvJivBEeeW5RJUyz1uFA,Convolutional Neural Networks,0.0
+course~joRZVwp9Eeun_RJEc0KNDw,Data Analysis with R Programming,0.0
+course~kKSsgGE2EemA9Q773UQsKg,Advanced Financial Reporting: Accounting for Business Combinations and Preparation of Consolidated Financial Statements,0.0
+course~kK2IsV-JEei_nBLwczMEKA,Customer Service Fundamentals,0.0
+course~kFyF3oGuEe-L8RKezlgehQ,H2O ai Large Language Models (LLMs) - Level 3,0.0
+course~kDd6t_dgEe6b_Ar_9IRNEQ,Rocket Science for Everyone,0.0
+course~k9p3Qh8kEeWP0w4yK2369w,Introduction to Genetics and Evolution,0.0
+course~k6snBDf0Ee-9Ig7qA4dB5w,Team Software Engineering with AI,0.0
+course~k50nXYU3Ee-HnxIaoRsVow,Introduction to OSHA: Safety Standards and Compliance,0.0
+course~k2oyG0l-Eeyq9Q4Bl6meLw,Foundations of Data Science,0.0
+course~k2Ty4TonEeWO-Qq6rEZAow,Games without Chance: Combinatorial Game Theory ,0.0
+course~jwkYk-bPEe2nnBJXwaSqgQ,Harnessing the Power of Data with Power BI,0.0
+course~jvtkQ7rdEeqBKA5NvH_vlw,Measuring and Maximizing Impact of COVID-19 Contact Tracing,0.0
+course~jr4UkLdGEe-sywr_75D7Fw,Advanced Project Management and Tools,0.0
+course~kRFdpru_EeW6QBIGzzljVw,Global Financial Markets and Instruments,0.0
+course~V4YupvY-Ee2fnxIInyWU6Q,Create Image Captioning Models,0.0
+course~V2tYXNFWEe-3_Q7tYtYdfw,Relational Database Administration Capstone Project,0.0
+course~V0c-hzoMEe-9Ig7qA4dB5w,Advanced JavaScript Concepts,0.0
+course~Ux2WtmBXEemE2Q6eJy4pcg,"FinTech: Foundations, Payments, and Regulations",0.0
+course~Uq3s_TkzEe-9Ig7qA4dB5w,Practice Exam for Tableau Certified Data Analyst,0.0
+course~UnzxJW4jEeez8xK4FEa7iA,Light Emitting Diodes and Semiconductor Lasers,0.0
+course~UZu0wtZPEemAZRLx6FCxVg,AI Workflow: Enterprise Model Deployment,0.0
+course~UZiuNwjDEe-knBIDDnXmpw,Advanced Tableau - LOD Calculations,0.0
+course~UY537mO7Ee-kNRKvYx1DyQ,Python for Finance: Investment Fundamentals & Data Analytics,0.0
+course~UU2MxlcmEee91g5WFbHAAA,Media ethics & governance,0.0
+course~UR_feZ1MEeq-VApbJVRrTw,Increase SEO Traffic with WordPress,0.0
+course~bzhAuJ9sEeWJORITtzkPnQ,Managing the Company of the Future,0.0
+course~U7e_Lgp-EeubJBIM7h4jow,Conduct UX Research and Test Early Concepts,0.0
+course~U4WBswpyEeuHYg6ONVEFIw,Health Data Science Foundation,0.0
+course~U3ZJ_vjYEe-WoRL0uMzXDQ,"TBMs,Pile Rigs,Cranes & Hauling Vehicles",0.0
+course~U-SKLJVlEeWF6gpQJiw6hQ,"Cameras, Exposure, and Photography",0.0
+course~U-HaHvQXEe-UFAr__B_qpQ,HR Management Fundamentals: Recruitment to Development,0.0
+course~TvdumdPFEe2HUgoXSm74nw,Using Public Policy for Social Change,0.0
+course~Tr9rK6JtEeSwKiIACiONVg,Introductory Human Physiology,0.0
+course~TjOLkAp-EeubJBIM7h4jow,Build Wireframes and Low-Fidelity Prototypes,0.0
+course~TibneGeiEe-zXBID9Vp6zQ,"CCNA Advanced – WAN, Security, and Network Services",0.0
+course~TZa2FifWEeyxgAr51Gjbpw,Introduction to Quantum Information,0.0
+course~TYSbV73jEeW1WAr3aepXuw,How to Write and Publish a Scientific Paper (Project-Centered Course),0.0
+course~UK7yonsIEey1tgpUmO8AYQ,Satisfaction Guaranteed: Develop Customer Loyalty Online,0.0
+course~W_33dP5jEeuRCQ5nvRqgMw,Urban Air Mobility,0.0
+course~WVasvB6JEe-Ojg4Sufxjbw,"Auditing Generative AI: Strategy, Analysis & Risk Mitigation",0.0
+course~WQMNShxYEeWP9g4JMjGIiQ,Foundations of Teaching for Learning: Being a Teacher,0.0
+course~WNsjlYANEe28gwqsv0YpMw,Introduction to Linear Algebra,0.0
+course~WIhvslYxEeSFRiIACycBKQ,Introduction to Psychology,0.0
+course~WGKjcPbxEeeENAqf5jsdFA,The Science of Stem Cells,0.0
+course~WFJu-bWkEeaKcRImJySmAg,International Women's Health and Human Rights,0.0
+course~WChOZHTVEeSi3yIACzSGcw,Introduction to Engineering Mechanics,0.0
+course~W7MCgxeqEeyZ9BL8TB78QQ,Work Smarter with Microsoft Excel,0.0
+course~W5kcLAp-Eeua7xKR7OK1aw,Create High-Fidelity Designs and Prototypes in Figma,0.0
+course~W55xJCN0Eeq0Ew6EYi_i8w,AI for Medical Prognosis ,0.0
+course~V7p62q93Eeusrg6wKBIcAw,Linux Kernel Programming and Introduction to Yocto Project,0.0
+course~VpIZgW4lEeenOwpmZ1LH1g,First Order Optical System Design,0.0
+course~Vp4oX3WkEeWYyRL_9oqa4Q,Build a Modern Computer from First Principles: Nand to Tetris Part II (project-centered course),0.0
+course~VivQGEdIEemEVA7yMJH7Bg,Become a CBRS Certified Professional Installer by Google,0.0
+course~Vhi0aDKrEe6g2RLagZ_LRQ,Management Skills for New Managers,0.0
+course~VfuJSYYDEeW99gozy_2pgw,"The Holocaust - An Introduction (I): Nazi Germany: Ideology, The Jews and the World",0.0
+course~VcGV0kxGEeWKRQoYMLwAUw,Fundamentals of Project Planning and Management,0.0
+course~VVoWWfR9Ee2fnxIInyWU6Q,Introduction to Generative AI ,0.0
+course~VP7cCm91Ee-CUA7-5BJkaw,Drug Development and Regulation: From Bench to Bedside,0.0
+course~VNsFSJHoEeiQRw62OFrdVg,Antibiotic Stewardship ,0.0
+course~VIIcqc3AEeu0KQ5V9fFcUQ,Stepping Up: Leading Others,0.0
+course~V8j31h_qEe2Psg5YTxx2NQ,MLOps Tools: MLflow and Hugging Face,0.0
+course~V8NsJjfoEe-NSA5zWhNuuw,Advanced Data Analysis and Visualization with Pandas,0.0
+course~W1hqsLO4Ee-sywr_75D7Fw,Advanced Agile Practices and Continuous Improvement,0.0
+course~Rm5xW9JGEe2_vw4ejszVZQ,Project Management Capstone,0.0
+course~RfJ9I6KTEeWM5RIHOLu8Dw,"Resilience in Children Exposed to Trauma, Disaster and War: Global Perspectives",0.0
+course~RZ1S0B0MEeacvQ6cODzg5Q,Introduction to Data Science in Python,0.0
+course~RPI76jO9EeaHmRIoD8FP-Q,Ecosystem Services: a Method for Sustainable Development,0.0
+course~RMFRum1BEeWXrA6ju0fvnQ,R Programming,0.0
+course~RGh8fgWwEeakgQ4xJu4oAw,Problem Solving with Excel ,0.0
+course~REmcuLN-Ee669goen0MuGQ,"Data Ethics, AI and Responsible Innovation",0.0
+course~RDtWgyAXEe671A66sAWTEw,Next-Generation Firewalls and Intrusion Prevention,0.0
+course~RBX8Py25Eeak_wpSxm3D3w,Advanced Grammar & Punctuation Project,0.0
+course~R8T6cD8QEeuWjxL2VTBhwQ,Developing AI Applications with Python and Flask,0.0
+course~R7_RBwkcEey5zQ4LqE3elQ,SQL Window Functions for Analytics,0.0
+course~TWpZK5LiEemyIAq1fAvhOg,Natural Language Processing with Attention Models,0.0
+course~R6Moq5R5EeqJLQ7R1g895w,Removing Barriers to Change,0.0
+course~R-r2uwp-Eeuf7w5EwYPThw,"Start the UX Design Process: Empathize, Define, and Ideate",0.0
+course~QvZ4avttEe6RWQr_yLqxhQ,Fundamentals of UI/UX Design,0.0
+course~QrJStTJkEeaVZA5K9cHVCQ,"Big Data, Genes, and Medicine",0.0
+course~Qqmr3fBKEeWLaBLI8fdMlw,Bayesian Statistics: From Concept to Data Analysis,0.0
+course~QiFNdu3vEe-GKw4xJmSE0Q,AI and European Union Law: Navigating Regulatory Compliance,0.0
+course~QgmoVdT2EeSlhSIACx2EBw,The Evolving Universe,0.0
+course~Qf73BjGjEeqIPQqRfoc3XQ,Write Your First Novel,0.0
+course~QYOONkPJEeuVrwrlQzvd6w,Cybersecurity for Everyone,0.0
+course~QHSFA24mEeeWCg71xNIlJg,Semiconductor Physics,0.0
+course~QB-y9sYIEeyPHw4TOHPuFQ,Advanced Armv8-M Features,0.0
+course~Q9Avpol0EeqAWhIJ6hhvFw,Exploratory Data Analysis for Machine Learning,0.0
+course~R7UbvM3ZEeqcuAq0OzKNJw,Social Work Practice: Advocating Social Justice and Change,0.0
+course~TRsT0ty3Ee6J_wr_0biVVQ,Real Estate Development: Building Value in Your Community,0.0
+course~TLRQ4jKpEeycGBKEuRb8CQ,Linear Algebra for Machine Learning and Data Science,0.0
+course~TIDJWBwuEeWP9g4JMjGIiQ,Teach English Now! Foundational Principles,0.0
+course~THkzKaBPEeWm9xJA1YXcWQ,Discrete Optimization,0.0
+course~TFUufGowEe-o2Qr_2f2M0Q,Advanced Chatbots with Deep Learning and Python,0.0
+course~TEdDF5ZiEei3uw5cOOJnRg,Essentials in Clinical Simulations Across the Health Professions,0.0
+course~T7hf5jWeEeuGCBL8_hyTUQ,Supervised Machine Learning: Regression and Classification ,0.0
+course~T6G7p4vcEe--oAr_y6Q6Xw,Capstone Project: Applying Business Analysis Skills ,0.0
+course~T4_v6hfTEeaUCRJWL-pjpQ,Organizational Analysis ,0.0
+course~T3Lj0apXEe6oQA6J-7B2nw,Generative AI and LLMs: Architecture and Data Preparation,0.0
+course~SzQW47gfEeW2iwpbOuagWQ,Design and Interpretation of Clinical Trials,0.0
+course~RqpO5PZcEeeLtRL2HSwRMA,Auditing I: Conceptual Foundations of Auditing,0.0
+course~SrM6V-3pEeSJZSIAC0gHUg,Teaching Character and Creating Positive Classrooms ,0.0
+course~SgcGB0YOEeemlQrrzf9X-A,Financial Markets,0.0
+course~SeqoaucUEeyDYwq6z4uKRQ,Typescript in React: Higher Order Components,0.0
+course~SN5tm_tBEeScRyIAC3-PxA,Process Mining: Data science in Action,0.0
+course~SI5ZiG_MEei_DBIyMBLCzg,Population Health: Fundamentals of Population Health Management,0.0
+course~SI2p26W0EeiDiw4YwP822A,Storytelling and influencing: Communicate with impact,0.0
+course~SHLqKwjHEfC3TQ5GC5VyRw,Build RAG Applications: Get Started,0.0
+course~SE8IiwIhEe-knBIDDnXmpw,Introduction to Internet of Things,0.0
+course~SAZf_ay2EeS5uiIACk-Zyg,Epidemics - the Dynamics of Infectious Diseases,0.0
+course~S0WA5gtTEeyuQw4FWEXW4w,Attitude Control with Momentum Exchange Devices,0.0
+course~RtWCiPi1Ee2OqwqhrYNGhQ,Talent Acquisition,0.0
+course~Rr-BeG1UEe6ZoQ5WeLvw3w,Generative AI for Everyone,0.0
+course~SsgKoJBPEei4_g6iK7psdg,SQL Problem Solving,0.0
+course~aW5kPas1EeqgRA4uxtvgXw,Introduction to Finance: The Basics,0.0
+course~aNiTu293Ee-CUA7-5BJkaw,Drug Safety: Pharmacovigilance,0.0
+course~aF0NmQC4Eea_zg6oQWTINQ,Machine Design Part I,0.0
+course~aDPeKsbTEeqqzg7nmRt_BQ,Foundations of User Experience (UX) Design,0.0
+course~aAo9tS8NEeWv_w7cMMH1Uw,America's Unwritten Constitution,0.0
+course~a9GgNyN0EeqHgQquzNaRiQ,AI For Medical Treatment,0.0
+course~a0fzUULWEeWZtA4u62x6lQ,Introduction to Sustainability,0.0
+course~_yBsbgzOEeaX4g6xdats6w,Supply Chain Management Strategy,0.0
+course~_xNLlFY4EeWKXg4Y7_tPaw,Water Resources Management and Policy,0.0
+course~_x5PFcBuEeWySg4SKer18Q,Leading Healthcare Quality and Safety,0.0
+course~_v2mbOoKEeqeLgpJ6iA9GQ,Design Online Course Printables using Canva,0.0
+course~W_mOXCrdEeeNPQ68_4aPpA,Neural Networks and Deep Learning,0.0
+course~_tFDD2IbEe6yuQ41HILERQ,Learn Advanced React,0.0
+course~_s8aykayEeq4UgoL7YbhrQ,Build Basic Generative Adversarial Networks (GANs),0.0
+course~_eWW-PWcEe-jCgr_wH8PfQ,GenAI for Risk Managers: Advanced Risk Analysis Techniques,0.0
+course~_aXKkBnJEeW9dA4X94-nLQ,America's Written Constitution,0.0
+course~__cfskGJEeemlQrrzf9X-A,Introduction to battery-management systems,0.0
+course~_ZpZKyTxEemb-BL8g3X_rg,Natural Language Processing with Classification and Vector Spaces,0.0
+course~_TR8n9k4EeaDExLRWbCaPg,Foundations of International Psychiatry,0.0
+course~_Qlp8ziAEeWYbg7p2_3OHQ,Financial Planning for Young Adults,0.0
+course~_OZnMzM1EeaFHgo3JFU79w,EU policy and implementation: making Europe work! ,0.0
+course~_Mms-nE8EeWKsgrp3VnvAw,"Recruiting, Hiring, and Onboarding Employees",0.0
+course~_9izvfVQEee0uQ7YmQ7_mg,Overview of Advanced Methods of Reinforcement Learning in Finance,0.0
+course~_u6gQDK6EeycGBKEuRb8CQ,Calculus for Machine Learning and Data Science,0.0
+course~bvaUWldrEeerkQ5vdwUqtA,Operating Systems and You: Becoming a Power User,0.0
+course~bu-bs9_HEeSNQCIAC2-J5Q,Fundamentals of Music Theory,0.0
+course~bnZNQOlHEe211BJwHi0Wtw,Generative AI with Large Language Models,0.0
+course~blhsi0iNEeyAMhIundYTrw,Cypress end to end testing and intercepting network call,0.0
+course~bZf1YEfEEeylbAqjSwTWlQ,ESG Impact: Investor Perspective,0.0
+course~bWhcNKf2EemJMw4loLJZ9g,Fundamentals of Macroscopic and Microscopic Thermodynamics,0.0
+course~bNDy-Rf2Ee2GHgpzgfTJMw,AI Infrastructure and Operations Fundamentals,0.0
+course~bN9fcgp9Eeu0VAqNda9Xjw,Prepare Data for Exploration,0.0
+course~bMtIO8w2EeWBKQplU3nsJQ,Introduction to Chemistry:  Reactions and Ratios,0.0
+course~bKsbh83AEeu1Ewp6RcNw3w,Influencing the Organisation,0.0
+course~bJAzjrb_Ee-sywr_75D7Fw,Certified Information Security Manager (CISM),0.0
+course~aXfndxPGEeuhGBIF6Bi4KQ,Deep Learning Methods for Healthcare,0.0
+course~b75Wh7MYEeWKaQ6n__gsuQ,Writing Professional Email and Memos (Project-Centered Course),0.0
+course~b5T-IG4lEeez8xK4FEa7iA,Optical Efficiency and Resolution,0.0
+course~b4aYnJiaEey10AoWlnmjtw,Four Rare Machine Learning Skills All Data Scientists Need,0.0
+course~b3IJjkJkEey2HhKRvGWgpQ,ESG and Climate Change,0.0
+course~b2FctUhbEe-_Zwr_8MK9PQ,"Advanced CNNs, Transfer Learning, and Recurrent Networks",0.0
+course~b1nH09yUEe-5jgr_0ivDlQ,Gen AI: Beyond the Chatbot,0.0
+course~b0J0wiHrEey1uRLrSkRGzw,Advanced Django: Building a Blog,0.0
+course~b-UZI43PEeWTzg6WBWinhQ,Global Environmental Management,0.0
+course~apQ3VMcdEeyduw6ktL3Xvw,Machine Learning Capstone,0.0
+course~akc8aFrSEe-S3RIE4vLfkw,Accounting 1,0.0
+course~afU9lKsEEeqweBJy12yzXw,AI & Law ,0.0
+course~acdUhm9cEe-Quwr_1ABTmQ,Mastering Usability Testing: Techniques and Best Practices,0.0
+course~bHbgpQjyEeuwYxJ_by8kgw,Bookkeeping Basics,0.0
+course~YPNVCD0REeuwehK5Ir7QEw,Organizational innovation and creativity,0.0
+course~YOH__fNOEeSbSyIACxeWxg,Budgeting and Scheduling Projects,0.0
+course~YO9_vwpyEeun9Q5tylnU9Q,Advanced Deep Learning Methods for Healthcare,0.0
+course~YLwdQgp-Eeu0VAqNda9Xjw,Build Dynamic User Interfaces (UI) for Websites,0.0
+course~Y7GjB55UEeyecw4_xU2sgw,Frontiers in Dentistry,0.0
+course~Y4DUPDpQEeWO-Qq6rEZAow,Using Python to Access Web Data,0.0
+course~Y2Lu2G4mEeeWCg71xNIlJg,Diode - pn Junction and Metal Semiconductor Contact,0.0
+course~XzaXqkjCEeqGpxIVdoSipQ,Management of International Development: Towards Agenda 2030,0.0
+course~XwP08kauEeq3gA6QGBDZ1w,Foundations of Healthcare Systems Engineering,0.0
+course~XtG-3iXXEee9kRIpW6HxRg,DNA Decoded,0.0
+course~XsS8rsDlEe-ADgr_3OZlyQ,Full-Stack DApp Development with React and Web3,0.0
+course~_8FRmSXkEeeCDQ44DPGlIA,SQL for Data Science,0.0
+course~XezNBXPOEeys9RJMWW48Yw,Deep Learning with PyTorch : Siamese Network,0.0
+course~XdQwhCQcEeapkBKJ0Y_FqQ,Arts and Heritage Management,0.0
+course~Xc46mVFkEe6a4wrvTcwXPw,Splunk Administration and Advanced Topics,0.0
+course~XZomz77LEeWn1ApTWZT9Yw,Script Writing: Write a Pilot Episode for a TV or Web Series (Project-Centered Course),0.0
+course~XRy7uCAeEeWKeQ6ae81EbQ,Foundations of Teaching for Learning: Curriculum,0.0
+course~XANaz8dEEey3GgqQBm7DaQ,Coding Interview Preparation,0.0
+course~X2bX61doEeerkQ5vdwUqtA,The Bits and Bytes of Computer Networking,0.0
+course~X0dMhmPFEe-e0g4kKcdYJQ,Figma for UI/UX: Master Web Design in Figma,0.0
+course~Wv_qFVYzEeWKXg4Y7_tPaw,The Manager's Toolkit: A Practical Guide to Managing People at Work,0.0
+course~WkI4wGooEe-o2Qr_2f2M0Q,"YAML Fundamentals for DevOps, Cloud and IaC Engineers",0.0
+course~WjWKYpgqEe2L_wpgKckryw,FL Studio Basics,0.0
+course~WhMdfX8-EeWkMQ6S5uJulw,Viral Marketing and How to Craft Contagious Content,0.0
+course~Xpv78UYjEeemlQrrzf9X-A,Object-Oriented Design,0.0
+course~Zqm9TFXfEeuDVRIP_gaKjw,"Dynamic Programming, Greedy Algorithms",0.0
+course~Zhydwp6QEeeD8w6Puv0EuA,3D CAD Fundamental,0.0
+course~ZearHHitEeaYNAqJlKFl8Q,Probabilistic Graphical Models 2: Inference,0.0
+course~ZXe0tj_wEfCXXhLR-bLm7w,CISSP Domain 1: Security and Risk Management,0.0
+course~ZWYBq9zVEeqMbw6VbjEnNw,Introduction to Data Analytics,0.0
+course~ZUGlRpzbEeWIXgpWJNgyEw,Clinical Epidemiology,0.0
+course~ZS2v-E_kEeeqIxKkUVGiXg,Excel Skills for Business: Intermediate I,0.0
+course~ZOaxMgNuEe6avhLjR2t3Lw,Introduction to Responsible AI,0.0
+course~ZL2Zehc0Ee-dkgr_5HC_tw,ARM Cortex (STM32) Deep Dive: Mastering Embedded Systems,0.0
+course~ZEB-Lgp9Eeun_RJEc0KNDw,Ask Questions to Make Data-Driven Decisions,0.0
+course~ZDeERW4jEeenOwpmZ1LH1g,Nanophotonics and Detectors,0.0
+course~YReFaj2LEeiTjQ4kFvy-Pg,Density Functional Theory,0.0
+course~Z5rfkzWeEeusTAqaKUMfXQ,Advanced Learning Algorithms,0.0
+course~Z1XEYB-eEeulXwp2iaqDJw,Health Information Technology Fundamentals,0.0
+course~Z-R47UYCEe-_Zwr_8MK9PQ,Advanced Prompt Engineering for Everyone,0.0
+course~Yv0LMhL1EeuABgpVBjPnkw,Advanced Computer Vision with TensorFlow,0.0
+course~YuYhlW0jEeWbyw5d8C-Blw,Take Your English Communication Skills to the Next Level,0.0
+course~YrbKHF42Eea2uw7FUMTxlQ,Supply Chain Principles,0.0
+course~YpwHVDb5EemE7gr4SGSAsA,"Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",0.0
+course~YjCOKcQTEeWI6BLH_IXMZw,Politics and Economics of International Energy,0.0
+course~YfUyugThEeW0KyIACxqWIg,Fundamentals of Fluid Power,0.0
+course~YZzx6QjfEfC6EhJcncb--Q,Advanced Data Engineering with Snowflake,0.0
+course~YZB4KwRgEemMVw7xXzWiVg,Reducing Gun Violence in America: Evidence for Change,0.0
+course~YUAc977OEeWk7gqXCJNO4w,Introduction to Breast Cancer,0.0
+course~ZCd-QjAMEeeKJxI6bfgV9g,Understanding child development: from synapse to society,0.0

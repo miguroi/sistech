@@ -603,7 +603,7 @@ async def get_personalized_courses(request: UserProfileRequest):
        # Format response
        courses_list = []
        for rec in recommendations:
-           courses_list.append({
+           course_data = {
                'course_id': rec.course_id,
                'title': rec.title,
                'organization': rec.organization,
@@ -617,7 +617,8 @@ async def get_personalized_courses(request: UserProfileRequest):
                'is_free': rec.is_free,
                'relevance_score': rec.relevance_score,
                'match_reasons': rec.match_reasons
-           })
+           }
+           courses_list.append(convert_numpy_types(course_data))
        
        return {
            'status': 'success',
@@ -665,7 +666,7 @@ async def get_courses_by_skills(request: SkillBasedRequest):
        # Format response
        courses_list = []
        for rec in recommendations:
-           courses_list.append({
+           course_data = {
                'course_id': rec.course_id,
                'title': rec.title,
                'organization': rec.organization,
@@ -679,7 +680,8 @@ async def get_courses_by_skills(request: SkillBasedRequest):
                'is_free': rec.is_free,
                'relevance_score': rec.relevance_score,
                'match_reasons': rec.match_reasons
-           })
+           }
+           courses_list.append(convert_numpy_types(course_data))
        
        return {
            'status': 'success',
@@ -726,7 +728,7 @@ async def get_trending_courses(
        # Format response
        courses_list = []
        for rec in recommendations:
-           courses_list.append({
+           course_data = {
                'course_id': rec.course_id,
                'title': rec.title,
                'organization': rec.organization,
@@ -740,7 +742,8 @@ async def get_trending_courses(
                'is_free': rec.is_free,
                'relevance_score': rec.relevance_score,
                'match_reasons': rec.match_reasons
-           })
+           }
+           courses_list.append(convert_numpy_types(course_data))
        
        return {
            'status': 'success',
@@ -788,7 +791,8 @@ async def get_learning_path(
        # Generate learning path
        learning_path = course_recommender.get_learning_path(career_name, skill_level)
        
-       return {
+       # Convert numpy types to native Python types for JSON serialization
+       result = {
            'status': 'success',
            'career_info': {
                'career_id': career_id,
@@ -797,6 +801,8 @@ async def get_learning_path(
            },
            'learning_path': learning_path
        }
+       
+       return convert_numpy_types(result)
        
    except HTTPException:
        raise

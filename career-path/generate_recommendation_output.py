@@ -23,13 +23,13 @@ def generate_sample_recommendations():
     
     career_processor = CareerProcessor(
         'data/career_dataset.csv',
-        'data/coursera_courses_cleaned.csv'
+        'data/coursera_courses_processed.csv'
     )
     assessment_generator = AssessmentGenerator(career_processor)
     
     try:
         course_recommender = CourseRecommender(
-            courses_data_path='data/coursera_courses_cleaned.csv',
+            courses_data_path='data/coursera_courses_processed.csv',
             career_processor=career_processor
         )
     except:

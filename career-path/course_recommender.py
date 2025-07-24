@@ -123,13 +123,13 @@ class CourseRecommender:
             
             recommendation = CourseRecommendation(
                 course_id=course.get('course_id', f"course_{course_idx}"),
-                title=course['title'],
+                title=course.get('title_original', course['title']),
                 organization=course.get('organization', 'Unknown'),
                 rating=course.get('rating') if pd.notna(course.get('rating')) else None,
                 review_count=int(course.get('review_count', 0)) if pd.notna(course.get('review_count')) else 0,
                 difficulty=course.get('difficulty', 'Unknown'),
                 course_type=course.get('course_type', 'Course'),
-                duration=course.get('duration', 'Unknown'),
+                duration=course.get('duration_readable', course.get('duration', 'Unknown')),
                 skills=skills_list,
                 url=course.get('url', ''),
                 is_free=course.get('is_free', False),
@@ -218,13 +218,13 @@ class CourseRecommender:
             
             recommendation = CourseRecommendation(
                 course_id=course.get('course_id', f"course_{course_idx}"),
-                title=course['title'],
+                title=course.get('title_original', course['title']),
                 organization=course.get('organization', 'Unknown'),
                 rating=course.get('rating') if pd.notna(course.get('rating')) else None,
                 review_count=int(course.get('review_count', 0)) if pd.notna(course.get('review_count')) else 0,
                 difficulty=course.get('difficulty', 'Unknown'),
                 course_type=course.get('course_type', 'Course'),
-                duration=course.get('duration', 'Unknown'),
+                duration=course.get('duration_readable', course.get('duration', 'Unknown')),
                 skills=skills_list,
                 url=course.get('url', ''),
                 is_free=course.get('is_free', False),
@@ -266,13 +266,13 @@ class CourseRecommender:
             
             recommendation = CourseRecommendation(
                 course_id=course.get('course_id', f"trending_{len(recommendations)}"),
-                title=course['title'],
+                title=course.get('title_original', course['title']),
                 organization=course.get('organization', 'Unknown'),
                 rating=course.get('rating') if pd.notna(course.get('rating')) else None,
                 review_count=int(course.get('review_count', 0)) if pd.notna(course.get('review_count')) else 0,
                 difficulty=course.get('difficulty', 'Unknown'),
                 course_type=course.get('course_type', 'Course'),
-                duration=course.get('duration', 'Unknown'),
+                duration=course.get('duration_readable', course.get('duration', 'Unknown')),
                 skills=skills_list,
                 url=course.get('url', ''),
                 is_free=course.get('is_free', False),

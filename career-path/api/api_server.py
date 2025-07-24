@@ -102,13 +102,13 @@ async def startup_event():
        
        # Define file paths relative to base directory
        career_data_path = os.path.join(base_dir, 'data', 'career_dataset.csv')
-       courses_data_path = os.path.join(base_dir, 'data', 'coursera_courses_cleaned.csv')
+       courses_data_path = os.path.join(base_dir, 'data', 'coursera_courses_processed.csv')
        
        # Fallback paths if the above don't work
        if not os.path.exists(courses_data_path):
-           courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_cleaned.csv')
+           courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_processed.csv')
        if not os.path.exists(courses_data_path):
-           courses_data_path = '../data/coursera_courses_cleaned.csv'
+           courses_data_path = '../data/coursera_courses_processed.csv'
        
        print(f"📂 Career data path: {career_data_path}")
        print(f"📂 Courses data path: {courses_data_path}")
@@ -389,13 +389,13 @@ async def get_courses_by_career(
            
            course_data = {
                'course_id': course['course_id'],
-               'title': course['title'],
+               'title': course['title_original'],
                'organization': course['organization'],
                'rating': course['rating'] if pd.notna(course['rating']) else None,
                'review_count': int(course['review_count']) if pd.notna(course['review_count']) else 0,
                'difficulty': course['difficulty'],
                'course_type': course['course_type'],
-               'duration': course['duration'],
+               'duration': course['duration_readable'],
                'skills': skills_list[:10],  # Limit skills shown
                'url': course['url'],
                'is_free': course['is_free'],
@@ -501,13 +501,13 @@ async def filter_courses(
            
            course_data = {
                'course_id': course['course_id'],
-               'title': course['title'],
+               'title': course['title_original'],
                'organization': course['organization'],
                'rating': course['rating'] if pd.notna(course['rating']) else None,
                'review_count': int(course['review_count']) if pd.notna(course['review_count']) else 0,
                'difficulty': course['difficulty'],
                'course_type': course['course_type'],
-               'duration': course['duration'],
+               'duration': course['duration_readable'],
                'skills': skills_list[:10],
                'url': course['url'],
                'is_free': course['is_free'],

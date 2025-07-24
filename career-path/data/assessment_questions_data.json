@@ -1,0 +1,230 @@
+{
+  "core_questions": [
+    {
+      "question_id": 1,
+      "question_text": "What type of work activities energize you the most?",
+      "question_type": "interests",
+      "category": "work_style",
+      "options": [
+        "Creative problem-solving",
+        "Data analysis and insights",
+        "Team collaboration",
+        "Technical implementation",
+        "Strategic planning"
+      ],
+      "is_required": true,
+      "weight": 1.5
+    },
+    {
+      "question_id": 2,
+      "question_text": "What is your current experience level in technology?",
+      "question_type": "experience",
+      "category": "technical_level",
+      "options": [
+        "Beginner (0-1 years)",
+        "Intermediate (2-4 years)",
+        "Advanced (5+ years)",
+        "Expert (10+ years)"
+      ],
+      "is_required": true,
+      "weight": 2.0
+    },
+    {
+      "question_id": 3,
+      "question_text": "Which work environment do you prefer?",
+      "question_type": "preferences",
+      "category": "environment",
+      "options": [
+        "Remote work",
+        "Office-based",
+        "Hybrid",
+        "Field work",
+        "No preference"
+      ],
+      "is_required": true,
+      "weight": 1.0
+    },
+    {
+      "question_id": 4,
+      "question_text": "What motivates you most in your career?",
+      "question_type": "interests",
+      "category": "motivation",
+      "options": [
+        "Financial success",
+        "Making an impact",
+        "Learning and growth",
+        "Work-life balance",
+        "Recognition and status"
+      ],
+      "is_required": true,
+      "weight": 1.5
+    },
+    {
+      "question_id": 5,
+      "question_text": "How do you prefer to learn new skills?",
+      "question_type": "preferences",
+      "category": "learning_style",
+      "options": [
+        "Hands-on practice",
+        "Online courses",
+        "Mentorship",
+        "Reading documentation",
+        "Trial and error"
+      ],
+      "is_required": true,
+      "weight": 1.0
+    },
+    {
+      "question_id": 6,
+      "question_text": "What type of problems do you enjoy solving?",
+      "question_type": "interests",
+      "category": "problem_type",
+      "options": [
+        "Technical challenges",
+        "Business problems",
+        "User experience issues",
+        "Process optimization",
+        "Creative challenges"
+      ],
+      "is_required": true,
+      "weight": 1.3
+    },
+    {
+      "question_id": 7,
+      "question_text": "How do you prefer to work with others?",
+      "question_type": "preferences",
+      "category": "collaboration",
+      "options": [
+        "Lead a team",
+        "Work as part of a team",
+        "Work independently with check-ins",
+        "Collaborate closely with peers",
+        "Mentor others"
+      ],
+      "is_required": true,
+      "weight": 1.2
+    },
+    {
+      "question_id": 8,
+      "question_text": "What industry or domain interests you most?",
+      "question_type": "interests",
+      "category": "industry",
+      "options": [
+        "Technology and software",
+        "Healthcare and life sciences",
+        "Finance and fintech",
+        "Education and e-learning",
+        "Entertainment and media",
+        "E-commerce and retail"
+      ],
+      "is_required": false,
+      "weight": 1.0
+    },
+    {
+      "question_id": 9,
+      "question_text": "What is your preferred pace of work?",
+      "question_type": "preferences",
+      "category": "work_pace",
+      "options": [
+        "Fast-paced with tight deadlines",
+        "Steady pace with consistent progress",
+        "Flexible pace based on project needs",
+        "Slow and methodical approach",
+        "Varies by type of work"
+      ],
+      "is_required": false,
+      "weight": 0.8
+    },
+    {
+      "question_id": 10,
+      "question_text": "Which skill areas do you want to develop further?",
+      "question_type": "skills",
+      "category": "skill_development",
+      "options": [
+        "Programming and software development",
+        "Data analysis and statistics",
+        "Project management",
+        "Communication and presentation",
+        "Leadership and management",
+        "Design and user experience"
+      ],
+      "is_required": true,
+      "weight": 1.4
+    },
+    {
+      "question_id": 11,
+      "question_text": "How do you handle uncertainty and change?",
+      "question_type": "preferences",
+      "category": "adaptability",
+      "options": [
+        "Thrive in uncertain, changing environments",
+        "Adapt well with some structure",
+        "Prefer stability with occasional change",
+        "Need clear structure and predictability",
+        "Depends on the situation"
+      ],
+      "is_required": false,
+      "weight": 1.1
+    },
+    {
+      "question_id": 12,
+      "question_text": "What size organization do you prefer to work for?",
+      "question_type": "preferences",
+      "category": "organization_size",
+      "options": [
+        "Startup (1-50 employees)",
+        "Small company (51-200 employees)",
+        "Medium company (201-1000 employees)",
+        "Large corporation (1000+ employees)",
+        "No preference"
+      ],
+      "is_required": false,
+      "weight": 0.9
+    },
+    {
+      "question_id": 13,
+      "question_text": "What level of responsibility do you seek?",
+      "question_type": "experience",
+      "category": "responsibility_level",
+      "options": [
+        "Individual contributor with minimal oversight",
+        "Senior contributor with some mentoring",
+        "Team lead or supervisor",
+        "Manager of multiple teams",
+        "Executive or strategic leadership"
+      ],
+      "is_required": true,
+      "weight": 1.6
+    },
+    {
+      "question_id": 14,
+      "question_text": "How important is work-life balance to you?",
+      "question_type": "preferences",
+      "category": "work_life_balance",
+      "options": [
+        "Extremely important - strict boundaries",
+        "Very important - some flexibility okay",
+        "Moderately important - willing to work extra when needed",
+        "Less important - career growth is priority",
+        "Not important - willing to work long hours"
+      ],
+      "is_required": true,
+      "weight": 1.3
+    },
+    {
+      "question_id": 15,
+      "question_text": "Which best describes your communication style?",
+      "question_type": "preferences",
+      "category": "communication_style",
+      "options": [
+        "Direct and concise",
+        "Detailed and thorough",
+        "Collaborative and inclusive",
+        "Visual and presentation-focused",
+        "Written documentation preferred"
+      ],
+      "is_required": false,
+      "weight": 1.0
+    }
+  ]
+}

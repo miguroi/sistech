@@ -173,7 +173,8 @@ def convert_duration(duration):
         'TWO_TO_FOUR_YEARS': '2-4 years',
         'ONE_TO_FOUR_WEEKS': '1-4 weeks',
         'LESS_THAN_ONE_MONTH': 'Less than 1 month',
-        'MORE_THAN_FOUR_YEARS': 'More than 4 years'
+        'MORE_THAN_FOUR_YEARS': 'More than 4 years',
+        'LESS_THAN_TWO_HOURS': 'Less than 2 hours'
     }
     
     if pd.isna(duration):

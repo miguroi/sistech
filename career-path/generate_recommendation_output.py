@@ -73,13 +73,13 @@ def generate_sample_recommendations():
         for _, course in related_courses.iterrows():
             course_data = {
                 'course_id': course['course_id'],
-                'title': course['title'],
+                'title': course['title_original'],
                 'organization': course['organization'],
                 'rating': float(course['rating']) if pd.notna(course['rating']) else None,
                 'review_count': int(course['review_count']) if pd.notna(course['review_count']) else 0,
                 'difficulty': course['difficulty'],
                 'course_type': course['course_type'],
-                'duration': course['duration'],
+                'duration': course['duration_readable'],
                 'skills': course['skills'].split() if pd.notna(course['skills']) else [],
                 'url': course['url'],
                 'is_free': bool(course['is_free']),

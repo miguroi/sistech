@@ -2,7 +2,7 @@
   "metadata": {
     "system_name": "Career Platform Recommendation System",
     "version": "1.0.0",
-    "generated_at": "2025-07-24T22:53:37.161178",
+    "generated_at": "2025-07-25T09:34:56.661171",
     "description": "ML recommendation system outputs in JSON format",
     "total_recommendation_types": 4
   },
@@ -91,13 +91,13 @@
       "courses": [
         {
           "course_id": "course~7sBiclFIEeetjQ5ppGVTyA",
-          "title": "technical support fundamental",
+          "title": "Technical Support Fundamentals",
           "organization": "Google",
           "rating": 4.826549909810947,
           "review_count": 160219,
           "difficulty": "Beginner",
           "course_type": "Course",
-          "duration": "ONE_TO_THREE_MONTHS",
+          "duration": "1-3 months",
           "skills": [
             "desktop",
             "support",
@@ -140,13 +140,13 @@
         },
         {
           "course_id": "s12n~wegQfR-DEeu8_RLvNqbnww",
-          "title": "healthcare support",
+          "title": "Healthcare IT Support",
           "organization": "Johns Hopkins University",
           "rating": 4.747396630934151,
           "review_count": 1306,
           "difficulty": "Beginner",
           "course_type": "Specialization",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "medical",
             "privacy",
@@ -204,13 +204,13 @@
         },
         {
           "course_id": "course~z7bOth-eEeuQ9xLSu4r6yQ",
-          "title": "operation patient safety healthcare staff",
+          "title": "Operations and Patient Safety for Healthcare IT Staff",
           "organization": "Johns Hopkins University",
           "rating": 4.844559585492228,
           "review_count": 193,
           "difficulty": "Mixed",
           "course_type": "Course",
-          "duration": "ONE_TO_FOUR_WEEKS",
+          "duration": "1-4 weeks",
           "skills": [
             "telehealth",
             "patient",
@@ -248,13 +248,13 @@
         },
         {
           "course_id": "s12n~MZerALwOEeymBRLup0TH0Q",
-          "title": "ibm support",
+          "title": "IBM IT Support",
           "organization": "IBM",
           "rating": 4.658760890609874,
           "review_count": 11363,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "software",
             "development",
@@ -306,13 +306,13 @@
         },
         {
           "course_id": "s12n~HWJl7wNjTJSwp2n7CetKWQ",
-          "title": "microsoft support specialist",
+          "title": "Microsoft IT Support Specialist",
           "organization": "Microsoft",
           "rating": 4.749718045112783,
           "review_count": 1064,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "microsoft",
             "network",
@@ -360,13 +360,13 @@
         },
         {
           "course_id": "course~kK2IsV-JEei_nBLwczMEKA",
-          "title": "customer service fundamental",
+          "title": "Customer Service Fundamentals",
           "organization": "Knowledge Accelerators",
           "rating": 4.771631982475356,
           "review_count": 1826,
           "difficulty": "Beginner",
           "course_type": "Course",
-          "duration": "ONE_TO_FOUR_WEEKS",
+          "duration": "1-4 weeks",
           "skills": [
             "customer",
             "support",
@@ -402,13 +402,13 @@
         },
         {
           "course_id": "s12n~bSfQnt4RSKymiVCB0NlSyw",
-          "title": "preparation comptia certification",
+          "title": "Preparation for CompTIA A+ Certification",
           "organization": "IBM",
           "rating": 4.591031390134529,
           "review_count": 223,
           "difficulty": "Intermediate",
           "course_type": "Specialization",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "desktop",
             "support",
@@ -455,13 +455,13 @@
         },
         {
           "course_id": "course~OBdSldfdEe22LAo38arT7w",
-          "title": "core hardware network troubleshooting",
+          "title": "Core 1: Hardware and Network Troubleshooting",
           "organization": "IBM",
           "rating": 4.592592592592593,
           "review_count": 162,
           "difficulty": "Advanced",
           "course_type": "Course",
-          "duration": "ONE_TO_THREE_MONTHS",
+          "duration": "1-3 months",
           "skills": [
             "hardware",
             "troubleshooting",
@@ -490,13 +490,13 @@
         },
         {
           "course_id": "s12n~7lHCSlFIEeeffRIHljDI_g",
-          "title": "google support",
+          "title": "Google IT Support",
           "organization": "Google",
           "rating": 4.783728692276779,
           "review_count": 204034,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "computer",
             "networking",
@@ -546,13 +546,13 @@
         },
         {
           "course_id": "course~Z1XEYB-eEeulXwp2iaqDJw",
-          "title": "health information technology fundamental",
+          "title": "Health Information Technology Fundamentals",
           "organization": "Johns Hopkins University",
           "rating": 4.766990291262136,
           "review_count": 412,
           "difficulty": "Mixed",
           "course_type": "Course",
-          "duration": "ONE_TO_FOUR_WEEKS",
+          "duration": "1-4 weeks",
           "skills": [
             "electronic",
             "medical",
@@ -605,13 +605,13 @@
       "recommendations": [
         {
           "course_id": "s12n~gw6NIUimEeiedgp7b7p1Ig",
-          "title": "applied data science",
+          "title": "Applied Data Science",
           "organization": "IBM",
           "rating": 4.587889842875083,
           "review_count": 58934,
           "difficulty": "Beginner",
           "course_type": "Specialization",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Exploratory",
             "Data",
@@ -633,13 +633,13 @@
         },
         {
           "course_id": "s12n~dwzq23ZLEei12goo904QNg",
-          "title": "ibm data science",
+          "title": "IBM Data Science",
           "organization": "IBM",
           "rating": 4.615297066031598,
           "review_count": 144446,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Exploratory",
             "Data",
@@ -661,13 +661,13 @@
         },
         {
           "course_id": "s12n~zjWaXRMhEeudwgrn4wF8EQ",
-          "title": "data analysis visualization foundation",
+          "title": "Data Analysis and Visualization Foundations",
           "organization": "IBM",
           "rating": 4.739442773241659,
           "review_count": 27924,
           "difficulty": "Beginner",
           "course_type": "Specialization",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Data",
             "Storytelling",
@@ -689,13 +689,13 @@
         },
         {
           "course_id": "s12n~zQ29Z0cJEey1jhLpt2nhVQ",
-          "title": "database data scientist",
+          "title": "Databases for Data Scientists",
           "organization": "University of Colorado Boulder",
           "rating": 4.671779141104294,
           "review_count": 1304,
           "difficulty": "Beginner",
           "course_type": "Specialization",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Database",
             "Design",
@@ -717,13 +717,13 @@
         },
         {
           "course_id": "s12n~2ZzzfdtnRBWP6WlVMOIpFA",
-          "title": "fractal data science",
+          "title": "Fractal Data Science",
           "organization": "Fractal Analytics",
           "rating": 4.537741046831956,
           "review_count": 363,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Data",
             "Storytelling",
@@ -745,13 +745,13 @@
         },
         {
           "course_id": "s12n~wkzxpdx-QQeXGPU5lzijNA",
-          "title": "microsoft data visualization",
+          "title": "Microsoft Data Visualization",
           "organization": "Microsoft",
           "rating": 4.682352941176471,
           "review_count": 85,
           "difficulty": "Beginner",
           "course_type": "Professional Certificate",
-          "duration": "THREE_TO_SIX_MONTHS",
+          "duration": "3-6 months",
           "skills": [
             "Data",
             "Storytelling",
@@ -773,13 +773,13 @@
         },
         {
           "course_id": "course~bN9fcgp9Eeu0VAqNda9Xjw",
-          "title": "prepare data exploration",
+          "title": "Prepare Data for Exploration",
           "organization": "Google",
           "rating": 4.773327366301186,
           "review_count": 22345,
           "difficulty": "Beginner",
           "course_type": "Course",
-          "duration": "ONE_TO_THREE_MONTHS",
+          "duration": "1-3 months",
           "skills": [
             "Data",
             "Ethic",
@@ -801,13 +801,13 @@
         },
         {
           "course_id": "course~ZWYBq9zVEeqMbw6VbjEnNw",
-          "title": "introduction data analytics",
+          "title": "Introduction to Data Analytics",
           "organization": "IBM",
           "rating": 4.755105271489631,
           "review_count": 18951,
           "difficulty": "Beginner",
           "course_type": "Course",
-          "duration": "ONE_TO_THREE_MONTHS",
+          "duration": "1-3 months",
           "skills": [
             "Big",
             "Data",
@@ -838,7 +838,7 @@
       "recommendations": [
         {
           "course_id": "course~64p5NhxlEe-Ojg4Sufxjbw",
-          "title": "python fundamental",
+          "title": "Python Fundamentals",
           "organization": "Corporate Finance Institute",
           "rating": 4.8,
           "difficulty": "Advanced",
@@ -861,7 +861,7 @@
         },
         {
           "course_id": "course~fYuElDEgEeiCvhLLCIZW_A",
-          "title": "data analysis python",
+          "title": "Data Analysis with Python",
           "organization": "IBM",
           "rating": 4.683977497656006,
           "difficulty": "Intermediate",
@@ -882,7 +882,7 @@
         },
         {
           "course_id": "course~6YUb5lHkEeuV3xJQIImqCQ",
-          "title": "python project data science",
+          "title": "Python Project for Data Science",
           "organization": "IBM",
           "rating": 4.509850107066381,
           "difficulty": "Intermediate",
@@ -905,7 +905,7 @@
         },
         {
           "course_id": "s12n~kuGzQBrlEeuKTA7v2iL8uQ",
-          "title": "data science fundamental python sql",
+          "title": "Data Science Fundamentals with Python and SQL",
           "organization": "IBM",
           "rating": 4.564620012754044,
           "difficulty": "Beginner",
@@ -926,7 +926,7 @@
         },
         {
           "course_id": "course~V8NsJjfoEe-NSA5zWhNuuw",
-          "title": "advanced data analysis visualization panda",
+          "title": "Advanced Data Analysis and Visualization with Pandas",
           "organization": "Packt",
           "rating": 4.8,
           "difficulty": "Advanced",

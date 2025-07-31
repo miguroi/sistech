@@ -81,3 +81,4 @@ logs/
 .dmypy.json
 dmypy.json
 
+*.pid

@@ -1,16 +1,28 @@
-from fastapi import FastAPI, HTTPException, Query
+from contextlib import asynccontextmanager
+from fastapi import FastAPI, HTTPException, Query, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Dict, List, Optional, Union, Any
 import pandas as pd
 import json
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
+from sqlalchemy.orm import Session
+
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from career_processor import CareerProcessor
 from roadmap_generator import RoadmapGenerator
 from assessment_questions import AssessmentGenerator
 from course_recommender import CourseRecommender, UserProfile
+from database import get_db, init_db, User, SavedCourse
+from auth import (
+    UserCreate, UserLogin, UserResponse, Token, SavedCourseCreate, SavedCourseResponse,
+    create_access_token, authenticate_user, create_user, get_user_by_email,
+    get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
+)
 
 def convert_numpy_types(obj: Any) -> Any:
     """Convert numpy types to native Python types for JSON serialization"""
@@ -31,43 +43,43 @@ def convert_numpy_types(obj: Any) -> Any:
     return obj
 
 class AssessmentAnswer(BaseModel):
-   question_id: int
-   answer: str
+    question_id: int
+    answer: str
 
 class AssessmentRequest(BaseModel):
-   answers: List[AssessmentAnswer]
-   user_id: str
+    answers: List[AssessmentAnswer]
+    user_id: str
 
 class ApiResponse(BaseModel):
-   status: str
-   message: Optional[str] = None
+    status: str
+    message: Optional[str] = None
 
 class UserProfileRequest(BaseModel):
-   user_id: str
-   preferred_skills: List[str]
-   difficulty_preference: str = "beginner"
-   time_availability: str = "moderate"
-   budget_preference: str = "mixed"
-   learning_style: str = "visual"
-   career_goals: List[str]
+    user_id: str
+    preferred_skills: List[str]
+    difficulty_preference: str = "beginner"
+    time_availability: str = "moderate"
+    budget_preference: str = "mixed"
+    learning_style: str = "visual"
+    career_goals: List[str]
 
 class SkillBasedRequest(BaseModel):
-   skills: List[str]
-   limit: Optional[int] = 20
+    skills: List[str]
+    limit: Optional[int] = 20
 
 app = FastAPI(
-   title="Career Path API",
-   description="API for career assessment and course recommendations",
-   version="1.0.0"
+    title="Career Path API",
+    description="API for career assessment and course recommendations",
+    version="1.0.0"
 )
 
 # Add CORS middleware
 app.add_middleware(
-   CORSMiddleware,
-   allow_origins=["*"],
-   allow_credentials=True,
-   allow_methods=["*"],
-   allow_headers=["*"],
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Global variables for our processors
@@ -78,83 +90,88 @@ course_recommender = None
 
 @app.on_event("startup")
 async def startup_event():
-   """Initialize processors on startup"""
-   global career_processor, roadmap_generator, assessment_generator, course_recommender
-   
-   try:
-       # Download required NLTK data
-       import nltk
-       import ssl
-       try:
-           _create_unverified_https_context = ssl._create_unverified_context
-       except AttributeError:
-           pass
-       else:
-           ssl._create_default_https_context = _create_unverified_https_context
-           
-       nltk.download('punkt', quiet=True)
-       nltk.download('stopwords', quiet=True)
-       print("✅ NLTK data downloaded successfully")
-       import os
-       
-       # Get the base directory (career-path folder)
-       base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-       
-       # Define file paths relative to base directory
-       career_data_path = os.path.join(base_dir, 'data', 'career_dataset.csv')
-       courses_data_path = os.path.join(base_dir, 'data', 'coursera_courses_processed.csv')
-       
-       # Fallback paths if the above don't work
-       if not os.path.exists(courses_data_path):
-           courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_processed.csv')
-       if not os.path.exists(courses_data_path):
-           courses_data_path = '../data/coursera_courses_processed.csv'
-       
-       print(f"📂 Career data path: {career_data_path}")
-       print(f"📂 Courses data path: {courses_data_path}")
-       print(f"📂 Career data exists: {os.path.exists(career_data_path)}")
-       print(f"📂 Courses data exists: {os.path.exists(courses_data_path)}")
-       
-       # Initialize processors with data files
-       career_processor = CareerProcessor(
-           career_data_path,
-           courses_data_path
-       )
-       roadmap_generator = RoadmapGenerator(career_processor)
-       assessment_generator = AssessmentGenerator(career_processor)
-       
-       # Try to initialize course recommender if course data is available
-       try:
-           course_recommender = CourseRecommender(
-               courses_data_path=courses_data_path,
-               career_processor=career_processor
-           )
-           career_processor.course_recommender = course_recommender
-           print("✅ Course recommender initialized")
-       except Exception as course_error:
-           print(f"⚠️  Course recommender not available: {course_error}")
-           course_recommender = None
-       
-       print("✅ API server initialized successfully")
-       
-   except Exception as e:
-       print(f"❌ Failed to initialize API server: {e}")
-       import traceback
-       traceback.print_exc()
-       print(f"📂 Current working directory: {os.getcwd()}")
-       print(f"📂 Files in current directory: {os.listdir('.')}")
-       if os.path.exists('data'):
-           print(f"📂 Files in data directory: {os.listdir('data')}")
-       raise
+    """Initialize database and processors on startup"""
+    # Initialize database first
+    init_db()
+    
+    # Then initialize ML processors
+    global career_processor, roadmap_generator, assessment_generator, course_recommender
+    
+    try:
+        # Download required NLTK data
+        import nltk
+        import ssl
+        try:
+            _create_unverified_https_context = ssl._create_unverified_context
+        except AttributeError:
+            pass
+        else:
+            ssl._create_default_https_context = _create_unverified_https_context
+            
+        nltk.download('punkt', quiet=True)
+        nltk.download('stopwords', quiet=True)
+        print("✅ NLTK data downloaded successfully")
+        import os
+        
+        # Get the base directory (career-path folder)
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        
+        # Define file paths relative to base directory
+        career_data_path = os.path.join(base_dir, 'data', 'career_dataset.csv')
+        courses_data_path = os.path.join(base_dir, 'data', 'coursera_courses_processed.csv')
+        
+        # Fallback paths if the above don't work
+        if not os.path.exists(courses_data_path):
+            courses_data_path = os.path.join(base_dir, '..', 'data', 'csv', 'coursera_courses_processed.csv')
+        if not os.path.exists(courses_data_path):
+            courses_data_path = '../data/coursera_courses_processed.csv'
+        
+        print(f"📂 Career data path: {career_data_path}")
+        print(f"📂 Courses data path: {courses_data_path}")
+        print(f"📂 Career data exists: {os.path.exists(career_data_path)}")
+        print(f"📂 Courses data exists: {os.path.exists(courses_data_path)}")
+        
+        # Initialize processors with data files
+        career_processor = CareerProcessor(
+            career_data_path,
+            courses_data_path
+        )
+        roadmap_generator = RoadmapGenerator(career_processor)
+        assessment_generator = AssessmentGenerator(career_processor)
+        
+        # Try to initialize course recommender if course data is available
+        try:
+            course_recommender = CourseRecommender(
+                courses_data_path=courses_data_path,
+                career_processor=career_processor
+            )
+            career_processor.course_recommender = course_recommender
+            print("✅ Course recommender initialized")
+        except Exception as course_error:
+            print(f"⚠️  Course recommender not available: {course_error}")
+            course_recommender = None
+        
+        print("✅ API server initialized successfully")
+        print("✅ Database initialized successfully")
+        
+    except Exception as e:
+        print(f"❌ Failed to initialize API server: {e}")
+        import traceback
+        traceback.print_exc()
+        print(f"📂 Current working directory: {os.getcwd()}")
+        print(f"📂 Files in current directory: {os.listdir('.')}")
+        if os.path.exists('data'):
+            print(f"📂 Files in data directory: {os.listdir('data')}")
+        raise
 
 @app.get("/")
 async def root():
-   """Health check endpoint"""
-   return {
-       "message": "Career Path API is running",
-       "status": "healthy",
-       "timestamp": datetime.now().isoformat()
-   }
+    """Health check endpoint"""
+    return {
+        "message": "Career Path API is running",
+        "status": "healthy",
+        "timestamp": datetime.now().isoformat()
+    }
 
 @app.get("/api/careers")
 async def get_careers():
@@ -815,6 +832,205 @@ async def get_learning_path(
                'details': str(e)
            }
        )
+
+@app.post("/api/auth/register", response_model=UserResponse)
+async def register_user(user: UserCreate, db: Session = Depends(get_db)):
+    """Register a new user"""
+    try:
+        # Check if user already exists
+        existing_user = get_user_by_email(db, user.email)
+        if existing_user:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    'status': 'error',
+                    'error_code': 'USER_EXISTS',
+                    'message': 'Email already registered'
+                }
+            )
+        
+        # Create new user
+        db_user = create_user(db, user)
+        return UserResponse.from_orm(db_user)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'REGISTRATION_FAILED',
+                'message': 'Failed to register user',
+                'details': str(e)
+            }
+        )
+
+@app.post("/api/auth/login", response_model=Token)
+async def login_user(user_data: UserLogin, db: Session = Depends(get_db)):
+    """Login user and return JWT token"""
+    try:
+        # Authenticate user
+        user = authenticate_user(db, user_data.email, user_data.password)
+        if not user:
+            raise HTTPException(
+                status_code=401,
+                detail={
+                    'status': 'error',
+                    'error_code': 'INVALID_CREDENTIALS',
+                    'message': 'Invalid email or password'
+                }
+            )
+        
+        # Create access token
+        access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        access_token = create_access_token(
+            data={"sub": str(user.id)}, 
+            expires_delta=access_token_expires
+        )
+        
+        return Token(
+            access_token=access_token,
+            expires_in=ACCESS_TOKEN_EXPIRE_MINUTES * 60
+        )
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'LOGIN_FAILED',
+                'message': 'Failed to login user',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/auth/me", response_model=UserResponse)
+async def get_current_user_info(current_user: User = Depends(get_current_user)):
+    """Get current user information"""
+    return UserResponse.from_orm(current_user)
+
+# Course saving endpoints
+@app.post("/api/courses/save", response_model=SavedCourseResponse)
+async def save_course(
+    course_data: SavedCourseCreate, 
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Save a course for the current user"""
+    try:
+        # Check if course is already saved
+        existing_saved = db.query(SavedCourse).filter(
+            SavedCourse.user_id == current_user.id,
+            SavedCourse.course_id == course_data.course_id
+        ).first()
+        
+        if existing_saved:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    'status': 'error',
+                    'error_code': 'COURSE_ALREADY_SAVED',
+                    'message': 'Course is already saved'
+                }
+            )
+        
+        # Create saved course
+        saved_course = SavedCourse(
+            user_id=current_user.id,
+            course_id=course_data.course_id,
+            course_title=course_data.course_title,
+            course_url=course_data.course_url
+        )
+        
+        db.add(saved_course)
+        db.commit()
+        db.refresh(saved_course)
+        
+        return SavedCourseResponse.from_orm(saved_course)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'SAVE_COURSE_FAILED',
+                'message': 'Failed to save course',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/courses/saved", response_model=List[SavedCourseResponse])
+async def get_saved_courses(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get all saved courses for the current user"""
+    try:
+        saved_courses = db.query(SavedCourse).filter(
+            SavedCourse.user_id == current_user.id
+        ).order_by(SavedCourse.saved_at.desc()).all()
+        
+        return [SavedCourseResponse.from_orm(course) for course in saved_courses]
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_SAVED_COURSES_FAILED',
+                'message': 'Failed to get saved courses',
+                'details': str(e)
+            }
+        )
+
+@app.delete("/api/courses/save/{course_id}")
+async def unsave_course(
+    course_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Remove a saved course"""
+    try:
+        saved_course = db.query(SavedCourse).filter(
+            SavedCourse.user_id == current_user.id,
+            SavedCourse.course_id == course_id
+        ).first()
+        
+        if not saved_course:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    'status': 'error',
+                    'error_code': 'COURSE_NOT_FOUND',
+                    'message': 'Saved course not found'
+                }
+            )
+        
+        db.delete(saved_course)
+        db.commit()
+        
+        return {
+            'status': 'success',
+            'message': 'Course removed from saved list'
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'UNSAVE_COURSE_FAILED',
+                'message': 'Failed to remove saved course',
+                'details': str(e)
+            }
+        )
 
 if __name__ == "__main__":
    import uvicorn

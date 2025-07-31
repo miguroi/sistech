@@ -32,6 +32,7 @@ class User(Base):
     user_profile = relationship("UserProfile", back_populates="user", uselist=False)
     assessment_results = relationship("AssessmentResult", back_populates="user")
     learning_paths = relationship("UserLearningPath", back_populates="user")
+    recommendation_results = relationship("RecommendationResult", back_populates="user")
 
 class SavedCourse(Base):
     __tablename__ = "saved_courses"
@@ -105,6 +106,20 @@ class UserLearningPath(Base):
     
     # Relationship with user
     user = relationship("User", back_populates="learning_paths")
+
+class RecommendationResult(Base):
+    __tablename__ = "recommendation_results"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    recommendation_type = Column(String(50), nullable=False)  # 'personalized', 'skill_based', 'trending', 'career_specific'
+    query_data = Column(Text, nullable=True)  # Store the request parameters
+    recommendation_data = Column(Text, nullable=False)  # Store the full recommendation results as JSON
+    total_recommendations = Column(Integer, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)
+    
+    # Relationship with user
+    user = relationship("User", back_populates="recommendation_results")
 
 def create_tables():
     """Create all tables"""

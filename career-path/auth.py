@@ -56,7 +56,7 @@ class UserResponse(BaseModel):
     created_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class SavedCourseCreate(BaseModel):
     course_id: str
@@ -71,7 +71,7 @@ class SavedCourseResponse(BaseModel):
     saved_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class CareerChoiceCreate(BaseModel):
     career_path: str
@@ -87,7 +87,7 @@ class CareerChoiceResponse(BaseModel):
     updated_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class UserProfileCreate(BaseModel):
     preferred_skills: Optional[str] = None
@@ -109,7 +109,7 @@ class UserProfileResponse(BaseModel):
     updated_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class AssessmentResultResponse(BaseModel):
     id: int
@@ -120,7 +120,7 @@ class AssessmentResultResponse(BaseModel):
     created_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class UserLearningPathResponse(BaseModel):
     id: int
@@ -132,7 +132,18 @@ class UserLearningPathResponse(BaseModel):
     created_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
+
+class RecommendationResultResponse(BaseModel):
+    id: int
+    recommendation_type: str
+    query_data: Optional[str]
+    recommendation_data: str
+    total_recommendations: Optional[int]
+    created_at: datetime
+    
+    class Config:
+        from_attributes = True
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     """Verify a password against its hash"""

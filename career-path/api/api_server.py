@@ -17,11 +17,11 @@ from career_processor import CareerProcessor
 from roadmap_generator import RoadmapGenerator
 from assessment_questions import AssessmentGenerator
 from course_recommender import CourseRecommender, UserProfile as CourseUserProfile
-from database import get_db, init_db, User, SavedCourse, UserCareerChoice, UserProfile, AssessmentResult, UserLearningPath
+from database import get_db, init_db, User, SavedCourse, UserCareerChoice, UserProfile, AssessmentResult, UserLearningPath, RecommendationResult
 from auth import (
     UserCreate, UserLogin, UserResponse, Token, SavedCourseCreate, SavedCourseResponse,
     CareerChoiceCreate, CareerChoiceResponse, UserProfileCreate, UserProfileResponse,
-    AssessmentResultResponse, UserLearningPathResponse,
+    AssessmentResultResponse, UserLearningPathResponse, RecommendationResultResponse,
     create_access_token, authenticate_user, create_user, get_user_by_email,
     get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
 )
@@ -262,10 +262,10 @@ async def assess_career(
        try:
            assessment_result = AssessmentResult(
                user_id=current_user.id,
-               recommended_career=result.get('recommended_career', ''),
-               confidence_score=result.get('confidence_score', ''),
-               assessment_data=str(result.get('assessment_data', '')),
-               match_percentage=result.get('match_percentage', '')
+               recommended_career=result.get('career_recommendation', {}).get('career_name', ''),
+               confidence_score=str(result.get('confidence_score', '')),
+               assessment_data=json.dumps(result),
+               match_percentage=str(result.get('career_recommendation', {}).get('match_percentage', ''))
            )
            db.add(assessment_result)
            db.commit()
@@ -372,7 +372,9 @@ async def get_courses_by_career(
    career_id: str,
    difficulty: Optional[str] = Query(None, regex="^(beginner|intermediate|advanced)$"),
    limit: int = Query(20, ge=1, le=100),
-   offset: int = Query(0, ge=0)
+   offset: int = Query(0, ge=0),
+   current_user: User = Depends(get_current_user),
+   db: Session = Depends(get_db)
 ):
    """Get courses filtered by career and optional difficulty"""
    try:
@@ -445,7 +447,7 @@ async def get_courses_by_career(
        total_pages = (total_courses + limit - 1) // limit
        has_next = end_idx < total_courses
        
-       return {
+       result = {
            'status': 'success',
            'career_info': {
                'career_id': career_id,
@@ -459,6 +461,30 @@ async def get_courses_by_career(
                'has_next': has_next
            }
        }
+       
+       # Save recommendation result to database
+       try:
+           query_data = {
+               'career_id': career_id,
+               'career_name': career_name,
+               'difficulty': difficulty,
+               'limit': limit,
+               'offset': offset
+           }
+           
+           recommendation_result = RecommendationResult(
+               user_id=current_user.id,
+               recommendation_type='career_specific',
+               query_data=json.dumps(query_data),
+               recommendation_data=json.dumps(courses_list),
+               total_recommendations=len(courses_list)
+           )
+           db.add(recommendation_result)
+           db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save recommendation result: {save_error}")
+       
+       return result
        
    except Exception as e:
        raise HTTPException(
@@ -707,7 +733,7 @@ async def get_personalized_courses(
            }
            courses_list.append(convert_numpy_types(course_data))
        
-       return {
+       result = {
            'status': 'success',
            'user_profile': {
                'user_id': current_user.id,
@@ -717,6 +743,28 @@ async def get_personalized_courses(
            'recommendations': courses_list,
            'total_recommendations': len(courses_list)
        }
+       
+       # Save recommendation result to database
+       try:
+           query_data = {
+               'preferred_skills': user_profile.preferred_skills,
+               'difficulty_preference': user_profile.difficulty_preference,
+               'career_goals': user_profile.career_goals
+           }
+           
+           recommendation_result = RecommendationResult(
+               user_id=current_user.id,
+               recommendation_type='personalized',
+               query_data=json.dumps(query_data),
+               recommendation_data=json.dumps(courses_list),
+               total_recommendations=len(courses_list)
+           )
+           db.add(recommendation_result)
+           db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save recommendation result: {save_error}")
+       
+       return result
        
    except HTTPException:
        raise
@@ -732,7 +780,11 @@ async def get_personalized_courses(
        )
 
 @app.post("/api/courses/skills")
-async def get_courses_by_skills(request: SkillBasedRequest):
+async def get_courses_by_skills(
+    request: SkillBasedRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
    """Get course recommendations based on specific skills"""
    try:
        if not course_recommender:
@@ -770,12 +822,33 @@ async def get_courses_by_skills(request: SkillBasedRequest):
            }
            courses_list.append(convert_numpy_types(course_data))
        
-       return {
+       result = {
            'status': 'success',
            'target_skills': request.skills,
            'recommendations': courses_list,
            'total_recommendations': len(courses_list)
        }
+       
+       # Save recommendation result to database
+       try:
+           query_data = {
+               'skills': request.skills,
+               'limit': request.limit
+           }
+           
+           recommendation_result = RecommendationResult(
+               user_id=current_user.id,
+               recommendation_type='skill_based',
+               query_data=json.dumps(query_data),
+               recommendation_data=json.dumps(courses_list),
+               total_recommendations=len(courses_list)
+           )
+           db.add(recommendation_result)
+           db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save recommendation result: {save_error}")
+       
+       return result
        
    except HTTPException:
        raise
@@ -793,7 +866,9 @@ async def get_courses_by_skills(request: SkillBasedRequest):
 @app.get("/api/courses/trending")
 async def get_trending_courses(
    min_rating: float = Query(4.0, ge=0, le=5),
-   limit: int = Query(20, ge=1, le=100)
+   limit: int = Query(20, ge=1, le=100),
+   current_user: User = Depends(get_current_user),
+   db: Session = Depends(get_db)
 ):
    """Get trending courses based on ratings and popularity"""
    try:
@@ -832,7 +907,7 @@ async def get_trending_courses(
            }
            courses_list.append(convert_numpy_types(course_data))
        
-       return {
+       result = {
            'status': 'success',
            'filters': {
                'min_rating': min_rating,
@@ -841,6 +916,27 @@ async def get_trending_courses(
            'recommendations': courses_list,
            'total_recommendations': len(courses_list)
        }
+       
+       # Save recommendation result to database
+       try:
+           query_data = {
+               'min_rating': min_rating,
+               'limit': limit
+           }
+           
+           recommendation_result = RecommendationResult(
+               user_id=current_user.id,
+               recommendation_type='trending',
+               query_data=json.dumps(query_data),
+               recommendation_data=json.dumps(courses_list),
+               total_recommendations=len(courses_list)
+           )
+           db.add(recommendation_result)
+           db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save recommendation result: {save_error}")
+       
+       return result
        
    except HTTPException:
        raise
@@ -1369,6 +1465,47 @@ async def get_saved_learning_paths(
                 'status': 'error',
                 'error_code': 'GET_LEARNING_PATHS_FAILED',
                 'message': 'Failed to get saved learning paths',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/recommendations/history")
+async def get_recommendation_history(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+    recommendation_type: Optional[str] = Query(None, regex="^(personalized|skill_based|trending|career_specific)$"),
+    limit: int = Query(10, ge=1, le=50)
+):
+    """Get user's recommendation history"""
+    try:
+        query = db.query(RecommendationResult).filter(
+            RecommendationResult.user_id == current_user.id
+        )
+        
+        if recommendation_type:
+            query = query.filter(RecommendationResult.recommendation_type == recommendation_type)
+        
+        recommendations = query.order_by(RecommendationResult.created_at.desc()).limit(limit).all()
+        
+        recommendation_list = [RecommendationResultResponse.from_orm(rec) for rec in recommendations]
+        
+        return {
+            'status': 'success',
+            'recommendations': recommendation_list,
+            'total_recommendations': len(recommendation_list),
+            'filter': {
+                'recommendation_type': recommendation_type,
+                'limit': limit
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_RECOMMENDATIONS_FAILED',
+                'message': 'Failed to get recommendation history',
                 'details': str(e)
             }
         )

@@ -372,9 +372,7 @@ async def get_courses_by_career(
    career_id: str,
    difficulty: Optional[str] = Query(None, regex="^(beginner|intermediate|advanced)$"),
    limit: int = Query(20, ge=1, le=100),
-   offset: int = Query(0, ge=0),
-   current_user: User = Depends(get_current_user),
-   db: Session = Depends(get_db)
+   offset: int = Query(0, ge=0)
 ):
    """Get courses filtered by career and optional difficulty"""
    try:
@@ -461,28 +459,6 @@ async def get_courses_by_career(
                'has_next': has_next
            }
        }
-       
-       # Save recommendation result to database
-       try:
-           query_data = {
-               'career_id': career_id,
-               'career_name': career_name,
-               'difficulty': difficulty,
-               'limit': limit,
-               'offset': offset
-           }
-           
-           recommendation_result = RecommendationResult(
-               user_id=current_user.id,
-               recommendation_type='career_specific',
-               query_data=json.dumps(query_data),
-               recommendation_data=json.dumps(courses_list),
-               total_recommendations=len(courses_list)
-           )
-           db.add(recommendation_result)
-           db.commit()
-       except Exception as save_error:
-           print(f"Warning: Failed to save recommendation result: {save_error}")
        
        return result
        

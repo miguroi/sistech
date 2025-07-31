@@ -55,8 +55,7 @@ class UserResponse(BaseModel):
     is_active: bool
     created_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class SavedCourseCreate(BaseModel):
     course_id: str
@@ -70,8 +69,7 @@ class SavedCourseResponse(BaseModel):
     course_url: Optional[str]
     saved_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class CareerChoiceCreate(BaseModel):
     career_path: str
@@ -86,8 +84,7 @@ class CareerChoiceResponse(BaseModel):
     selected_at: datetime
     updated_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class UserProfileCreate(BaseModel):
     preferred_skills: Optional[str] = None
@@ -108,8 +105,7 @@ class UserProfileResponse(BaseModel):
     created_at: datetime
     updated_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class AssessmentResultResponse(BaseModel):
     id: int
@@ -119,8 +115,7 @@ class AssessmentResultResponse(BaseModel):
     match_percentage: Optional[str]
     created_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class UserLearningPathResponse(BaseModel):
     id: int
@@ -131,8 +126,7 @@ class UserLearningPathResponse(BaseModel):
     estimated_duration: Optional[str]
     created_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 class RecommendationResultResponse(BaseModel):
     id: int
@@ -142,8 +136,7 @@ class RecommendationResultResponse(BaseModel):
     total_recommendations: Optional[int]
     created_at: datetime
     
-    class Config:
-        orm_mode = True
+    model_config = {"from_attributes": True}
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     """Verify a password against its hash"""

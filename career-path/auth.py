@@ -56,7 +56,7 @@ class UserResponse(BaseModel):
     created_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class SavedCourseCreate(BaseModel):
     course_id: str
@@ -71,7 +71,68 @@ class SavedCourseResponse(BaseModel):
     saved_at: datetime
     
     class Config:
-        orm_mode = True
+        from_attributes = True
+
+class CareerChoiceCreate(BaseModel):
+    career_path: str
+    assessment_result: Optional[str] = None
+    confidence_score: Optional[str] = None
+
+class CareerChoiceResponse(BaseModel):
+    id: int
+    career_path: str
+    assessment_result: Optional[str]
+    confidence_score: Optional[str]
+    selected_at: datetime
+    updated_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+class UserProfileCreate(BaseModel):
+    preferred_skills: Optional[str] = None
+    difficulty_preference: str = "beginner"
+    time_availability: str = "moderate"
+    budget_preference: str = "mixed"
+    learning_style: str = "visual"
+    career_goals: Optional[str] = None
+
+class UserProfileResponse(BaseModel):
+    id: int
+    preferred_skills: Optional[str]
+    difficulty_preference: str
+    time_availability: str
+    budget_preference: str
+    learning_style: str
+    career_goals: Optional[str]
+    created_at: datetime
+    updated_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+class AssessmentResultResponse(BaseModel):
+    id: int
+    recommended_career: str
+    confidence_score: Optional[str]
+    assessment_data: Optional[str]
+    match_percentage: Optional[str]
+    created_at: datetime
+    
+    class Config:
+        from_attributes = True
+
+class UserLearningPathResponse(BaseModel):
+    id: int
+    career_path: str
+    skill_level: str
+    path_data: Optional[str]
+    total_checkpoints: Optional[int]
+    estimated_duration: Optional[str]
+    created_at: datetime
+    
+    class Config:
+        from_attributes = True
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     """Verify a password against its hash"""

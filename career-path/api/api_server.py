@@ -16,10 +16,12 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from career_processor import CareerProcessor
 from roadmap_generator import RoadmapGenerator
 from assessment_questions import AssessmentGenerator
-from course_recommender import CourseRecommender, UserProfile
-from database import get_db, init_db, User, SavedCourse
+from course_recommender import CourseRecommender, UserProfile as CourseUserProfile
+from database import get_db, init_db, User, SavedCourse, UserCareerChoice, UserProfile, AssessmentResult, UserLearningPath
 from auth import (
     UserCreate, UserLogin, UserResponse, Token, SavedCourseCreate, SavedCourseResponse,
+    CareerChoiceCreate, CareerChoiceResponse, UserProfileCreate, UserProfileResponse,
+    AssessmentResultResponse, UserLearningPathResponse,
     create_access_token, authenticate_user, create_user, get_user_by_email,
     get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
 )
@@ -214,7 +216,11 @@ async def get_careers():
        )
 
 @app.post("/api/assess-career")
-async def assess_career(request: AssessmentRequest):
+async def assess_career(
+    request: AssessmentRequest,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
    """Process career assessment and return recommendation"""
    try:
        # Validate minimum number of answers
@@ -251,6 +257,20 @@ async def assess_career(request: AssessmentRequest):
        
        # Convert numpy types to native Python types for JSON serialization
        result = convert_numpy_types(result)
+       
+       # Save assessment result to database for authenticated user
+       try:
+           assessment_result = AssessmentResult(
+               user_id=current_user.id,
+               recommended_career=result.get('recommended_career', ''),
+               confidence_score=result.get('confidence_score', ''),
+               assessment_data=str(result.get('assessment_data', '')),
+               match_percentage=result.get('match_percentage', '')
+           )
+           db.add(assessment_result)
+           db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save assessment result: {save_error}")
        
        return result
        
@@ -589,7 +609,11 @@ async def get_assessment_questions():
        )
 
 @app.post("/api/courses/personalized")
-async def get_personalized_courses(request: UserProfileRequest):
+async def get_personalized_courses(
+    request: UserProfileRequest = None,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
    """Get personalized course recommendations based on user profile"""
    try:
        if not course_recommender:
@@ -602,15 +626,62 @@ async def get_personalized_courses(request: UserProfileRequest):
                }
            )
        
-       # Create user profile
-       user_profile = UserProfile(
-           user_id=request.user_id,
-           preferred_skills=request.preferred_skills,
-           difficulty_preference=request.difficulty_preference,
-           time_availability=request.time_availability,
-           budget_preference=request.budget_preference,
-           learning_style=request.learning_style,
-           career_goals=request.career_goals
+       # Get or create user profile
+       user_profile_db = db.query(UserProfile).filter(
+           UserProfile.user_id == current_user.id
+       ).first()
+       
+       if request and request.user_id:
+           # If request provided, update/create profile with new data
+           if user_profile_db:
+               # Update existing profile
+               user_profile_db.preferred_skills = ','.join(request.preferred_skills) if request.preferred_skills else None
+               user_profile_db.difficulty_preference = request.difficulty_preference
+               user_profile_db.time_availability = request.time_availability
+               user_profile_db.budget_preference = request.budget_preference
+               user_profile_db.learning_style = request.learning_style
+               user_profile_db.career_goals = ','.join(request.career_goals) if request.career_goals else None
+               user_profile_db.updated_at = datetime.utcnow()
+               db.commit()
+           else:
+               # Create new profile
+               user_profile_db = UserProfile(
+                   user_id=current_user.id,
+                   preferred_skills=','.join(request.preferred_skills) if request.preferred_skills else None,
+                   difficulty_preference=request.difficulty_preference,
+                   time_availability=request.time_availability,
+                   budget_preference=request.budget_preference,
+                   learning_style=request.learning_style,
+                   career_goals=','.join(request.career_goals) if request.career_goals else None
+               )
+               db.add(user_profile_db)
+               db.commit()
+               db.refresh(user_profile_db)
+       
+       # If no stored profile exists and no request data, use defaults
+       if not user_profile_db:
+           user_profile_db = UserProfile(
+               user_id=current_user.id,
+               preferred_skills=None,
+               difficulty_preference="beginner",
+               time_availability="moderate",
+               budget_preference="mixed",
+               learning_style="visual",
+               career_goals=None
+           )
+           db.add(user_profile_db)
+           db.commit()
+           db.refresh(user_profile_db)
+       
+       # Create user profile for course recommender
+       user_profile = CourseUserProfile(
+           user_id=str(current_user.id),
+           preferred_skills=user_profile_db.preferred_skills.split(',') if user_profile_db.preferred_skills else [],
+           difficulty_preference=user_profile_db.difficulty_preference,
+           time_availability=user_profile_db.time_availability,
+           budget_preference=user_profile_db.budget_preference,
+           learning_style=user_profile_db.learning_style,
+           career_goals=user_profile_db.career_goals.split(',') if user_profile_db.career_goals else []
        )
        
        # Get personalized recommendations
@@ -639,9 +710,9 @@ async def get_personalized_courses(request: UserProfileRequest):
        return {
            'status': 'success',
            'user_profile': {
-               'user_id': request.user_id,
-               'career_goals': request.career_goals,
-               'difficulty_preference': request.difficulty_preference
+               'user_id': current_user.id,
+               'career_goals': user_profile_db.career_goals.split(',') if user_profile_db.career_goals else [],
+               'difficulty_preference': user_profile_db.difficulty_preference
            },
            'recommendations': courses_list,
            'total_recommendations': len(courses_list)
@@ -787,7 +858,9 @@ async def get_trending_courses(
 @app.get("/api/learning-path/{career_id}")
 async def get_learning_path(
    career_id: str,
-   skill_level: str = Query("beginner", regex="^(beginner|intermediate|advanced)$")
+   skill_level: str = Query("beginner", regex="^(beginner|intermediate|advanced)$"),
+   current_user: User = Depends(get_current_user),
+   db: Session = Depends(get_db)
 ):
    """Generate a structured learning path for a specific career"""
    try:
@@ -817,8 +890,43 @@ async def get_learning_path(
            },
            'learning_path': learning_path
        }
+       result = convert_numpy_types(result)
        
-       return convert_numpy_types(result)
+       # Save learning path to database for authenticated user
+       try:
+           # Check if user already has this learning path
+           existing_path = db.query(UserLearningPath).filter(
+               UserLearningPath.user_id == current_user.id,
+               UserLearningPath.career_path == career_name,
+               UserLearningPath.skill_level == skill_level
+           ).first()
+           
+           path_data_str = str(learning_path) if learning_path else None
+           total_checkpoints = len(learning_path.get('phases', [])) if isinstance(learning_path, dict) and 'phases' in learning_path else None
+           estimated_duration = learning_path.get('estimated_total_duration', '') if isinstance(learning_path, dict) else None
+           
+           if existing_path:
+               # Update existing path
+               existing_path.path_data = path_data_str
+               existing_path.total_checkpoints = total_checkpoints
+               existing_path.estimated_duration = estimated_duration
+               db.commit()
+           else:
+               # Create new path
+               user_learning_path = UserLearningPath(
+                   user_id=current_user.id,
+                   career_path=career_name,
+                   skill_level=skill_level,
+                   path_data=path_data_str,
+                   total_checkpoints=total_checkpoints,
+                   estimated_duration=estimated_duration
+               )
+               db.add(user_learning_path)
+               db.commit()
+       except Exception as save_error:
+           print(f"Warning: Failed to save learning path: {save_error}")
+       
+       return result
        
    except HTTPException:
        raise
@@ -912,7 +1020,6 @@ async def get_current_user_info(current_user: User = Depends(get_current_user)):
     """Get current user information"""
     return UserResponse.from_orm(current_user)
 
-# Course saving endpoints
 @app.post("/api/courses/save", response_model=SavedCourseResponse)
 async def save_course(
     course_data: SavedCourseCreate, 
@@ -1028,6 +1135,240 @@ async def unsave_course(
                 'status': 'error',
                 'error_code': 'UNSAVE_COURSE_FAILED',
                 'message': 'Failed to remove saved course',
+                'details': str(e)
+            }
+        )
+
+@app.post("/api/career/save", response_model=CareerChoiceResponse)
+async def save_user_career(
+    career_data: CareerChoiceCreate,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Save or update user's chosen career path"""
+    try:
+        # Check if user already has a career choice
+        existing_choice = db.query(UserCareerChoice).filter(
+            UserCareerChoice.user_id == current_user.id
+        ).first()
+        
+        if existing_choice:
+            # Update existing choice
+            existing_choice.career_path = career_data.career_path
+            existing_choice.assessment_result = career_data.assessment_result
+            existing_choice.confidence_score = career_data.confidence_score
+            existing_choice.updated_at = datetime.utcnow()
+            
+            db.commit()
+            db.refresh(existing_choice)
+            return CareerChoiceResponse.from_orm(existing_choice)
+        else:
+            # Create new choice
+            career_choice = UserCareerChoice(
+                user_id=current_user.id,
+                career_path=career_data.career_path,
+                assessment_result=career_data.assessment_result,
+                confidence_score=career_data.confidence_score
+            )
+            
+            db.add(career_choice)
+            db.commit()
+            db.refresh(career_choice)
+            return CareerChoiceResponse.from_orm(career_choice)
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'SAVE_CAREER_FAILED',
+                'message': 'Failed to save career choice',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/career/current", response_model=CareerChoiceResponse)
+async def get_user_career(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get user's current career choice"""
+    try:
+        career_choice = db.query(UserCareerChoice).filter(
+            UserCareerChoice.user_id == current_user.id
+        ).first()
+        
+        if not career_choice:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    'status': 'error',
+                    'error_code': 'NO_CAREER_FOUND',
+                    'message': 'User has not selected a career path yet'
+                }
+            )
+        
+        return CareerChoiceResponse.from_orm(career_choice)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_CAREER_FAILED',
+                'message': 'Failed to get career choice',
+                'details': str(e)
+            }
+        )
+
+@app.post("/api/profile", response_model=UserProfileResponse)
+async def create_or_update_profile(
+    profile_data: UserProfileCreate,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Create or update user profile"""
+    try:
+        existing_profile = db.query(UserProfile).filter(
+            UserProfile.user_id == current_user.id
+        ).first()
+        
+        if existing_profile:
+            # Update existing profile
+            existing_profile.preferred_skills = profile_data.preferred_skills
+            existing_profile.difficulty_preference = profile_data.difficulty_preference
+            existing_profile.time_availability = profile_data.time_availability
+            existing_profile.budget_preference = profile_data.budget_preference
+            existing_profile.learning_style = profile_data.learning_style
+            existing_profile.career_goals = profile_data.career_goals
+            existing_profile.updated_at = datetime.utcnow()
+            
+            db.commit()
+            db.refresh(existing_profile)
+            return UserProfileResponse.from_orm(existing_profile)
+        else:
+            # Create new profile
+            user_profile = UserProfile(
+                user_id=current_user.id,
+                preferred_skills=profile_data.preferred_skills,
+                difficulty_preference=profile_data.difficulty_preference,
+                time_availability=profile_data.time_availability,
+                budget_preference=profile_data.budget_preference,
+                learning_style=profile_data.learning_style,
+                career_goals=profile_data.career_goals
+            )
+            
+            db.add(user_profile)
+            db.commit()
+            db.refresh(user_profile)
+            return UserProfileResponse.from_orm(user_profile)
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'PROFILE_SAVE_FAILED',
+                'message': 'Failed to save user profile',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/profile", response_model=UserProfileResponse)
+async def get_user_profile(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get user profile"""
+    try:
+        user_profile = db.query(UserProfile).filter(
+            UserProfile.user_id == current_user.id
+        ).first()
+        
+        if not user_profile:
+            raise HTTPException(
+                status_code=404,
+                detail={
+                    'status': 'error',
+                    'error_code': 'PROFILE_NOT_FOUND',
+                    'message': 'User profile not found'
+                }
+            )
+        
+        return UserProfileResponse.from_orm(user_profile)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_PROFILE_FAILED',  
+                'message': 'Failed to get user profile',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/assessments/history")
+async def get_assessment_history(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+    limit: int = Query(10, ge=1, le=50)
+):
+    """Get user's assessment history"""
+    try:
+        assessments = db.query(AssessmentResult).filter(
+            AssessmentResult.user_id == current_user.id
+        ).order_by(AssessmentResult.created_at.desc()).limit(limit).all()
+        
+        assessment_list = [AssessmentResultResponse.from_orm(assessment) for assessment in assessments]
+        
+        return {
+            'status': 'success',
+            'assessments': assessment_list,
+            'total_assessments': len(assessment_list)
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_ASSESSMENTS_FAILED',
+                'message': 'Failed to get assessment history',
+                'details': str(e)
+            }
+        )
+
+@app.get("/api/learning-paths/saved")
+async def get_saved_learning_paths(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db)
+):
+    """Get user's saved learning paths"""
+    try:
+        learning_paths = db.query(UserLearningPath).filter(
+            UserLearningPath.user_id == current_user.id
+        ).order_by(UserLearningPath.created_at.desc()).all()
+        
+        paths_list = [UserLearningPathResponse.from_orm(path) for path in learning_paths]
+        
+        return {
+            'status': 'success',
+            'learning_paths': paths_list,
+            'total_paths': len(paths_list)
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail={
+                'status': 'error',
+                'error_code': 'GET_LEARNING_PATHS_FAILED',
+                'message': 'Failed to get saved learning paths',
                 'details': str(e)
             }
         )

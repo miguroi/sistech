@@ -959,7 +959,7 @@ async def register_user(user: UserCreate, db: Session = Depends(get_db)):
         
         # Create new user
         db_user = create_user(db, user)
-        return UserResponse.model_validate(db_user)
+        return UserResponse.from_orm(db_user)
         
     except HTTPException:
         raise
@@ -1018,7 +1018,7 @@ async def login_user(user_data: UserLogin, db: Session = Depends(get_db)):
 @app.get("/api/auth/me", response_model=UserResponse)
 async def get_current_user_info(current_user: User = Depends(get_current_user)):
     """Get current user information"""
-    return UserResponse.model_validate(current_user)
+    return UserResponse.from_orm(current_user)
 
 @app.post("/api/courses/save", response_model=SavedCourseResponse)
 async def save_course(
@@ -1056,7 +1056,7 @@ async def save_course(
         db.commit()
         db.refresh(saved_course)
         
-        return SavedCourseResponse.model_validate(saved_course)
+        return SavedCourseResponse.from_orm(saved_course)
         
     except HTTPException:
         raise
@@ -1082,7 +1082,7 @@ async def get_saved_courses(
             SavedCourse.user_id == current_user.id
         ).order_by(SavedCourse.saved_at.desc()).all()
         
-        return [SavedCourseResponse.model_validate(course) for course in saved_courses]
+        return [SavedCourseResponse.from_orm(course) for course in saved_courses]
         
     except Exception as e:
         raise HTTPException(
@@ -1161,7 +1161,7 @@ async def save_user_career(
             
             db.commit()
             db.refresh(existing_choice)
-            return CareerChoiceResponse.model_validate(existing_choice)
+            return CareerChoiceResponse.from_orm(existing_choice)
         else:
             # Create new choice
             career_choice = UserCareerChoice(
@@ -1174,7 +1174,7 @@ async def save_user_career(
             db.add(career_choice)
             db.commit()
             db.refresh(career_choice)
-            return CareerChoiceResponse.model_validate(career_choice)
+            return CareerChoiceResponse.from_orm(career_choice)
         
     except Exception as e:
         raise HTTPException(
@@ -1208,7 +1208,7 @@ async def get_user_career(
                 }
             )
         
-        return CareerChoiceResponse.model_validate(career_choice)
+        return CareerChoiceResponse.from_orm(career_choice)
         
     except HTTPException:
         raise
@@ -1247,7 +1247,7 @@ async def create_or_update_profile(
             
             db.commit()
             db.refresh(existing_profile)
-            return UserProfileResponse.model_validate(existing_profile)
+            return UserProfileResponse.from_orm(existing_profile)
         else:
             # Create new profile
             user_profile = UserProfile(
@@ -1263,7 +1263,7 @@ async def create_or_update_profile(
             db.add(user_profile)
             db.commit()
             db.refresh(user_profile)
-            return UserProfileResponse.model_validate(user_profile)
+            return UserProfileResponse.from_orm(user_profile)
         
     except Exception as e:
         raise HTTPException(
@@ -1297,7 +1297,7 @@ async def get_user_profile(
                 }
             )
         
-        return UserProfileResponse.model_validate(user_profile)
+        return UserProfileResponse.from_orm(user_profile)
         
     except HTTPException:
         raise
@@ -1324,7 +1324,7 @@ async def get_assessment_history(
             AssessmentResult.user_id == current_user.id
         ).order_by(AssessmentResult.created_at.desc()).limit(limit).all()
         
-        assessment_list = [AssessmentResultResponse.model_validate(assessment) for assessment in assessments]
+        assessment_list = [AssessmentResultResponse.from_orm(assessment) for assessment in assessments]
         
         return {
             'status': 'success',
@@ -1354,7 +1354,7 @@ async def get_saved_learning_paths(
             UserLearningPath.user_id == current_user.id
         ).order_by(UserLearningPath.created_at.desc()).all()
         
-        paths_list = [UserLearningPathResponse.model_validate(path) for path in learning_paths]
+        paths_list = [UserLearningPathResponse.from_orm(path) for path in learning_paths]
         
         return {
             'status': 'success',
